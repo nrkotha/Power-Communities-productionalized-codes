@@ -1,0 +1,17 @@
+{
+  "name": "pu-stage-backup-17oct",
+  "dependencies": {
+    "gulp": "3.9.1"
+  },
+  "devDependencies": {
+    "lithium-sdk": "1.4.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lithiumtech/pu-stage-backup-17oct.git"
+  },
+  "license": "Apache 2.0"
+}

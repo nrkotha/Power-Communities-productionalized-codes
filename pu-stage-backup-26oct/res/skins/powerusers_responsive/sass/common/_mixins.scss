@@ -1,0 +1,17 @@
+/* Mixins */
+@mixin changeAvatarSizeAtBreakpoint--viewprofilepage($size-narrow: 60px, $size-wide: 80px, $breakpoint: $screen-xs, $border-width: 2px, $border-color: $samsung-white) {
+    width: $size-narrow;
+    height: $size-narrow;
+    border: solid $border-width $border-color;
+    @media (min-width: $breakpoint) {
+        width: $size-wide;
+        height: $size-wide;
+    }
+}
+
+// Set three color properties: text, background & border
+@mixin setColorTextBackgroundBorder($textcolor: $custom-color-foreground, $backgroundcolor: $custom-color-grey-background, $bordercolor: $custom-color-grey-border) {
+    color: $textcolor;
+    background-color: $backgroundcolor;
+    border: 1px solid $bordercolor;
+}

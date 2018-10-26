@@ -1,0 +1,32 @@
+.uhf-social-icon {
+  width: 24px !important;
+  height: 24px !important;
+  margin: 4px;
+}
+.c-uhff {
+  margin-top: 0 !important;
+}
+.display-none {
+  display: none !important;
+}
+.uhf-extension-scope [data-grid~="container"] {
+  max-width: calc(1600px + 10%) !important;
+}
+.m-social ul,
+.m-social li {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  margin-top: 0;
+}
+.m-social img {
+  vertical-align: middle;
+}
+#headerArea {
+  line-height: normal;
+}
+#headerArea img,
+#headerArea svg,
+#headerArea video {
+  fill: none;
+}

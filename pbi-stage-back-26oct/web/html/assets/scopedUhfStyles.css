@@ -1,0 +1,738 @@
+.uhf-extension-scope {
+  /* .c-social deprecated v.1.6.0 - use m-social */
+  /* TODO: Remove c-social in v.2.0 */
+  /* line 7, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 11, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 19, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 25, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 34, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 47, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 53, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 62, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 65, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 70, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 81, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 86, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 89, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 95, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 109, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 113, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 120, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 129, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 136, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 145, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 149, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 154, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 158, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 164, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 170, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 174, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 175, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 181, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 188, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 195, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 198, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 205, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 206, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 212, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 219, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  /* line 28, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 44, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 4, E:/agent_work/110/s/core/styles/utilities/_clearfix.scss */
+  /* line 10, E:/agent_work/110/s/core/styles/utilities/_clearfix.scss */
+  /* line 51, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 59, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 59, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 59, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 59, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 107, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 113, E:/agent_work/110/s/core/styles/_grid.scss */
+  /* line 117, E:/agent_work/110/s/core/styles/_grid.scss */
+}
+.uhf-extension-scope .m-social {
+  padding: 0;
+}
+.uhf-extension-scope .m-social,
+.uhf-extension-scope .c-social {
+  display: block;
+  margin-top: 48px;
+  /* ul shape added in v.1.10.0 */
+  /* TODO: Remove > a in v.2.0 */
+}
+.uhf-extension-scope .m-social.f-facebook > div,
+.uhf-extension-scope .m-social.f-pinterest > div,
+.uhf-extension-scope .m-social.f-twitter > div,
+.uhf-extension-scope .c-social.f-facebook > div,
+.uhf-extension-scope .c-social.f-pinterest > div,
+.uhf-extension-scope .c-social.f-twitter > div {
+  display: inline-block;
+  margin-right: 24px;
+}
+.uhf-extension-scope .m-social > span,
+.uhf-extension-scope .c-social > span {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-right: 12px;
+  margin-bottom: 4px;
+}
+.uhf-extension-scope .m-social > a,
+.uhf-extension-scope .m-social > ul > li > a,
+.uhf-extension-scope .c-social > a,
+.uhf-extension-scope .c-social > ul > li > a {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  transition: scale 0.2s ease-in-out;
+}
+@media screen and (-ms-high-contrast: active) {
+  .uhf-extension-scope {
+    /* line 34, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  }
+  .uhf-extension-scope .m-social > a,
+  .uhf-extension-scope .m-social > ul > li > a,
+  .uhf-extension-scope .c-social > a,
+  .uhf-extension-scope .c-social > ul > li > a {
+    -ms-high-contrast-adjust: background;
+    background: #FFF;
+  }
+}
+.uhf-extension-scope .m-social > a:focus,
+.uhf-extension-scope .m-social > ul > li > a:focus,
+.uhf-extension-scope .c-social > a:focus,
+.uhf-extension-scope .c-social > ul > li > a:focus {
+  outline: 2px solid #000;
+}
+.uhf-extension-scope .m-social > a:focus:before,
+.uhf-extension-scope .m-social > a:hover:before,
+.uhf-extension-scope .m-social > ul > li > a:focus:before,
+.uhf-extension-scope .m-social > ul > li > a:hover:before,
+.uhf-extension-scope .c-social > a:focus:before,
+.uhf-extension-scope .c-social > a:hover:before,
+.uhf-extension-scope .c-social > ul > li > a:focus:before,
+.uhf-extension-scope .c-social > ul > li > a:hover:before {
+  background: rgba(0, 0, 0, 0.1);
+}
+@media screen and (-ms-high-contrast: active) {
+  .uhf-extension-scope {
+    /* line 53, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  }
+  .uhf-extension-scope .m-social > a:focus:before,
+  .uhf-extension-scope .m-social > a:hover:before,
+  .uhf-extension-scope .m-social > ul > li > a:focus:before,
+  .uhf-extension-scope .m-social > ul > li > a:hover:before,
+  .uhf-extension-scope .c-social > a:focus:before,
+  .uhf-extension-scope .c-social > a:hover:before,
+  .uhf-extension-scope .c-social > ul > li > a:focus:before,
+  .uhf-extension-scope .c-social > ul > li > a:hover:before {
+    background: none;
+  }
+}
+.uhf-extension-scope .m-social > a:active,
+.uhf-extension-scope .m-social > ul > li > a:active,
+.uhf-extension-scope .c-social > a:active,
+.uhf-extension-scope .c-social > ul > li > a:active {
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+}
+.uhf-extension-scope .m-social > a:active:before,
+.uhf-extension-scope .m-social > ul > li > a:active:before,
+.uhf-extension-scope .c-social > a:active:before,
+.uhf-extension-scope .c-social > ul > li > a:active:before {
+  background: rgba(0, 0, 0, 0.2);
+}
+.uhf-extension-scope .m-social > a:before,
+.uhf-extension-scope .m-social > ul > li > a:before,
+.uhf-extension-scope .c-social > a:before,
+.uhf-extension-scope .c-social > ul > li > a:before {
+  background: none;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.uhf-extension-scope .m-social > a > img,
+.uhf-extension-scope .m-social > ul > li > a > img,
+.uhf-extension-scope .c-social > a > img,
+.uhf-extension-scope .c-social > ul > li > a > img {
+  width: 32px;
+  height: 32px;
+}
+.uhf-extension-scope .m-social > a.x-hidden-focus,
+.uhf-extension-scope .m-social > ul > li > a.x-hidden-focus,
+.uhf-extension-scope .c-social > a.x-hidden-focus,
+.uhf-extension-scope .c-social > ul > li > a.x-hidden-focus {
+  outline: 0;
+}
+.uhf-extension-scope .m-social > a.x-hidden-focus:before,
+.uhf-extension-scope .m-social > ul > li > a.x-hidden-focus:before,
+.uhf-extension-scope .c-social > a.x-hidden-focus:before,
+.uhf-extension-scope .c-social > ul > li > a.x-hidden-focus:before {
+  background: none;
+}
+.uhf-extension-scope .m-social.f-share,
+.uhf-extension-scope .m-social.f-follow,
+.uhf-extension-scope .c-social.f-share,
+.uhf-extension-scope .c-social.f-follow {
+  /* ul shape added in v.1.10.0 */
+  /* TODO: Remove > a in v.2.0 */
+}
+@media screen and (-ms-high-contrast: active) {
+  .uhf-extension-scope {
+    /* line 102, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  }
+  .uhf-extension-scope .m-social.f-share > a:hover:before,
+  .uhf-extension-scope .m-social.f-share ul > li > a:hover:before,
+  .uhf-extension-scope .m-social.f-follow > a:hover:before,
+  .uhf-extension-scope .m-social.f-follow ul > li > a:hover:before,
+  .uhf-extension-scope .c-social.f-share > a:hover:before,
+  .uhf-extension-scope .c-social.f-share ul > li > a:hover:before,
+  .uhf-extension-scope .c-social.f-follow > a:hover:before,
+  .uhf-extension-scope .c-social.f-follow ul > li > a:hover:before {
+    background: none;
+  }
+}
+.uhf-extension-scope .m-social.f-share > a:active,
+.uhf-extension-scope .m-social.f-share ul > li > a:active,
+.uhf-extension-scope .m-social.f-follow > a:active,
+.uhf-extension-scope .m-social.f-follow ul > li > a:active,
+.uhf-extension-scope .c-social.f-share > a:active,
+.uhf-extension-scope .c-social.f-share ul > li > a:active,
+.uhf-extension-scope .c-social.f-follow > a:active,
+.uhf-extension-scope .c-social.f-follow ul > li > a:active {
+  outline: 0;
+}
+.uhf-extension-scope .m-social.f-share > a > img,
+.uhf-extension-scope .m-social.f-share ul > li > a > img,
+.uhf-extension-scope .m-social.f-follow > a > img,
+.uhf-extension-scope .m-social.f-follow ul > li > a > img,
+.uhf-extension-scope .c-social.f-share > a > img,
+.uhf-extension-scope .c-social.f-share ul > li > a > img,
+.uhf-extension-scope .c-social.f-follow > a > img,
+.uhf-extension-scope .c-social.f-follow ul > li > a > img {
+  opacity: 0.6;
+}
+@media screen and (-ms-high-contrast: active) {
+  .uhf-extension-scope {
+    /* line 113, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  }
+  .uhf-extension-scope .m-social.f-share > a > img,
+  .uhf-extension-scope .m-social.f-share ul > li > a > img,
+  .uhf-extension-scope .m-social.f-follow > a > img,
+  .uhf-extension-scope .m-social.f-follow ul > li > a > img,
+  .uhf-extension-scope .c-social.f-share > a > img,
+  .uhf-extension-scope .c-social.f-share ul > li > a > img,
+  .uhf-extension-scope .c-social.f-follow > a > img,
+  .uhf-extension-scope .c-social.f-follow ul > li > a > img {
+    opacity: 1;
+  }
+}
+.uhf-extension-scope .m-social.f-share > a > img:hover,
+.uhf-extension-scope .m-social.f-share > a > img:focus,
+.uhf-extension-scope .m-social.f-share ul > li > a > img:hover,
+.uhf-extension-scope .m-social.f-share ul > li > a > img:focus,
+.uhf-extension-scope .m-social.f-follow > a > img:hover,
+.uhf-extension-scope .m-social.f-follow > a > img:focus,
+.uhf-extension-scope .m-social.f-follow ul > li > a > img:hover,
+.uhf-extension-scope .m-social.f-follow ul > li > a > img:focus,
+.uhf-extension-scope .c-social.f-share > a > img:hover,
+.uhf-extension-scope .c-social.f-share > a > img:focus,
+.uhf-extension-scope .c-social.f-share ul > li > a > img:hover,
+.uhf-extension-scope .c-social.f-share ul > li > a > img:focus,
+.uhf-extension-scope .c-social.f-follow > a > img:hover,
+.uhf-extension-scope .c-social.f-follow > a > img:focus,
+.uhf-extension-scope .c-social.f-follow ul > li > a > img:hover,
+.uhf-extension-scope .c-social.f-follow ul > li > a > img:focus {
+  opacity: 0.8;
+}
+@media screen and (-ms-high-contrast: active) {
+  .uhf-extension-scope {
+    /* line 120, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  }
+  .uhf-extension-scope .m-social.f-share > a > img:hover,
+  .uhf-extension-scope .m-social.f-share > a > img:focus,
+  .uhf-extension-scope .m-social.f-share ul > li > a > img:hover,
+  .uhf-extension-scope .m-social.f-share ul > li > a > img:focus,
+  .uhf-extension-scope .m-social.f-follow > a > img:hover,
+  .uhf-extension-scope .m-social.f-follow > a > img:focus,
+  .uhf-extension-scope .m-social.f-follow ul > li > a > img:hover,
+  .uhf-extension-scope .m-social.f-follow ul > li > a > img:focus,
+  .uhf-extension-scope .c-social.f-share > a > img:hover,
+  .uhf-extension-scope .c-social.f-share > a > img:focus,
+  .uhf-extension-scope .c-social.f-share ul > li > a > img:hover,
+  .uhf-extension-scope .c-social.f-share ul > li > a > img:focus,
+  .uhf-extension-scope .c-social.f-follow > a > img:hover,
+  .uhf-extension-scope .c-social.f-follow > a > img:focus,
+  .uhf-extension-scope .c-social.f-follow ul > li > a > img:hover,
+  .uhf-extension-scope .c-social.f-follow ul > li > a > img:focus {
+    opacity: 1;
+  }
+}
+.uhf-extension-scope .m-social.f-share > a > img:active,
+.uhf-extension-scope .m-social.f-share ul > li > a > img:active,
+.uhf-extension-scope .m-social.f-follow > a > img:active,
+.uhf-extension-scope .m-social.f-follow ul > li > a > img:active,
+.uhf-extension-scope .c-social.f-share > a > img:active,
+.uhf-extension-scope .c-social.f-share ul > li > a > img:active,
+.uhf-extension-scope .c-social.f-follow > a > img:active,
+.uhf-extension-scope .c-social.f-follow ul > li > a > img:active {
+  opacity: 1;
+}
+.uhf-extension-scope .m-social button,
+.uhf-extension-scope .c-social button {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.6);
+  vertical-align: middle;
+}
+.uhf-extension-scope .m-social button[aria-hidden="true"],
+.uhf-extension-scope .c-social button[aria-hidden="true"] {
+  display: none;
+}
+.uhf-extension-scope .m-social button:focus,
+.uhf-extension-scope .c-social button:focus {
+  outline: 1px dashed #000;
+}
+.uhf-extension-scope .m-social .f-hide,
+.uhf-extension-scope .c-social .f-hide {
+  display: none !important;
+}
+.uhf-extension-scope .m-social.f-horizontal,
+.uhf-extension-scope .c-social.f-horizontal {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  /* ul shape added in v.1.10.0 */
+  /* TODO: Remove > a in v.2.0 */
+}
+.uhf-extension-scope .m-social.f-horizontal > a,
+.uhf-extension-scope .m-social.f-horizontal ul > li > a,
+.uhf-extension-scope .c-social.f-horizontal > a,
+.uhf-extension-scope .c-social.f-horizontal ul > li > a {
+  display: inline-block;
+  margin-right: 12px;
+}
+.uhf-extension-scope .m-social.f-horizontal ul > li,
+.uhf-extension-scope .c-social.f-horizontal ul > li {
+  float: left;
+}
+.uhf-extension-scope .m-social.f-horizontal button,
+.uhf-extension-scope .c-social.f-horizontal button {
+  /* aria-expanded deprecated v.1.10.0 */
+  /* TODO: Remove aria-expanded in v.2.0 */
+  /* aria-expanded deprecated v.1.10.0 */
+  /* TODO: Remove aria-expanded in v.2.0 */
+}
+.uhf-extension-scope .m-social.f-horizontal button[aria-hidden="false"],
+.uhf-extension-scope .c-social.f-horizontal button[aria-hidden="false"] {
+  display: inline-block;
+}
+.uhf-extension-scope .m-social.f-horizontal button.c-glyph[aria-expanded="false"]:after,
+.uhf-extension-scope .m-social.f-horizontal button.c-glyph[data-js-toggle="false"]:after,
+.uhf-extension-scope .c-social.f-horizontal button.c-glyph[aria-expanded="false"]:after,
+.uhf-extension-scope .c-social.f-horizontal button.c-glyph[data-js-toggle="false"]:after {
+  content: "î¬";
+}
+.uhf-extension-scope .m-social.f-horizontal button.c-glyph[aria-expanded="true"]:after,
+.uhf-extension-scope .m-social.f-horizontal button.c-glyph[data-js-toggle="true"]:after,
+.uhf-extension-scope .c-social.f-horizontal button.c-glyph[aria-expanded="true"]:after,
+.uhf-extension-scope .c-social.f-horizontal button.c-glyph[data-js-toggle="true"]:after {
+  content: "î«";
+}
+.uhf-extension-scope .m-social.f-vertical,
+.uhf-extension-scope .c-social.f-vertical {
+  /* ul shape added in v.1.10.0 */
+  /* TODO: Remove > a in v.2.0 */
+}
+.uhf-extension-scope .m-social.f-vertical > a,
+.uhf-extension-scope .m-social.f-vertical ul > li > a,
+.uhf-extension-scope .c-social.f-vertical > a,
+.uhf-extension-scope .c-social.f-vertical ul > li > a {
+  display: block;
+  margin-bottom: 12px;
+  margin-right: 0;
+}
+.uhf-extension-scope .m-social.f-vertical button,
+.uhf-extension-scope .c-social.f-vertical button {
+  /* aria-expanded deprecated v.1.10.0 */
+  /* TODO: Remove aria-expanded in v.2.0 */
+  /* aria-expanded deprecated v.1.10.0 */
+  /* TODO: Remove aria-expanded in v.2.0 */
+}
+.uhf-extension-scope .m-social.f-vertical button[aria-hidden="false"],
+.uhf-extension-scope .c-social.f-vertical button[aria-hidden="false"] {
+  display: block;
+}
+.uhf-extension-scope .m-social.f-vertical button.c-glyph[aria-expanded="false"]:after,
+.uhf-extension-scope .m-social.f-vertical button.c-glyph[data-js-toggle="false"]:after,
+.uhf-extension-scope .c-social.f-vertical button.c-glyph[aria-expanded="false"]:after,
+.uhf-extension-scope .c-social.f-vertical button.c-glyph[data-js-toggle="false"]:after {
+  font-family: "MWF-MDL2";
+  content: "îœ";
+}
+.uhf-extension-scope .m-social.f-vertical button.c-glyph[aria-expanded="true"]:after,
+.uhf-extension-scope .m-social.f-vertical button.c-glyph[data-js-toggle="true"]:after,
+.uhf-extension-scope .c-social.f-vertical button.c-glyph[aria-expanded="true"]:after,
+.uhf-extension-scope .c-social.f-vertical button.c-glyph[data-js-toggle="true"]:after {
+  font-family: "MWF-MDL2";
+  content: "îœŽ";
+}
+@media only screen and (max-width: 767px) {
+  .uhf-extension-scope {
+    /* line 11, E:/agent_work/110/s/core/templates/modules/social/styles/_social.scss */
+  }
+  .uhf-extension-scope .m-social,
+  .uhf-extension-scope .c-social {
+    margin-top: 36px;
+  }
+}
+.uhf-extension-scope [data-grid~="container"] {
+  max-width: calc(1610px);
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+@media screen and (max-width: 1083px) {
+  .uhf-extension-scope {
+    /* line 28, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="container"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.uhf-extension-scope [data-grid~="container"],
+.uhf-extension-scope [data-grid*="col-"] {
+  box-sizing: border-box;
+  zoom: 1;
+}
+.uhf-extension-scope [data-grid~="container"]:before,
+.uhf-extension-scope [data-grid~="container"]:after,
+.uhf-extension-scope [data-grid*="col-"]:before,
+.uhf-extension-scope [data-grid*="col-"]:after {
+  content: " ";
+  display: table;
+}
+.uhf-extension-scope [data-grid~="container"]:after,
+.uhf-extension-scope [data-grid*="col-"]:after {
+  clear: both;
+}
+.uhf-extension-scope [data-grid*="col-"] {
+  float: left;
+  min-height: 1px;
+}
+.uhf-extension-scope [data-grid~="pad-12x"] > [data-grid] {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+@media screen and (max-width: 1778px) {
+  .uhf-extension-scope {
+    /* line 59, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="pad-12x"] > [data-grid] {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media screen and (max-width: 1778px) {
+  .uhf-extension-scope {
+    /* line 59, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="pad-12x"] > [data-grid] {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media screen and (max-width: 1083px) {
+  .uhf-extension-scope {
+    /* line 59, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="pad-12x"] > [data-grid] {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .uhf-extension-scope {
+    /* line 59, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="pad-12x"] > [data-grid] {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media screen and (max-width: 539px) {
+  .uhf-extension-scope {
+    /* line 59, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="pad-12x"] > [data-grid] {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+.uhf-extension-scope [data-grid~="pad-6x"] > [data-grid] {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.uhf-extension-scope [data-grid~="pad-3x"] > [data-grid] {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.uhf-extension-scope [data-grid~="pad-2x"] > [data-grid] {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.uhf-extension-scope [data-grid~="col-1"] {
+  width: 8.3333333333%;
+}
+.uhf-extension-scope [data-grid~="col-2"] {
+  width: 16.6666666667%;
+}
+.uhf-extension-scope [data-grid~="col-3"] {
+  width: 25%;
+}
+.uhf-extension-scope [data-grid~="col-4"] {
+  width: 33.3333333333%;
+}
+.uhf-extension-scope [data-grid~="col-5"] {
+  width: 41.6666666667%;
+}
+.uhf-extension-scope [data-grid~="col-6"] {
+  width: 50%;
+}
+.uhf-extension-scope [data-grid~="col-7"] {
+  width: 58.3333333333%;
+}
+.uhf-extension-scope [data-grid~="col-8"] {
+  width: 66.6666666667%;
+}
+.uhf-extension-scope [data-grid~="col-9"] {
+  width: 75%;
+}
+.uhf-extension-scope [data-grid~="col-10"] {
+  width: 83.3333333333%;
+}
+.uhf-extension-scope [data-grid~="col-11"] {
+  width: 91.6666666667%;
+}
+.uhf-extension-scope [data-grid~="col-12"] {
+  width: 100%;
+}
+.uhf-extension-scope [data-grid~="col-1-5"] {
+  width: 20%;
+}
+.uhf-extension-scope [data-grid~="col-1-8"] {
+  width: 12.5%;
+}
+@media screen and (max-width: 1778px) {
+  .uhf-extension-scope {
+    /* line 133, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="stack-5"] > [data-grid] {
+    float: none;
+    width: 100%;
+    display: block;
+    padding: inherit 0;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .uhf-extension-scope {
+    /* line 139, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="stack-4"] > [data-grid] {
+    float: none;
+    width: 100%;
+    display: block;
+    padding: inherit 0;
+  }
+}
+@media screen and (max-width: 1083px) {
+  .uhf-extension-scope {
+    /* line 145, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="stack-3"] > [data-grid] {
+    float: none;
+    width: 100%;
+    display: block;
+    padding: inherit 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .uhf-extension-scope {
+    /* line 151, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid~="stack-2"] > [data-grid] {
+    float: none;
+    width: 100%;
+    display: block;
+    padding: inherit 0;
+  }
+}
+@media screen and (max-width: 539px) {
+  .uhf-extension-scope {
+    /* line 157, E:/agent_work/110/s/core/styles/_grid.scss */
+  }
+  .uhf-extension-scope [data-grid*="col-"] {
+    float: none;
+    width: 100%;
+    display: block;
+    padding: inherit 0;
+  }
+}
+
+.uhf-extension-scope .c-dialog#get-started .section-bottom05 {
+  padding-bottom: 60px;
+}
+.uhf-extension-scope .c-dialog .c-text-field {
+  color: black;
+}
+.uhf-extension-scope .section-bottom05,
+.uhf-extension-scope .padding-bottom05 {
+  padding-bottom: 60px;
+}
+.uhf-extension-scope .modal {
+  overflow-y: hidden;
+  max-height: 100%;
+  opacity: initial;
+}
+.uhf-extension-scope .padding-size0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.uhf-extension-scope .bapi-signup .c-button {
+  margin-top: 18px;
+}
+.uhf-extension-scope .bapi-text-slate16 {
+  color: #FFFFFF;
+}
+.uhf-extension-scope .button.c-button.bapi-text-uppercase,
+.uhf-extension-scope a.c-button.bapi-text-uppercase,
+.uhf-extension-scope button.c-button[type=submit].bapi-text-uppercase {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.uhf-extension-scope .bapi-text-uppercase {
+  text-transform: uppercase;
+}
+.uhf-extension-scope .bapi-text-slate16 {
+  color: #FFFFFF;
+}
+.uhf-extension-scope .c-heading3 {
+  margin-bottom: 0;
+}
+.uhf-extension-scope .c-universal-footer {
+  margin-top: 0;
+}
+.uhf-extension-scope .field-validation-error {
+  font-size: 12px;
+  color: #ba141a;
+}
+.uhf-extension-scope .input[type="text"].input-validation-error {
+  border-color: #ba141a !important;
+}
+.uhf-extension-scope .text-mini {
+  font-size: 12px;
+}
+.uhf-extension-scope .text-left {
+  text-align: left;
+}
+.uhf-extension-scope .column {
+  width: 100%;
+  float: left;
+  padding-left: .9375rem;
+  padding-right: .9375rem;
+}
+.uhf-extension-scope button.button,
+.uhf-extension-scope [type='submit'],
+.uhf-extension-scope [type='button'] {
+  width: 100%;
+}
+.uhf-extension-scope .modal .row {
+  width: 100%;
+}
+.uhf-extension-scope .row .row {
+  max-width: none;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+.uhf-extension-scope .row + .row {
+  margin-top: 6%;
+}
+.uhf-extension-scope .margin-top-12 {
+  margin-top: 12px;
+}
+.uhf-extension-scope #uhf_sign_up_dialog a {
+  color: #8f528f;
+  /* selected link */
+}
+.uhf-extension-scope .sticky {
+  position: fixed !important;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  box-shadow: 2px 0px 5px 2px rgba(180, 180, 180, 0.15);
+}
+.uhf-extension-scope .uhf-social-share {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.uhf-extension-scope .uhf-social-share ul,
+.uhf-extension-scope .uhf-social-share li {
+  list-style: none;
+}
+@media only screen and (min-width: 899px) and (max-width: 1083px) {
+  .uhf-extension-scope .uhf-social-share {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .uhf-extension-scope .uhf-social-share .m-social.f-share {
+    float: right;
+  }
+}
+@media only screen and (max-width: 898px) {
+  .uhf-extension-scope .uhf-social-share {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+}
+@media only screen and (max-width: 539px) {
+  .uhf-extension-scope .uhf-social-share {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}
+.uhf-extension-scope .m-social {
+  margin-top: 0 !important;
+}
+.uhf-extension-scope .m-social > ul > li > a img {
+  height: 32px;
+  width: 32px;
+}
+.uhf-extension-scope .c-uhff {
+  margin-top: 0 !important;
+}
+.uhf-extension-scope .uhf-rss-picture {
+  position: relative;
+  padding-left: 6px;
+}

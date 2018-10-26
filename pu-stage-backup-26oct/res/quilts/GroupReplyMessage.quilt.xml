@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="group-message" nestable="false" disableTopCssClass="false">
+  <add to="footer-right">
+    <component id="accepted-solutions-button"/>
+    <component id="kudos-action"/>
+    <component id="quick-reply-button"/>
+    <component id="quick-reply"/>
+  </add>
+  <add to="main-right">
+    <component id="message-view.widget.action-menu" renderOrder="message-action-menu"/>
+    <component id="message-view.widget.subject" disableSubjectLink="true"/>
+    <component id="post-date"/>
+    <component id="body-signature-highlight-escalation" useControlHighlightText="true"/>
+    <component id="attachments"/>
+  </add>
+  <add to="footer-center">
+    <component id="labels" showTagLabelText="true"/>
+    <component id="tags-with-title-link" showTagLabelText="true"/>
+    <component id="add-tags"/>
+  </add>
+  <add to="main-left">
+    <component id="author-avatar"/>
+    <component id="message-view.widget.author-username" wrapper="lia-message-author-with-avatar"/>
+    <component id="author-rank" wrapper="lia-message-author-with-avatar"/>
+  </add>
+  <add to="quickreply-right">
+    <component id="escalate-message-button"/>
+    <component id="promote-message-button"/>
+    <component id="modbar-toggle"/>
+    <component id="modbar"/>
+  </add>
+  <add to="footer-left">
+    <component id="forums.action.report-abuse"/>
+    <component id="message-position-in-thread"/>
+    <component id="me-too" wrapper="lia-message-kudo-reply-metoo"/>
+    <component id="me-too-support-resolution" wrapper="lia-message-reply-metoo"/>
+    <component id="message-rating"/>
+  </add>
+</quilt>

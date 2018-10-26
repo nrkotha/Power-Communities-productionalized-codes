@@ -1,0 +1,1 @@
+${coreNode.settings.name.get("skin.id")}

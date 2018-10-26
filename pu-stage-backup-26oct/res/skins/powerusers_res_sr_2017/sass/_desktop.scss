@@ -1,0 +1,942 @@
+.lia-component-forums-widget-board-browser{
+  display:none;
+}
+.lia-content .lia-quilt-community-page-home .lia-quilt-row > .lia-quilt-column:first-child {
+    padding-left: 15px;
+}
+.lia-content .lia-quilt-community-page-home .lia-quilt-row > .lia-quilt-column:last-child {
+    padding-right: 15px;
+}
+.lia-top-quilt > .lia-quilt-row-header, .lia-top-quilt > .lia-quilt-row-2017sr_header {
+    margin-top: 0 !important;
+}
+.lia-quilt-column.lia-quilt-column-single.lia-quilt-column-common-header {
+    border-top: 0px solid #f2f2f2 !important;
+}
+
+#lia-body .navigation {
+    background-color: #000;
+}
+
+#lia-body .navigation .logos .logo-powerusers {
+    color: #fff;
+}
+
+#lia-body .papps-custom-banner.lia-content {
+    max-width: none;
+    text-align: center;
+    color: #fff;
+    font-family: 'wf_segoe-ui_light','HelevticaNeue-light','Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding: 20px;
+    background-size: cover;
+    background-image: url(asset("/html/assets/Hero_PowerUsers.jpg")); // LIA-58399 Replaced Freemarker Syntax
+    background-position: 50% 50%;
+}
+
+#lia-body .papps-custom-banner.lia-content .container {
+    margin: 100px auto;
+    max-width: 1221px;
+    padding-right: 1.666667%;
+    padding-left: 1.666667%;
+}
+
+#lia-body .papps-custom-banner.lia-content h2 {
+    font-family: 'wf_segoe-ui_light','HelevticaNeue-light','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 30px 0;
+}
+
+#lia-body .papps-custom-banner.lia-content #lia-searchform::before {
+    content: none;
+}
+
+#lia-body .papps-custom-banner.lia-content #lia-searchform {
+    margin-bottom: 40px;
+}
+
+#lia-body .papps-custom-banner.lia-content .linkList-horizontal {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 30px 0;
+}
+
+#lia-body .papps-custom-banner.lia-content .linkList-horizontal li {
+    margin: 5px;
+}
+
+#lia-body .papps-custom-banner.lia-content .linkList-horizontal li:first-child {
+    margin-right: 15px;
+    font-size: 16px;
+    padding: 7px 20px 9px;
+    white-space: nowrap;
+}
+
+#lia-body .papps-custom-banner.lia-content lia-search-input-wrapper {
+    text-align: left;
+}
+
+#lia-body .papps-custom-banner.lia-content select,
+#lia-body .papps-custom-banner.lia-content .lia-form select {
+    background-color: #fff;
+    margin: 0;
+}
+#lia-body .papps-custom-banner .banner-search-form {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+#lia-body .banner-search-form .SearchForm .lia-form-inline .lia-button-wrapper {
+    margin: 0;
+}
+
+
+@media screen and (min-width: 1245px) {
+    #lia-body .lia-content {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #lia-body .papps-custom-secondary-nav .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #lia-body .papps-custom-banner .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+#lia-body .lia-content .card {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#lia-body .lia-content .card h2 {
+    font-family: 'wf_segoe-ui_light','HelevticaNeue-light','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 24px !important;
+    line-height: 1.2 !important;
+    margin: 20px 0;
+}
+
+#lia-body .lia-content .lia-quilt-column-08 .card .content {
+    min-height: 40px;
+}
+
+#lia-body .lia-content .lia-quilt-column-06 .card .content {
+    min-height: 40px;
+}
+
+#lia-body .lia-content .card .button {
+    margin-top: 10px;
+    border: 0;
+}
+
+@media screen and (min-width: 801px) {
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-06 {
+        width: 50%;
+    }
+
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-08 .card .content {
+        min-height: 120px;
+    }
+
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-06 .card .content {
+        min-height: 80px;
+    }
+
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-06.lia-quilt-column.lia-quilt-column-mid-content1 .lia-quilt-column-alley {
+        margin-right: 0;
+    }
+
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-06.lia-quilt-column.lia-quilt-column-mid-content2 .lia-quilt-column-alley {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-06 {
+        width: 25%;
+    }
+
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-08 .card .content {
+        min-height: 80px;
+    }
+
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-06 .card .content {
+        min-height: 140px;
+    }
+
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-06 .card .button {
+        font-size:16px;
+        width:100%;
+        vertical-align: middle;
+        padding:10px 0;
+        margin: 0 auto;
+    }
+
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-06.lia-quilt-column.lia-quilt-column-mid-content1 .lia-quilt-column-alley {
+        margin-right: 0px;
+    }
+
+    #lia-body .lia-content .lia-quilt-community-page-home .lia-quilt-column-06.lia-quilt-column.lia-quilt-column-mid-content2 .lia-quilt-column-alley {
+        margin-left: 0px;
+    }
+}
+
+#lia-body .lia-content .card-powerbi .button {
+    background-color: #e3b516;
+    color: #000;
+}
+
+#lia-body .lia-content .card-powerbi .button:hover {
+    background-color: #f2c811;
+}
+
+
+#lia-body .lia-content .card-powerapps .button {
+    background-color: #742774;
+    color: #fff;
+}
+
+#lia-body .lia-content .card-powerapps .button:hover {
+    background-color: #682368;
+    color: #fff;
+}
+
+#lia-body .lia-content .card-powerapps .button:active {
+    background-color: #5D1F5D;
+    color: #fff;
+}
+
+#lia-body .lia-content .card-flow .button {
+    background-color: #00abec;
+}
+
+#lia-body .lia-content .card-flow .button:hover {
+    background-color: #0072c6;
+}
+
+#lia-body .lia-content .card-stream .button {
+    background-color: #c30052;
+}
+
+#lia-body .lia-content .card-stream .button:hover {
+    background-color: #9c0042;
+}
+
+#lia-body .login-custom-banner {
+    display: none;
+}
+
+body#lia-body.UserLoginPage .login-custom-banner.lia-content {
+    max-width: none;
+    color: #666666;
+    font-family: 'wf_segoe-ui_light','HelevticaNeue-light','Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding: 20px;
+    background-size: cover;
+    background-color:#e0e0e0;
+}
+
+#lia-body.UserLoginPage .login-custom-banner {
+    display: inherit;
+}
+
+#lia-body .login-custom-banner.lia-content .container {
+    margin: 50px auto;
+    max-width: 1221px;
+    padding-right: 1.666667%;
+    padding-left: 1.666667%;
+}
+
+#lia-body .login-custom-banner.lia-content h2 {
+    font-family: 'wf_segoe-ui_light','HelevticaNeue-light','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 30px 0;
+}
+
+#lia-body.UserLoginPage .papps-custom-banner {
+    display: none;
+}
+
+body#lia-body.CommunityPage {
+  background-color: #e0e0e0 !important;
+}
+body#lia-body.CommunityPage .lia-content, body#lia-body.CommunityPage .MinimumWidthContainer {
+  background-color: #e0e0e0 !important;
+}
+
+#lia-body .logos li {
+    height: 33px;
+}
+
+#lia-body .navigation .logo-microsoft .icon {
+    height: 21px;
+    width: 98px;
+    margin-top: -2px;
+}
+
+#lia-body .icon svg {
+    height: 100%;
+    width: 100%;
+}
+
+#lia-body .navigation .logo {
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    float: none;
+}
+
+@media only screen and (min-width: 768px) {
+    #lia-body .navigation .logo-microsoft {
+        border-right: 1px solid #666;
+        display: block;
+        fill: #fff;
+        margin-right: 30px;
+        padding: 5px 30px 4px 0;
+    }
+}
+
+#lia-body .lia-content .lia-quilt-community-page-home {
+  padding: 30px 15px;
+}
+
+
+
+
+
+/* custom quick links */
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks {
+position: relative;
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks > .lia-decoration-border > .lia-decoration-border-content > div > .lia-panel-heading-bar-wrapper > .lia-panel-heading-bar {
+position: absolute;
+left: 112px;
+top: 48px;
+padding: 0;
+margin: 0;
+line-height: 22px;
+background: none;
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks .lia-user-avatar {
+float: left;
+background: #fff;
+padding: 5px;
+margin: 5px 10px 10px 5px;
+border: 1px solid #b8ac92;
+-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+-webkit-transform: translate(-10px, -5px) rotate(-15deg);
+-moz-transform: translate(-10px, -5px) rotate(-15deg);
+transform: translate(-10px, -5px) rotate(-15deg);
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks .lia-user-avatar:hover {
+-webkit-transform: rotate(5deg);
+-moz-transform: rotate(5deg);
+transform: rotate(5deg);
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks .lia-user-avatar span {
+float: left;
+overflow: hidden;
+width: 72px;
+height: 72px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks .lia-user-avatar img {
+position: relative;
+left: -28px;
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks ul.lia-list-standard {
+clear: left;
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks ul.lia-list-standard li {
+margin: 0;
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks ul.lia-list-standard li a {
+display: block;
+margin-top: 5px;
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks .lia-component-notes-widget-summary-new-window {
+position: absolute;
+top: 10px;
+right: 10px;
+}
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.lia-component-custom-quicklinks .lia-component-notes-widget-summary-new-window .private-notes-link {
+text-decoration: none;
+color: #fff;
+font-size: 10px;
+line-height: 10px;
+background: #695d49;
+border: 1px solid #f5f5f5;
+padding: 2px 4px;
+-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+position: absolute;
+top: -8px;
+left: 24px;
+}
+
+/**************ABOUT ME ***********/
+#lia-body.ViewProfilePage .lia-content .custom-component-about-me .visit_info {
+  float:right;
+}
+#lia-body.ViewProfilePage .lia-content .custom-component-about-me .post_wrap .lia-user-avatar {
+  float:left;
+}
+#lia-body.ViewProfilePage .lia-content .custom-component-about-me .text_wrap .channelName {
+  display:block;
+}
+#lia-body.ViewProfilePage .lia-content .custom-component-about-me .bio-wrapper {
+  clear:left;
+  margin-top:20px;
+  padding-top:10px;
+  border-top:1px solid #E1E2E3;
+}
+
+#lia-body.ViewProfilePage .lia-content .custom-component-about-me .img_icons
+img{
+  width: 30px;
+  height: 30px;
+}
+
+/***Registration Page hide Terms of Service Box***/
+
+#lia-body .lia-content .lia-form .lia-form-terms-of-service {
+  visibility: hidden;
+}
+
+
+
+
+/***********************************************************************************************************
+      START : PSENG-421 : Recent events new requirements
+************************************************************************************************************/
+#lia-body.EditPage .lia-content .lia-form-microsoftmsg-start-date-input input[type='text'],#lia-body.EditPage .lia-content .lia-form-microsoftmsg-end-date-input input[type='text'], #lia-body.PostPage .lia-content .lia-form-microsoftmsg-start-date-input input[type='text'],#lia-body.PostPage .lia-content .lia-form-microsoftmsg-end-date-input input[type='text']  {
+    width: 150px;
+    display: inline;
+    margin-right: 3px;
+}
+#lia-body.EditPage .lia-content .lia-form-microsoftmsg-start-date-input img.ui-datepicker-trigger,#lia-body.EditPage .lia-content .lia-form-microsoftmsg-end-date-input img.ui-datepicker-trigger, #lia-body.PostPage .lia-content .lia-form-microsoftmsg-start-date-input img.ui-datepicker-trigger,#lia-body.PostPage .lia-content .lia-form-microsoftmsg-end-date-input img.ui-datepicker-trigger {
+    vertical-align: -9px;
+    width: 18px;
+    margin-left: 2px;
+    margin-right: 4px;
+}
+#lia-body.EditPage .lia-content .lia-form-microsoftmsg-start-date-input select,#lia-body.EditPage .lia-content .lia-form-microsoftmsg-end-date-input select ,#lia-body.PostPage .lia-content .lia-form-microsoftmsg-start-date-input select,#lia-body.PostPage .lia-content .lia-form-microsoftmsg-end-date-input select {
+    width: 85px;
+    margin-right: 10px;
+}
+
+#lia-body.EditPage .lia-content .lia-form-microsoftmsg-start-date-input select:last-child,#lia-body.EditPage .lia-content .lia-form-microsoftmsg-end-date-input select:last-child ,#lia-body.PostPage .lia-content .lia-form-microsoftmsg-start-date-input select:last-child,#lia-body.PostPage .lia-content .lia-form-microsoftmsg-end-date-input select:last-child {
+    width: 58px;
+}
+/***********************************************************************************************************
+      END : PSENG-421 : Recent events new requirements
+************************************************************************************************************/
+
+
+
+/** Desktop **/
+/************** visual contest wrapper ***********/
+#lia-body{
+  background-color:#fff;
+}
+
+body#lia-body .lia-content {
+  background-color:#fff;
+}
+
+#lia-body .lia-content .contest-wrapper{
+  background-color:#fff;
+  padding: 50px 0 0 0;
+}
+
+#lia-body .lia-content .contest-wrapper.announcement {
+  background-color:#fff;
+  padding: 0px;
+  margin-left: -10px;
+}
+
+@media screen and (min-width: 1245px) {
+  #lia-body .lia-content .contest-wrapper .container, #lia-body .lia-content .contest-wrapper .container .col-sm-4, #lia-body .lia-content .contest-wrapper .container .col-sm-8{
+    padding: 0;
+  }
+}
+
+#lia-body .lia-content .contest-wrapper .graphic-bee{
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 20px;
+    
+}
+@media screen and (min-width: 960px) {
+  #lia-body .lia-content .contest-wrapper .graphic-bee{
+    margin: 0 auto;
+  }
+}
+
+#lia-body .lia-content .contest-wrapper .large-text{
+  line-height: 1.05;
+  margin-bottom: 5px;
+  text-align: center;
+  font: 44px wf_segoe-ui_bold, helvetica, arial, sans-serif;
+}
+@media screen and (min-width: 960px) {
+  #lia-body .lia-content .contest-wrapper .large-text{
+    text-align: left;
+  }
+}
+
+#lia-body .lia-content .contest-wrapper .medium-text-bold{
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; 
+  font-size: 16px;
+}
+@media screen and (min-width: 960px) {
+  #lia-body .lia-content .contest-wrapper .medium-text-bold{
+    text-align: left;
+    margin: 0;
+    width: auto;
+  }
+}
+
+#lia-body .lia-content .contest-wrapper .button-wrapper{
+  text-align: center;
+}
+@media screen and (min-width: 960px) {
+  #lia-body .lia-content .contest-wrapper .button-wrapper{
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1245px) {
+  #lia-body .lia-content .contest-wrapper .button-wrapper{
+    position: relative;
+  }
+}
+
+#lia-body .lia-content .contest-wrapper .button-wrapper .button{
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+#lia-body .lia-content .contest-wrapper .button-wrapper .button:hover{
+  text-decoration: none;
+}
+@media screen and (min-width: 960px) {
+  #lia-body .lia-content .contest-wrapper .button-wrapper .button{
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1245px) {
+  #lia-body .lia-content .contest-wrapper .button-wrapper .button{
+    position: absolute;
+    top: -26px;
+    right: 0;
+    margin: 0;
+
+  }
+}
+
+.contest-banner {
+  margin: 20px auto;
+}
+
+@media (min-width: 1245px) {
+  .contest-wrapper .container {
+    max-width: 100%;
+  }
+}
+
+#lia-body .lia-content .contest-content-wrapper ol {
+ list-style: decimal;
+ padding-left: 20px;
+}
+#lia-body .lia-content .contest-content-wrapper ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+#lia-body .lia-content .contest-content-wrapper strong{
+  font-weight: bold;
+}
+
+
+
+
+
+/* youtube iframe responsive styles */
+.video-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    height: auto;
+}
+
+#lia-body .contest-content-wrapper .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+#lia-body .contest-content-wrapper .video-container iframe,
+#lia-body .contest-content-wrapper .video-container object,
+#lia-body .contest-content-wrapper .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*PUG_List Custom Component*/
+.GroupPage .lia-menu-bar, .GroupPage .lia-public-group-non-member-message{
+    display: none !important;
+}
+
+#lia-body .lia-content .lia-quilt-row-header{
+    margin-bottom: 0px;
+}
+
+.pug-cmp{
+    margin-top: 10px;
+}
+
+
+.pug-cmp .pug-left-column{
+    float: left;
+    width: 63%;
+}
+
+.pug-cmp .pug-right-column{
+    float: right;
+    width: 35%;
+}
+
+.pug-cmp .pug-description{
+    padding: 0 12px 30px 12px;
+}
+
+.pug-cmp .pug-section .pug-section-header{
+    color: black;
+    font: 14px wf_segoe-ui_semibold, Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 8px 16px;
+}
+
+.pug-cmp .pug-section .pug-section-content{
+    padding: 12px;
+}
+
+.pug-cmp .pug-section .pug-list-item{
+    width: 46%;
+    display: inline-block;
+    margin: 0 0 12px 0;
+}
+
+#lia-body .lia-content .pug-cmp .pug-section .pug-section-content .pug-btn.lia-button{
+    margin-top: 12px;
+}
+
+.pug-start-a-group img{
+    display: block;
+    margin-bottom: 32px;
+    height: 145px;
+}
+
+#lia-body .lia-content .pug-upcoming-events .pug-event-title{
+    font-size: 14px;
+}
+
+#lia-body .lia-content .pug-upcoming-events .event-date-time{
+    font-size: 14px;
+    color: #333;
+}
+
+.pug-announcement-panel-header{
+    margin-bottom: 0px !important;
+}
+
+#lia-body .lia-content .pug-announcement-panel-header #pugAnnoucementHeaderContent .lia-button-wrapper,
+#lia-body .lia-content .pug-announcement-panel-header #pugAnnoucementHeaderContent .lia-menu-navigation-wrapper{
+    display: inline-block;
+    margin: 0 0 10px 10px;
+    vertical-align: middle;
+}
+
+#lia-body .lia-content .pug-announcement-panel-header + .lia-text{
+    margin: 0 0 10px 10px;
+}
+
+#lia-body .lia-content .pug-avatar-image{
+    margin-bottom: 15px;
+}
+
+#lia-body .lia-content .pug-avatar-image img{
+    max-width: 100%;
+}
+
+#joinGroupModal .modal-dialog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#joinGroupModal .modal-content{
+    border-radius: 0;
+}
+
+#joinGroupModal .modal-content .modal-header{
+    border: none;
+    font-size: 20px;
+}
+
+#joinGroupModal .modal-content .modal-body{
+    padding: 0 40px 40px;
+    font-size: 14px;
+}
+
+#joinGroupModal .modal-content .modal-body .modal-headline{
+    font: 30px wf_segoe-ui_semibold, helvetica, arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calendar-icon img{
+  width: 27px;
+}
+
+#lia-body .lia-content .pug-claim-badge-ct .lia-button.lia-button.lia-button{
+  display: inline-block;
+}
+
+#lia-body .lia-content .pug-claim-badge-ct #claimBadgeText, #lia-body .lia-content .pug-claim-badge-ct #badgetAlreadyClaimedText{
+  display: none;
+}
+
+
+/* user groups announcement banner styles */
+.user-groups-annoucement-wrapper{
+    max-width: 1064px;
+    margin: auto;
+}
+
+.user-groups-annoucement-wrapper .icon-wrapper{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 5px 25px;
+}
+.user-groups-annoucement-wrapper .icon-wrapper img{
+    width: 125px;
+}
+
+.user-groups-annoucement-wrapper .text-wrapper{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#lia-body .user-groups-annoucement-wrapper .text-wrapper h1{
+    margin-top: 18px;
+    font-size: 41px;
+    font-family: 'wf_segoe-ui_bold','HelevticaNeue-light','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#lia-body .user-groups-annoucement-wrapper .text-wrapper h2{
+    font-size: 28px;
+    margin-top: 5px;
+    font-family: 'wf_segoe-ui_bold','HelevticaNeue-light','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#lia-body .user-groups-annoucement-wrapper .text-wrapper p{
+    font-size: 16px;
+    margin: 15px 0 0 0;
+    display: inline-block;
+    font-family: 'wf_segoe-ui_semibold','HelevticaNeue-light','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#lia-body .user-groups-annoucement-wrapper .button-wrapper{
+    float: left;
+    margin-top: 18px;
+    margin-right: -110px;
+}
+
+#lia-body .lia-content .user-groups-annoucement-wrapper .button-wrapper a{
+    color: white;
+    margin: 0;
+    border: 0;
+    padding: 10px 20px;
+    display: inline-block;
+    font-family: 'wf_segoe-ui_semibold','HelevticaNeue-light','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+@media (max-width: 992px){
+   
+   .user-groups-annoucement-wrapper{
+       max-width: 786px;
+   }
+
+   #lia-body .user-groups-annoucement-wrapper .text-wrapper h1{
+       font-size: 28px;
+   }
+   
+   #lia-body .user-groups-annoucement-wrapper .text-wrapper h2{
+       font-size: 18px;
+       margin-top: 0;
+   }
+
+   #lia-body .user-groups-annoucement-wrapper .text-wrapper p{
+       font-size: 14px;
+   }
+
+   #lia-body .user-groups-annoucement-wrapper .button-wrapper{
+       margin-right: -80px;
+   }
+}
+
+@media (max-width: 750px){
+
+   .user-groups-annoucement-wrapper{
+       max-width: 612px;
+   }
+
+   .user-groups-annoucement-wrapper .icon-wrapper{
+       display: none;
+   }
+}
+
+/******************** Windows Phone Fix ********/
+
+@-ms-viewport{width:device-width}
+
+@supports (-ms-accelerator:true) {
+  #lia-body .lia-content th.messageAskedByDateColumn.messageAskedByDateColumn.lia-data-cell-secondary, 
+  #lia-body .lia-content th.lia-data-cell-date.lia-data-cell-date.lia-data-cell-secondary {
+     min-width: initial;
+  }
+  #lia-body .lia-content table.lia-list-slim th.lia-data-cell-secondary, 
+  #lia-body .lia-content table.lia-list-slim th.lia-data-cell-tertiary, 
+  #lia-body .lia-content table.lia-list-wide th.lia-data-cell-secondary, 
+  #lia-body .lia-content table.lia-list-wide th.lia-data-cell-tertiary, 
+  #lia-body .lia-content table.lia-list-slim td.lia-data-cell-secondary, 
+  #lia-body .lia-content table.lia-list-slim td.lia-data-cell-tertiary, 
+  #lia-body .lia-content table.lia-list-wide td.lia-data-cell-secondary, 
+  #lia-body .lia-content table.lia-list-wide td.lia-data-cell-tertiary {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 800px)
+{
+    html {
+       margin: 0px !important;
+       height: 100% !important;
+       width: 100% !important;
+    }
+
+    body, .lia-page {
+       margin: 0px !important;
+       height: 100% !important;
+       width: 100% !important;
+       overflow: hidden;
+    }
+
+    .lia-page{
+       overflow-y: scroll !important;
+    }
+
+   .lia-quilt-column{
+       width: 100% !important;
+       padding-left: 0px !important;
+       padding-right: 0px !important;
+    }
+
+    .lia-quilt-column-alley{
+        margin: 0px !important;
+    }
+
+    .papps-custom-secondary-nav .secondary-nav-item{
+        width: auto !important;
+        padding-right: calc(100% / 20) !important;
+    }
+
+    .papps-custom-secondary-nav .secondary-nav-item a{
+        font-size: 11px !important;
+    }
+
+    .SearchForm{
+        padding-left: 0 !important;
+    }
+
+    .navigation-wrapper{
+        position: static  !important;
+        background-color: #000;
+    }
+
+    .external-header{
+       padding-top: 0px  !important;
+    }
+
+    .lia-quilt-row-crumb, .lia-quilt-row-title{
+       padding-left: 5px !important;
+    }
+}
+
+
+/*custom header on embedded EdX forum */
+
+.edx-header{
+    padding: 6px 12px;
+    background-color: #A6A6A6;
+    margin-bottom: 25px;
+}
+
+.edx-header a{
+    color: black !important;
+}
+
+
+/* custom best report contest Jan 2016 styles */
+
+#lia-body .lia-content .lia-quilt-forum-page-showcase-contest-jan16 .contest-wrapper {
+  padding: 0;
+}
+
+.lia-quilt-forum-page-showcase-contest-jan16 .contest-content-wrapper {
+  margin-bottom: 15px;
+}
+
+
+/* message form label override */
+#lia-body .lia-content .lia-form-body-entry .lia-form-label, 
+#lia-body .lia-content .lia-form-subject-entry .lia-form-label {
+  display: inline-block;
+}
+@media (max-width: 480px) {
+.lia-notes-list, .lia-note-search {
+    margin-left: 0;
+    margin-right: 0;
+}
+.lia-component-search-widget-search-page-form {
+    padding-bottom: 0;
+   
+}
+}

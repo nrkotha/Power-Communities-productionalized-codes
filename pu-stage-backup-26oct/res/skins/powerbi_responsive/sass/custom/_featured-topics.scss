@@ -1,0 +1,47 @@
+// Contents copied from: theme_base/sass/custom/_featured-topics.scss
+.lia-component-messages-widget-featured-threads {
+    border-radius: $border-radius-large;
+    box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.02), 0 1px 2px 0 rgba(0,0,0,0.16);
+    margin-bottom: 40px;
+    padding: 40px;
+
+    .lia-message-view-display {
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .lia-featured-threads-header {
+        border-bottom: 1px solid $tp-gray-300;
+        padding: 8.5px 0;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+    .MessageSubject {
+        margin-bottom: $theme-space-base;
+
+        .lia-link-navigation {
+            color: $text-color;
+            font-size: $theme-type-size-xxlarge;
+            font-weight: normal;
+            line-height: $theme-line-height-xxlarge;
+        }
+    }
+    
+    .lia-message-post-date.lia-component-post-date {
+        color: $lithium-light-gray;
+        float: right;
+
+        &:before {
+            color: $text-color;
+            content: "\f133";
+            font-family: fontawesome;
+        }
+    }
+    .lia-featured-threads-entry {
+        border-bottom: 1px solid $theme-color-secondary;
+
+        &:last-child {
+            border: 0;
+        }
+    }
+}

@@ -1,0 +1,363 @@
+/* View Profile Page */
+#lia-body.ViewProfilePage {
+	.lia-top-quilt > .lia-quilt-row-header .lia-quilt-row-sub-header {
+	    background-attachment: fixed;
+	    background-image: url(/html/assets/hero-bg.jpg);
+	    background-size: auto 600px;
+	    background-position: 0 0;
+	    background-repeat: no-repeat;
+	    padding: $theme-space-xlarge + $theme-space-small 0;
+	}
+
+	.lia-profile-hero-user-info {
+		@include media(tablet-and-up) {
+			float: left;
+		}
+	}
+	//DropDown Menu Option
+	.default-menu-option {
+		font-family: inherit;
+		font-size: $theme-type-size-xxlarge;
+	    color: $text-color;
+	    font-weight: 500;
+	    line-height: $theme-line-height-xxlarge;
+        padding: 0;
+        white-space: pre-wrap;
+        width: auto;
+	    @include media(phone){
+			line-height: $theme-line-height-large;
+	    	font-size: $theme-type-size-large;
+	    }
+	    &:after {
+			content: "\f078";
+		    font-weight: $theme-type-weight-base;
+		    vertical-align: middle;
+	    	font-size: $theme-type-size-small;
+	    	margin-left: $theme-space-small;
+		}
+		&:before {
+			display: none;
+		}
+	}
+	.lia-truncate-with-message-link .lia-truncated-message-link {
+		height: 25px;
+	}
+	// ALL PAGE PANEL COMPONENTS
+	.lia-panel:not(.custom-public-stats) {
+		margin-bottom: $theme-space-large + $theme-space-small;
+
+		.lia-panel-heading-bar {
+			border-bottom: 1px solid $tp-gray-300;
+	    	padding-bottom: $theme-space-base;
+
+		    .lia-panel-heading-bar-title {
+			    font-weight: 500;
+			    line-height: $theme-line-height-xxlarge;
+		    	font-size: $theme-type-size-xxlarge;
+		    }
+		}
+	}
+	.lia-message-view-display {
+		border-bottom: 1px solid $tp-gray-300;
+		margin-bottom: 0;
+
+		.lia-quilt-column-full-content > .lia-quilt-column-alley {
+			margin: 0;
+		}
+		.message-subject .lia-link-navigation {
+			display: block;
+			margin-bottom: $theme-space-small + $theme-space-xsmall;
+		    font-size: $theme-type-size-large;
+		    font-weight: 500;
+		    line-height: 27px;
+		}
+		.lia-quilt-column-left-content .lia-message-item-metadata-main {
+		    float: left;
+    		clear: both;
+		}
+		.lia-message-body-content {
+			margin-bottom: 0;
+		}
+		.lia-message-post-date {
+			color: #a7adae;
+			font-size: $theme-type-size-small;
+			line-height: 21px;
+			&:before {
+				color: $text-color;
+				content: "\f133";
+				font-family: fontawesome;
+			    margin-right: $theme-space-xsmall;
+			}
+			&:after {
+				content: "";
+				width: 0;
+			}
+		}
+	}
+	.remove-role-link {
+	    padding: $theme-space-xsmall $theme-space-small;
+    	min-width: auto;
+
+    	&:before {
+    		color: $theme-color-background;
+    	}
+	}
+	.lia-message-view-display .lia-message-item-metadata-side {
+	    float: right;
+	    margin-right: 0;
+	}
+	.lia-message-view-display.lia-list-row-thread-solved:before {
+		border-top-color: $lithium-green;
+	}
+
+	//User Photos
+	.lia-media-image-list.lia-list-tile .lia-media-image-item {
+		width: calc(50% - (2 * 5px));
+	}
+
+	//View Profile Hero
+	.lia-quilt-view-profile-hero {
+		background-color: transparent;
+		padding: 0;
+		@include media(phone) {
+			text-align: center;
+		}
+
+		.lia-user-name {
+			font-size: $theme-type-size-xxxlarge + 6;
+	    	line-height: 42px;
+	    	padding-bottom: $theme-space-xsmall - 2 ;
+		}
+		.lia-user-rank {
+			font-size: $theme-type-size-xxlarge;
+	    	line-height: 30px;
+	    	padding-bottom: $theme-space-xsmall - 1;
+		}
+		.lia-user-registration-date {
+			font-size: $theme-type-size-large;
+	    	line-height: 27px;
+	    	margin-bottom: $theme-space-small + 2;
+		}
+		.lia-profile-avatar-info {
+			position: relative;
+
+			.UserOnline {
+			    position: absolute;
+			    left: 120px;
+			    top: 115px;
+
+			    .lia-fa {
+				    border: 4px solid $tp-white;
+				    height: 22px;
+				    overflow: hidden;
+				    width: 22px;
+		    	    border-radius: 50%;
+
+			    	&.lia-img-online {
+						background-color: $theme-color-safe;
+			    	}
+
+			    	&.lia-img-offline {
+						background-color: $theme-color-danger;
+						display: none;
+			    	}
+			    }
+
+			    .online,
+			    .offline {
+			    	font: 0/0 a;
+			    }
+			}
+		}
+		.lia-profile-hero-avatar-wrapper {
+			position: unset;
+		}
+		.settings-link-wrapper {
+			@include media(desktop-and-up) {
+				text-align: center;
+			}
+
+			.my-profile-link {
+				position: unset;
+		    	color: $tp-white;
+		    	font-weight: bold;
+
+		    	&:after {
+		    		content: "";
+		    	}
+			}
+		}
+		.lia-profile-about-me {
+			margin: 0;
+		}
+		.lia-user-avatar {
+			margin: 0 auto;
+		}
+	}
+	
+	/* badges */
+	.lia-user-badge-list {
+	    @include align-items(flex-end);
+	    background-color: transparent;
+	    padding: $theme-space-base 0;
+    	@include flex-direction(column);
+    	@include flexbox;
+	    @include media(tablet-and-up) {
+			float: right;
+	    }
+	    @include media(tablet-and-down) {
+	        text-align: left;
+	        width: calc(100% - 140px);
+	    }
+	    @include media(phone) {
+	    	@include align-items(center);
+	    	text-align: center;
+	    	width: 100%;
+	    }
+
+	    .lia-badge-list {
+	        @include flex-flow($values: (row wrap));
+	        @include flexbox;
+	        height: auto;
+	        margin: 0;
+	        overflow: visible;
+	        padding: 0;
+
+	        .lia-user-badge-display,
+	        .lia-user-badge-display .lia-link-navigation {
+	            display: block;
+	            float: none;
+	        }
+	        .lia-user-badge-display {
+	            @include flex(1, 0, auto);
+	            display: block;
+	            line-height: normal;
+	            padding: 0 $theme-space-xsmall;
+				&:nth-child(n+9){
+					display: none;
+				}
+	            img {
+	                @include changeAvatarSizeAtBreakpoint--viewprofilepage(
+	                    $size-narrow: 50px,
+	                    $size-wide: 50px,
+	                    $breakpoint: $screen-sm,
+	                    $border-width: 0,
+	                    $border-color: transparent
+	                );
+	                border: 0;
+	                max-height: none;
+	                max-width: none;
+	                object-fit: cover;
+	                text-align: center;
+	            }
+	        }            
+	        .lia-badge-not-achieved {
+	            display: none;
+	        }
+	    }
+	    .lia-view-all {
+	        //display: none;
+	        margin-top: $theme-space-base;
+	        display: block;
+	        margin-left: 0 !important; // Sadly, this is needed to override inline styles
+	        @include media(tablet-and-up) {
+	        	text-align: right;
+	        }
+
+	        .lia-link-navigation {
+	        	color: $tp-white;
+
+				&:before {
+	                display: none;
+	            }
+	            &:after {
+	                color: inherit;
+	            }
+	        }
+	    }
+	}
+}
+
+//Custom Public Stats
+.custom-public-stats {
+	background-color: transparent;
+	border-radius: 0;
+	border-top: 1px solid $tp-gray-400;
+	clear: both;
+	margin-bottom: 0;
+
+	ul {
+		> li {
+			display: inline;
+			font-weight: bold;
+			padding-right: $theme-space-base;
+		}
+	}
+}
+
+//Connect Klout tooltip component
+.lia-component-klout-widget-cta-tooltip .lia-connect-klout-tooltip-svg {
+	font-size: $theme-type-size-xxlarge;
+	height: auto;
+	line-height: 42px;
+	width: 42px;
+    > div {
+	    background-size: 42px;
+	    height: 42px;
+    }
+}
+
+//Custom Profile Bookmark
+.custom-profile-bookmarks {
+	.bookmark {
+		border-bottom: 1px solid $tp-gray-300;
+		clear: both;
+		display: inline-block;
+		padding: $theme-space-small 0;
+		width: 100%;
+
+		&:last-child {
+			border: 0;
+		}
+	}
+	.bookmark-link {
+		float: left;
+		width: calc(100% - 25px);
+	}
+	.options {
+		float: left;
+		width: 25px;
+	}
+}
+
+//Contact Me Component
+.custom-contact-me {
+	.lia-button {
+		@extend .lia-button-secondary;
+		margin: $theme-space-small 0;
+		text-decoration: none;
+		width: 100%;
+	    font-weight: 500;
+
+		&.add-ignore-link,
+		&.delete-ignore-link {
+			border-color: $theme-color-danger;
+			color: $theme-color-danger;
+			&:hover {
+				background-color: $theme-color-danger;
+				color: $theme-color-background;
+			}
+		}
+	}
+}
+
+//User Message Feed Component
+.lia-component-messages-feed {
+	.lia-message-view-display .lia-quilt-column-left-content > .lia-quilt-column-alley {
+		margin: 0;
+	}
+	.lia-menu-bar-top {
+		border-bottom: 1px solid $tp-gray-300;
+	    padding-bottom: $theme-space-base;
+	}
+}

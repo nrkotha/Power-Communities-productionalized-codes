@@ -1,0 +1,171 @@
+// Contents copied from: theme_base/sass/page/_tkb.scss
+.lia-discussion-page-sub-section-header, 
+.TkbArticlePage .lia-rating-feedback-list .lia-panel-heading-bar-title{
+	color: $text-color;
+	font-weight: 500;
+}
+#lia-body.TkbPage {
+	.lia-tkb-article-list {
+		margin-top: 0;
+	}
+	.lia-top-quilt {
+		> .lia-quilt-row-main {
+			@include media(tablet-and-up) {
+				padding-top: 10px;
+			}
+		}
+	}
+	.lia-quilt-column-side-content .lia-panel {
+		.lia-panel-heading-bar-title {
+			font-size: $theme-type-size-xxlarge;
+			line-height: $theme-space-medium;
+		}	
+	}
+	.lia-component-tkb-widget-top-contributors-taplet {
+		.lia-panel-content-wrapper {
+			padding-top: 30px;
+		}
+	}
+	.lia-quilt-row-sub-header {
+		display: none;
+	}
+	.lia-component-common-widget-node-information {
+		padding-bottom: 30px;
+		.lia-node-header-title {
+			font-size: $font-size-heading-medium;
+			line-height: $theme-space-heading;
+		}
+		.lia-node-header-description {
+			padding-top: 10px;
+			font-size: $theme-type-size-large;
+			line-height: $theme-space-medium;
+		}
+	}
+	.lia-tkb-article-entry {
+		width: 100%;
+		padding: 0;
+		height: auto;
+		margin: 20px 0;
+		&:first-child {
+			margin-top: 30px;
+		}
+		.lia-message-view-tkb-card-article {
+			padding: 0;
+			.message-subject {
+				.page-link {
+					font-size: $theme-type-size-large;
+					font-weight: $theme-type-weight-semibold;
+				}
+			}
+			.lia-teaser-text {
+				color: $message-body-color;
+				font-size: $theme-type-size-small;
+				line-height: $theme-space-base;
+			}
+			.lia-info-area-item {
+				font-size: $theme-type-size-small;
+				line-height: $theme-space-base;
+				color: $message-body-color;
+			}
+			.LabelsForMessage.lia-component-message-view-widget-labels .label {
+				h3 {
+					line-height: $theme-type-size-xlarge;
+				}
+				.label-link {
+					line-height: $theme-type-size-large;
+					vertical-align: top;
+				}
+			}
+			.local-time {
+				display: inline;
+			}
+		}
+		.lia-dot-separator {
+			&:before {
+				vertical-align: unset;
+			}
+		}
+	}
+	.lia-message-view-display {
+		margin-bottom: 0;
+		.lia-quilt-column-left-content > .lia-quilt-column-alley {
+			margin: 0;
+		}
+	}
+	.lia-teaser-view-full-article {
+		display: none;
+	}
+	.LabelsForMessage.lia-component-message-view-widget-labels {
+		.lia-panel-heading-bar-wrapper {
+			display: none;
+		}
+		.LabelsList {
+			margin-left: 0;
+		}
+	}
+	.custom-replies-count,
+	.custom-views-count {
+		display: inline-block;
+	}
+	.lia-message-stats-count {
+		color:$message-stats-color;
+		font-size: $font-size-base;
+		font-weight: $theme-type-weight-base;
+	}
+	.lia-fa-comment-o {
+		color: $message-stats-color;
+		&:before {
+			margin-right: 4px;
+			color: $message-stats-color;
+		}
+	}
+	.lia-views-icon {
+		color: $message-stats-color;
+		padding-left: 20px;
+		@include li-icon("\f06e", $pseudo: before, $color: $message-stats-color, $size: $font-size-base);
+	}
+}
+
+.TkbArticlePage {
+	.lia-discussion-page-sub-section-header {
+		padding-top: 0; //make generic if needed 
+	}
+	a[name="comments"] + .lia-panel.lia-panel-section {
+		margin-top:30px;
+	}
+}
+
+.lia-component-tkb-widget-contributors-taplet{
+	width: 100%;
+}
+
+/* --Customer Reference Library TKB page */
+.customer-ref-lib-filter-wrapper {
+	ul {
+		@include vendor-prefix(column-count, 4, (webkit, moz));
+		@include vendor-prefix(column-gap, 0, (webkit, moz));
+		@include vendor-prefix(column-fill, balance, (webkit, moz));
+		@include media(desktop-and-smaller) {
+			@include vendor-prefix(column-count, 3, (webkit, moz));
+		}
+		margin: 0 0 20px 0 !important;
+		li {
+			margin: 0 0 10px 0 !important;
+			white-space: nowrap;
+			line-height: 18px !important;
+			input {
+				margin: 0 5px 0 0 !important;
+			}
+			label {
+				text-transform: capitalize;
+			}
+		}
+	}
+	.lia-panel-heading-bar-wrapper .lia-panel-heading-bar {
+		padding: 20px 0 20px 0 !important;
+	}
+}
+.customer-ref-lib-filter-wrapper fieldset {
+	padding: 10px 0;
+}
+/* --Customer Reference Library TKB page (end) */

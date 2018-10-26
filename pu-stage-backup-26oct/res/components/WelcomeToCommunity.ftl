@@ -1,0 +1,1 @@
+<span class="welcome-title">Welcome to the Community</span>

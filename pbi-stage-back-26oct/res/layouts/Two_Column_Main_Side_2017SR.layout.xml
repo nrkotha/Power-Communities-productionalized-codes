@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="2017sr_header">
+    <column id="2017sr_common-header" width="24"/>
+  </row>
+  <row id="2017sr_main_header">
+    <column id="2017sr_custom_left" width="18"/>
+    <column id="2017sr_custom_right" width="6"/>
+  </row>
+  <row id="2017sr_banner">
+    <column id="2017sr_banner" width="24"/>
+  </row>
+  <row id="main">
+    <column id="2017sr_main-content" width="17"/>
+    <column id="2017sr_side-content" width="7"/>
+  </row>
+  <row id="2017sr_footer">
+    <column id="2017sr_common-footer" width="24"/>
+  </row>
+</layout>

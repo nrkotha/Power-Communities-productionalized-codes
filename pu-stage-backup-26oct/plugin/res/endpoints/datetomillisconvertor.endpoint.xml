@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="datetomillisconvertor" feature="custom.microsoft.microsoftbi">
+  <model/>
+  <view type="freemarker" contenttype="text/plain" macro="false"/>
+  <controller id="basic" path="/datetomillisconvertor"/>
+</endpoint>

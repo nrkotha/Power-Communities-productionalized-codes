@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="community-hero" nestable="false" disableTopCssClass="false">
+  <add to="hero-top">
+    <component id="custom_content_1"/>
+  </add>
+  <add to="hero-user">
+    <component id="common.widget.search-form"/>
+  </add>
+</quilt>

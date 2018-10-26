@@ -1,0 +1,12 @@
+// Contents copied from: theme_base/sass/custom/_trending-messages.scss
+#lia-body .lia-content .theme-lib-trending-messages .trending-messages-list .trending-message-item {
+    border-bottom: 1px solid $tp-gray-300;
+    padding: 20px 0;
+    margin: 0;
+    word-wrap: break-word;
+    
+    &:last-child {
+    	border: 0;
+	    padding-bottom: 0;
+    }
+}

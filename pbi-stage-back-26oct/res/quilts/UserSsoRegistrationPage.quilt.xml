@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.left-right" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="custom.sso-javascript"/>
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="right-content">
+    <component id="custom.sso-side-form"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="GDPR_privacy_declaration"/>
+  </add>
+  <add to="left-content">
+    <component id="custom-oauth-nonce-check"/>
+    <component id="user-sso-registration-form"/>
+  </add>
+  <add to="header-top" for="Header">
+    <component id="custom.signIn-info"/>
+  </add>
+  <remove from="page-title" for="Header">
+    <component id="common.widget.user-navigation-combine"/>
+    <component id="common.widget.page-title"/>
+  </remove>
+  <remove from="user-navigation" for="Header">
+    <component id="common.widget.user-navigation"/>
+  </remove>
+  <remove from="private-notes" for="Header">
+    <component id="notes.widget.summary"/>
+  </remove>
+  <remove from="site-navigation" for="Header">
+    <component id="common.widget.site-navigation"/>
+    <component id="common.widget.search-form"/>
+    <component id="common.widget.search-form-message"/>
+  </remove>
+</quilt>

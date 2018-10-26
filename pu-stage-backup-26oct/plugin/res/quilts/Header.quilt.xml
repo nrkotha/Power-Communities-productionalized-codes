@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="header" nestable="false" disableTopCssClass="false">
+  <add to="feedback">
+    <component id="common.widget.page-information"/>
+    <component id="common.widget.page-feedback"/>
+  </add>
+  <add to="top-header">
+    <component id="common.widget.search-form"/>
+  </add>
+  <add to="page-title">
+    <component id="common.widget.page-title"/>
+  </add>
+  <add to="search-bar">
+    <component id="common.widget.breadcrumb"/>
+  </add>
+  <add to="site-navigation">
+    <component id="common.widget.site-navigation"/>
+  </add>
+  <add to="sub-header-main">
+    <component id="common.widget.breadcrumb"/>
+  </add>
+</quilt>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="header">
+    <column id="header-left" width="22"/>
+    <column id="header-right" width="2"/>
+  </row>
+  <row id="main">
+    <column id="main" width="24"/>
+  </row>
+  <row id="footer-main">
+    <column id="footer-main" width="24"/>
+  </row>
+  <row id="footer">
+    <column id="footer-left" width="12"/>
+    <column id="footer-right" width="12"/>
+  </row>
+  <row id="mod-controls">
+    <column id="mod-controls-main" width="24"/>
+  </row>
+</layout>

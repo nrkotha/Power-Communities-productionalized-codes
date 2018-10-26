@@ -1,0 +1,1616 @@
+//  Contents copied from: theme_base/sass/common/_buttons.scss
+#lia-body{
+
+&.RecentPostsPage .message-subject .lia-link-navigation, &.KudosUserPage .message-subject .lia-link-navigation{  
+     font-family: 'SegoeUI-Semibold';
+}
+&.RecentPostsPage .lia-menu-bar {  
+    margin: 15px;
+}
+&.IdeaExchangePage .lia-link-navigation.kudos-link.lia-link-ticket-post-action:focus {
+    color: #fff;
+}
+&.IdeaPage .lia-link-navigation.kudos-link.lia-link-ticket-post-action:focus {
+    color: #fff;
+}
+.lia-top-quilt > .lia-quilt-row-main .lia-quilt-column-footer-right .lia-button-image-kudos-count a:focus {
+    color: #fff;
+}
+.lia-content .lia-quilt-tkb-edit-sections-page .lia-menu-bar .lia-menu-bar-buttons {
+    float: right;
+}
+.lia-quilt-column-alley-right .message-subject-board .lia-link-navigation {
+    font-family: 'Segoe-UI-Semi-Light';
+}
+.lia-quilt-column-alley-right .message-subject-board .lia-link-navigation:hover {
+    font-family: 'SegoeUI-Semibold';
+}
+.lia-quilt-column-alley-right li.blog-bio-blurb {
+    display: none;
+}
+.lia-content .lia-top-quilt > .lia-quilt-row-main .lia-panel-feedback-banner-alert a:hover, .lia-content .lia-top-quilt > .lia-quilt-row-main .lia-panel-feedback-inline-alert a:hover {
+    color: #fff;
+}
+&.SearchPage .dropdown-default-item a:hover, &.SearchPage .dropdown-default-item a:focus {
+    color: #000 !important;
+}
+.lia-content .dropdown-default-item{
+ color: #000;
+}
+.default-menu-option:hover:after, .default-menu-option:hover:before, .lia-common-dropdown-toggle:hover:after, .lia-common-dropdown-toggle:hover:before {
+    color: #000;
+}
+.custom-branding-line li a:focus{
+outline-offset:8px;
+}
+.mce-foot button:focus{
+outline: 1px dashed #000 !important;
+    border: 1px dashed #fff !important;
+}
+&.MyProfilePage .lia-top-quilt > .lia-quilt-row-main .lia-panel {
+    box-shadow: none;
+    border: 0px;
+}
+&.IdeaExchangePage .lia-button-image-kudos .kudos-link:hover, &.IdeaPage .lia-button-image-kudos .kudos-link:hover {
+    color: #fff;
+background:$btn-hover;
+}
+&.lia-tkb .lia-quilt-tkb-article-history-page{
+.lia-quilt-row-row_1 .lia-revision-info-wrapper .lia-revision-info-title-cell{    
+    padding-right: 4px;  
+}
+.lia-content .lia-button.lia-button-secondary.lia-custom-event {
+    min-width: 55px;
+}
+.lia-menu-navigation-wrapper.lia-menu-action.lia-component-message-view-widget-action-menu{
+width:100%;
+.lia-menu-navigation{
+float:right;
+}
+}
+.custom-social-share-menu {
+    float: left;
+}
+
+.lia-button-image-kudos.lia-button{
+         height: 42px;   
+         overflow: hidden;
+         display: inline-block;
+}
+.custon-message-view-actions {
+		float: right;
+		.lia-button-group,
+        .KudosButton {
+			float: left;
+			margin-left: 0.26em;
+		}
+		.lia-button-image-kudos-horizontal .kudos-link {
+			font-size: 0;
+			background-color: $brand-primary;
+			border-color: $brand-primary;
+		}
+		.lia-button-image-kudos .kudos-count-link {
+			color: $li-text-color-inverse;
+		}
+		.lia-button-image-kudos .kudos-link:before {
+			font-size: 25px;
+			vertical-align: middle; 
+			color: $li-text-color-inverse;
+			padding: 4.2px 0;
+}
+}
+}
+.slidesjs-previous:hover, .slidesjs-next:hover {
+  text-decoration: none !important;
+}
+&.IdeaPage .article-comments.lia-component-comments .CommentList .lia-panel-message {
+    border-bottom: 1px solid $divider-border;
+}
+&.IdeaPage .article-comments.lia-component-comments .CommentList .lia-panel-message:last-child {
+    border-bottom:0px;
+}
+.lia-top-quilt > .lia-quilt-row-main {
+a:hover, a:focus {
+    color:$brand-primary;
+}
+}
+.lia-paging-full-wrapper .lia-paging-full .lia-link-navigation:hover {
+    font-family: 'SegoeUI-Semibold';
+}
+.lia-component-common-widget-page-feedback p{
+margin:0px;
+}
+&.BlogArticlePage .lia-content .lia-quilt-blog-article-page .lia-message-view-display .lia-message-subject{
+display: inherit;
+}
+&.IdeaExchangePage .custom-idea-list {  
+    width: 100%;
+}
+&.IdeaPage .lia-message-view-display .lia-message-subject {
+    font-size: 21px;
+    font-family: 'Segoe-UI-Semi-Light';
+    font-weight: normal !important;
+    color:$message-subject;
+    h5{
+    font-family: 'Segoe-UI-Semi-Light';
+    }
+}
+&.IdeaPage .MessageStatus.lia-status .message-status-link {
+    font-weight: normal;
+    text-decoration: none;
+    color: #000;
+    font-size: 11px;
+    padding: 2px 5px 2px 5px;
+    text-shadow: rgba(0,0,0,0.25) 0 1px 1px;
+    text-transform: uppercase;
+}
+.comment-status-bar .MessageStatus.lia-status .message-status-link {   
+    color: #000 !important;   
+
+}
+span.MessageStatus.lia-status img {   
+    margin-bottom: 0;
+}
+.lia-message-view-idea-message .lia-status .message-status-link{
+color: #000;
+padding: 2px 5px 2px 5px;
+}
+&.IdeaPage span.MessageStatus.lia-status.lia-status-idea-New .message-status-link {  
+    color: #000;
+}
+.comment-status-bar .MessageStatus.lia-status a.message-status-link:hover {
+    color: #000 !important;
+    text-decoration: underline !important;
+}
+&.BlogArticlePrintPage .lia-quilt-blog-article-print-page, &.ForumTopicPrintPage .lia-quilt-forum-topic-print-page{
+.custom-social-share-menu {
+    float: left;
+}
+
+.custon-message-view-actions .KudosButton{
+float: left;
+    margin-left: 0.26em;
+}
+.lia-button-image-kudos.lia-button{
+         height: 42px;   
+         overflow: hidden;
+         display: inline-block;
+}
+.lia-quilt-column-footer-right {
+		float: right;
+                .lia-quilt-column-alley-right {
+    float: right;
+    display: flex;
+}
+		.lia-button-group,
+        .KudosButton {
+			float: left;
+			margin-left: 0.26em;
+		}
+		.lia-button-image-kudos-horizontal .kudos-link {
+			font-size: 0;
+			background-color: $brand-primary;
+			border-color: $brand-primary;
+		}
+		.lia-button-image-kudos .kudos-count-link {
+			color: $li-text-color-inverse;
+		}
+		.lia-button-image-kudos .kudos-link:before {
+			font-size: 25px;
+			vertical-align: middle; 
+			color: $li-text-color-inverse;
+			padding: 4.2px 0;
+}
+span.lia-button-image-kudos-label.lia-component-kudos-widget-kudos-count-label {
+display: none;
+}
+}
+
+}
+/*image kudo button*/
+.lia-content .lia-quilt-column-footer-right .lia-button-image-kudos{
+    border: 0px dashed transparent !important;
+    height: 41.5px;
+    overflow: hidden;
+}
+.lia-content .lia-quilt-column-footer-right .lia-button-image-kudos:hover{
+    border: 0px dashed transparent !important;   
+}
+.lia-content .lia-quilt-column-footer-right .lia-button-image-kudos .kudos-link.lia-link-disabled {   
+    height: 41.5px;  
+    padding: 3px 12px;
+}
+.lia-content .lia-quilt-column-footer-right .lia-button-image-kudos .kudos-link{   
+    height: 41.5px;  
+    padding: 2px 11px !important;
+}
+/*right side image kudo button*/
+/*single image kudo button*/
+.lia-content .custon-message-view-actions .lia-button-image-kudos{
+    border: 0px dashed transparent !important;
+    height: 41.5px;
+    overflow: hidden;
+}
+.lia-content .custon-message-view-actions .lia-button-image-kudos:hover{
+    border: 0px dashed transparent !important;   
+}
+.lia-content .custon-message-view-actions .lia-button-image-kudos .kudos-link.lia-link-disabled {   
+    height: 41.5px;  
+    padding: 3px 12px;
+}
+.lia-content .custon-message-view-actions .lia-button-image-kudos .kudos-link{   
+    height: 41.5px;  
+    padding: 2px 12px !important;
+}
+/*single side image kudo button*/
+&.IdeaPage .lia-content .message-subject .lia-link-navigation{   
+    font-size: 21px;
+    font-family: 'Segoe-UI-Semi-Light';
+    font-weight:normal !important;
+    color:$message-subject;
+    }
+    /* the font-family Segoe-UI-Semi-Light is changed to semi-bold as part of iTarck BIZCM - 862 */
+    &.IdeaExchangePage .lia-content .message-subject .lia-link-navigation{   
+        font-size: 21px;
+        font-family: 'SegoeUI-Semibold';
+        font-weight:normal !important;
+        color:$message-subject;
+        }
+.custom-social-share-menu a.social-share:hover {
+    text-decoration: none !important;
+}
+.lia-content .lia-quilt-forum-page-showcase .lia-component-custom-cards-message-header .lia-menu-bar-buttons {
+    float: right;
+   display: inline-block;
+   width: auto; 
+}
+:focus {
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: Highlight;
+}
+
+/* WebKit gets its native focus styles. */
+@media (-webkit-min-device-pixel-ratio:0) {
+  :focus {
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+  }
+}
+&.TkbArticlePage .lia-menu-bar.top-block.lia-component-menu-bar{
+float: right;
+    display: inline-block;
+}
+&.MediaGalleryPage{
+.lia-button-image-kudos.lia-button{
+         height: 42px;   
+         overflow: hidden;
+         display: inline-block;
+}
+.lia-media-image-kudos {
+		float: right;
+		.lia-button-group,
+        .KudosButton {
+			float: left;
+			margin-left: 0.26em;
+		}
+		.lia-button-image-kudos-horizontal .kudos-link {
+			font-size: 0;
+			background-color: $brand-primary;
+			border-color: $brand-primary;
+		}
+		.lia-button-image-kudos .kudos-count-link {
+			color: $li-text-color-inverse;
+		}
+		.lia-button-image-kudos .kudos-link:before {
+			font-size: 25px;
+			vertical-align: middle; 
+			color: $li-text-color-inverse;
+			padding: 4.2px 0;
+}
+}
+}
+&.lia-primary-rating-type-kudos .article-comments.lia-component-comments{
+display: inline-block;
+width: 100%;
+}
+&.GroupMembersPage .lia-top-quilt > .lia-quilt-row-header .lia-page-header{
+    width: 1170px;
+    margin: 0 auto;
+   @include desktop {
+			width: 100%;
+			padding: 0 50px;       
+		}
+		@include mobile {       
+			padding: 0 20px;      
+		}
+    
+}
+.lia-quilt-column-right .GroupMembersTaplet .userColumn.userColumn {    
+    padding-bottom: 0 !important;
+    padding-left: 54px !important;
+    padding-top: 0 !important;  
+}
+.lia-quilt-column-right .GroupMembersTaplet .rankColumn.rankColumn {   
+    padding-bottom: 0 !important;
+    padding-left: 54px !important;
+    padding-top: 0 !important;   
+}
+&.TkbDashboardPage .lia-quilt-tkb-dashboard-page, &.EditPage .lia-quilt-edit-page, &.TkbArticlePrintPage .lia-quilt-tkb-article-print-page{
+.custon-message-view-actions{
+float:right;
+}
+.lia-tabs a:hover{
+text-decoration: none !important;
+}
+.lia-tabs .default-menu-option {
+    font-size: 13px !important;
+}
+.custom-social-share-menu {
+    float: left;
+}
+.custon-message-view-actions .KudosButton{
+float: left;
+    margin-left: 0.26em;
+}
+.lia-button-image-kudos.lia-button{
+         height: 42px;   
+         overflow: hidden;
+         display: inline-block;
+}
+.custon-message-view-actions {
+		float: right;
+		.lia-button-group,
+        .KudosButton {
+			float: left;
+			margin-left: 0.26em;
+		}
+		.lia-button-image-kudos-horizontal .kudos-link {
+			font-size: 0;
+			background-color: $brand-primary;
+			border-color: $brand-primary;
+		}
+		.lia-button-image-kudos .kudos-count-link {
+			color: $li-text-color-inverse;
+		}
+		.lia-button-image-kudos .kudos-link:before {
+			font-size: 25px;
+			vertical-align: middle; 
+			color: $li-text-color-inverse;
+			padding: 4.2px 0;
+}
+span.lia-button-image-kudos-label.lia-component-kudos-widget-kudos-count-label {
+display: none;
+}
+}
+}
+&.BlogArticlePage .lia-quilt-column-right .LabelsList .label .label-link {
+    font-size: 15px;
+}
+.focussection{
+outline: 1px dashed #000 !important;
+border: 1px dashed #fff !important;
+}
+&.MessageHistoryPage .lia-quilt-message-history-page .messageEditDateColumn.lia-data-cell-secondary.lia-data-cell-date {
+    padding-left: 20px;
+}
+&.lia-idea .lia-quilt-idea-print-page{
+.lia-button-image-kudos-wrapper {
+    width: 85px;
+}
+.lia-button-image-kudos .kudos-count-link {
+    padding: 7px 16px;
+    line-height: 16px;
+    font-size: 15px;
+}
+.lia-button-image-kudos-count{
+border-left: 0 solid #747474;
+		margin-bottom: 6px;
+		margin-left: 0;
+		margin-top: 0;
+		padding: 2px 0;
+		width: 100%;
+		border: 1px solid #ccc;
+}
+.lia-button-image-kudos .kudos-link {
+    border-radius: 0px;
+    padding: 8px 16px;
+    line-height: inherit;
+color: #fff;
+}
+.lia-button-image-kudos-give {
+		background: $brand-primary;
+		color: $li-text-color-inverse;
+		width: 100%;
+}
+.kudos-link:before {
+    color: #fff;
+}
+.lia-button-image-kudos.lia-button {
+    background: #fff !important;
+}
+}
+/*
+&.TkbArticleEditorPage .mce-window-body.li-dialog-iframe-container {
+    max-height: 100% !important;
+}*/
+&.ViewProfilePage .lia-message-view-display.lia-message-view-auto-saved-draft .lia-message-discussion-style-icon {
+    left: -20px;
+}
+.lia-quilt-column-feedback .lia-component-common-widget-page-information{
+background:$brand-primary;
+}
+.mce-container .lia-mce-loader-feedback{
+background:$brand-primary !important;
+color:#fff !important;
+}
+.mce-container .lia-mce-loader-feedback *{
+color:#fff !important;
+}
+.lia-tabs-active .lia-link-navigation.tab-link.lia-custom-event{
+border:0px;
+}
+.lia-tabs-active .lia-link-navigation.tab-link.lia-custom-event:focus{
+outline: 1px dashed #000 !important;
+    border: 1px dashed #fff !important;
+}
+.lia-quilt-tkb-all-articles-print-page .lia-menu-navigation-wrapper{
+float: right;
+    display: inline-block;
+}
+.lia-button-image-kudos-disabled.lia-button-image-kudos-not-kudoed span.lia-link-navigation.kudos-link.lia-link-disabled:after {
+    content: "Vote";
+}
+.lia-quilt-category-page-home-landing-page .lia-component-forums-widget-board-browser-list .lia-browser-category-heading{
+border-top:1px solid $divider-border;
+}
+
+.tab-close-focus:focus {
+border: 1px solid #5d5d5d;
+outline: thin dotted;
+outline: 5px auto -webkit-focus-ring-color;
+outline-offset: -2px;
+}
+.lia-common-dropdown-toggle{
+font-size: 15px;
+}
+&.TagViewPage .lia-data-cell-secondary .lia-message-stats-count{
+font-size: 17px;
+
+}
+&.TagViewPage .lia-data-cell-secondary .lia-component-messages-column-message-views-count{
+font-size: 13px;
+}
+&.TagViewPage .lia-component-messages-column-message-replies-count{
+font-size: 13px;
+}
+.summary-subject .lia-link-navigation {
+color:$brand-primary;
+font-family: 'SegoeUI-Semibold';
+}
+&.EditPage .lia-component-editor .lia-message-view-display {
+    padding: 0 !important;
+}
+&.EditPage .lia-quilt-layout-idea-message{
+.lia-button-image-kudos.lia-button {
+    background: #fff !important;
+}
+
+.lia-button-image-kudos-horizontal > .lia-button-image-kudos-give{
+width:100%;
+}
+.lia-button-image-kudos-wrapper{
+width: 85px;
+}
+
+.lia-button-image-kudos .kudos-link:before {
+    color: #fff;
+display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+padding: 0 !important;
+}
+.lia-button-image-kudos .kudos-link {
+    font-weight: normal;
+    display: block;
+    margin-left: 0;
+   font-size:16px;
+border-radius: 0px;   
+    line-height: inherit;
+padding:10px 12px;    
+color: #fff;
+}
+.lia-button-image-kudos-wrapper .lia-button-image-kudos-count {
+    border-left: 0 solid #747474;
+    margin-bottom: 6px;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 2px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.lia-button-image-kudos .kudos-count-link {
+    padding: 8px 16px;
+    line-height: 16px;
+    font-size: 15px;
+color:$brand-primary;
+}
+}
+&.lia-idea.lia-media-size-lg{
+.lia-menu-bar.top-block {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+}
+.lia-button-image-kudos-horizontal .kudos-link:hover, .lia-button-image-kudos-horizontal .kudos-link:focus{
+background:$btn-hover !important;
+}
+.MessageStatus.lia-status.lia-status-idea-investigating .lia-link-navigation {
+    background: #084893;
+    color: #fff;
+    padding: 2px 5px;
+}
+.MessageStatus.lia-status.lia-status-idea-backlog .lia-link-navigation{
+    background: #FF6600;
+}
+&.BlogConsolePage{
+.lia-button-wrapper .lia-button{
+margin-bottom:5px;
+    min-width:90px;
+}
+.lia-tabs-standard-wrapper .t-data-grid {
+    margin-left: 0;
+    margin-right: 0;
+}
+}
+&.BlogArticlePage .dropdownHover .lia-menu-dropdown-items{
+    z-index: 1040;
+}
+&.EditPage{
+.lia-quilt-layout-one-column-message > .lia-quilt-row-header{
+    padding: 10px 20px;
+}
+.lia-button-image-kudos-horizontal .kudos-link{
+font-size: 0;
+			background-color: $brand-primary;
+			border-color: $brand-primary;
+}
+.lia-quilt-column-footer-right .lia-quilt-column-alley-right {
+    display: flex;
+    float: right;
+    @include mobile {       
+	display: block;
+        float: initial;      
+    }
+}
+.lia-panel-message .lia-quilt-column-footer-right .lia-button{
+margin-left: 0.26em;
+}
+.lia-button-image-kudos .kudos-count-link {
+    color: #fff;
+}
+span.lia-button-image-kudos-label.lia-component-kudos-widget-kudos-count-label {
+    display: none;
+}
+.lia-button-image-kudos .kudos-link:before {
+    font-size: 25px;
+    padding: 4.8px 0;
+    vertical-align: middle;
+    color: #fff;
+}
+}
+.lia-quilt-row-top-header{
+.lia-button-wrapper.lia-button-wrapper-secondary.lia-button-wrapper-searchForm-action{
+display:none !important;
+}
+}
+.lia-quilt-spam-search-page{
+.lia-button-wrapper.lia-button-wrapper-secondary.lia-button-wrapper-searchForm-action{
+display:block;
+}
+.lia-button-wrapper-searchForm-action .lia-button-searchForm-action{
+width:30px;
+text-indent: -9999px;
+background-image: url(/html/assets/search_icon_white.svg);
+background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+}
+&.lia-media-size-xl{
+.lia-link-navigation.report-abuse-link{
+color:$brand-primary;
+}
+.lia-message-view-display:last-child {
+    border-bottom: 0;
+}
+.lia-component-tags-with-title-link .lia-message-tags-title-link{
+font-size:15px;
+}
+}
+&.EditPage{
+.lia-button-image-kudos .kudos-count-link {
+    padding: 12px 16px;    
+}
+.lia-button-image-kudos .kudos-link:before {    
+    padding: 6.8px 0 !important;    
+}
+.lia-button-image-kudos .kudos-link {    
+    padding: 0px 12px;
+    line-height: inherit;
+}
+}
+.lia-tabs-standard > .lia-tabs {
+   
+    font-size: 13px;
+}
+.lia-button-image-kudos.lia-button:hover{
+background:$btn-hover !important;
+}
+&.ViewProfilePage{
+h3{
+font-size: 15px;
+}
+.ModeratorControlsTaplet li{
+margin-bottom:0px;
+}
+.ModeratorControlsTaplet .lia-link-navigation {
+    border-bottom: 1px solid #eaeaea;
+}
+.MyStatisticsBeanDisplay + ul > li > a{
+font-size: 13px;
+}
+}
+.lia-message-tags-title-link{
+font-size:15px;
+color:$brand-primary;
+}
+.LabelsForArticle .label-link{
+padding: 5px 0;
+}
+&.lia-primary-rating-type-kudos .ContestPage .lia-menu-bar{
+float:right;
+margin-bottom: 5px;
+display: block;
+}
+.lia-panel-feedback-banner-note .lia-link-navigation{
+text-decoration: none;
+}
+.lia-panel-feedback-banner-note .lia-link-navigation:hover{
+text-decoration: underline;
+}
+&.BlogPage{
+.lia-button-image-kudos .kudos-count-link {
+    padding: 12px 16px;    
+}
+.lia-button-image-kudos .kudos-link:before {    
+    padding: 6.7px 0 !important;    
+}
+.lia-button-image-kudos .kudos-link {    
+    padding: 0px 12px;
+    line-height: inherit;
+}
+.lia-paging-full-wrapper.lia-paging-pager li.lia-paging-page-next span.lia-paging-page-link {
+display: initial;
+line-height: 30px;
+}
+.lia-paging-full-wrapper.lia-paging-pager .lia-paging-page-previous span.lia-paging-page-link{
+display: initial;
+line-height: 30px;
+}
+.lia-menu-bar.lia-menu-bar-bottom.lia-component-paging {
+    margin-top: 0;
+}
+}
+
+.lia-link-navigation.lia-link-disabled:hover{
+text-decoration: none;
+}
+&.IdeaPage.lia-media-size-xl .lia-menu-bar.top-block {
+    margin-top: 0px;    
+}
+&.IdeaExchangePage .lia-message-view-display .custom-social-share-menu {   
+    float: right;
+}
+.lia-quilt-column-alley-right{
+.lia-component-labels-widget-labels-list .label .label-count, .lia-component-ideas-widget-labels-sortable .label .label-count{
+right:0;
+}
+.UserName .login-bold, .lia-user-name span {
+    font-size: 15px;    
+}
+}
+.lia-content input[type=text]:focus, .lia-content select:focus, .lia-content textarea:focus, .lia-form-subject-input:focus, .lia-form-tiny-mce-editor-input:focus, .lia-form-type-text:focus, .lia-message-editor:focus, .mce-edit-area.mce-panel:focus, .mce-form .mce-textbox:focus, .lia-form-input-wrapper .lia-token-input-list:focus{
+ outline: 1px dashed #000;
+}
+.default-menu-option:focus, .default-menu-option:active:focus, .lia-common-dropdown-toggle:focus, .lia-common-dropdown-toggle:active:focus {
+     outline: 1px dashed #000 !important;
+    border: 1px dashed #fff !important;
+}
+.lia-button:focus, .lia-button:active:focus, .mce-foot button:focus, .mce-foot button:active:focus, .ui-dialog button:focus, .ui-dialog button:active:focus {
+    outline: 1px dashed #000 !important;
+    border: 1px dashed #fff !important;
+}
+.default-menu-option:active, .lia-common-dropdown-toggle, .lia-common-dropdown-toggle:active{
+    
+    border: 1px dashed transparent;
+}
+.lia-button, .lia-button:active, .mce-foot button, .mce-foot button:active, .ui-dialog button, .ui-dialog button:active {
+     border: 1px dashed transparent !important;
+}
+
+&.UserBadgesPage .lia-user-badge-display-card .lia-user-badge-name{
+font-size:15px;
+}
+.lia-link-navigation:hover {
+    text-decoration: underline;
+}
+
+.mce-menu-item .mce-text:hover, .mce-menu-item:hover .mce-text {
+    color: #333 !important;
+}
+.mce-menu-item:hover, .mce-menu-item.mce-selected, .mce-menu-item:focus, .mce-active{
+background:$user-drop-down-hover;
+color:#000 !important;
+}
+.mce-foot .mce-btn span, .mce-window-head .mce-title, .mce-window .mce-label{
+font-family: 'SegoeUI', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.mce-foot .mce-btn span:hover {
+    text-decoration: underline;
+}
+.mce-container .lia-mce-loader-feedback, .lia-ajax-loader-feedback, .lia-panel-feedback-banner-warning, .lia-panel-feedback-spam-warning, .lia-panel-feedback-inline-warning, .lia-panel-status-banner-note, .lia-quilt-column-feedback .lia-component-common-widget-page-information{
+color:#fff;
+background:$brand-warning;
+}
+&.lia-user-status-anonymous{
+#header-strip th:last-child {
+    display: none;
+}
+#header-strip th:nth-child(2) {
+    text-align: right;
+padding-right: 27px;
+}
+}
+.mce-title{
+font-family: 'SegoeUI', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.MessageEditorForm{
+.lia-link-navigation:hover {
+    text-decoration: underline;
+}
+.lia-tabs-active .lia-link-navigation.tab-link.lia-custom-event {
+    background-color: transparent !important;
+    border-color: #5D1F5D;
+    color: #000;
+    font-weight: normal !important;
+}
+}
+.message-body-editor .lia-form-tiny-mce-editor-input {   
+    margin-top: -2px;
+   
+}
+.dropdown-default-item a {
+    font-weight: normal;
+    color:$font-black-color;
+}
+.lia-link-navigation{
+border-radius: 0px;
+}
+.mce-container.mce-panel.mce-foot .mce-btn {
+    border: 0;
+    border-radius: 0px;
+}
+.lia-media-uploader-side-panel-add .lia-button-wrapper {
+    float: inherit !important;
+}
+
+.mce-container.mce-panel.mce-foot .mce-btn button{
+    border: 0;
+    border-radius: 0px;
+}
+.mce-foot .mce-primary button, .mce-primary{
+background-color: $brand-primary;
+border-color: $brand-primary;
+color:#fff;
+border-radius: 0px;
+}
+.mce-foot .mce-btn{
+border-radius: 0px;
+}
+.mce-foot .mce-btn span{
+color:#fff;
+}
+.lia-media-uploader-side-panel-formatting {    
+    min-height: 395px;
+  
+}
+.lia-form-vertical .lia-media-image-upload-contents .lia-button-wrapper .lia-button-image-upload{
+border:0px;
+}
+.lia-media-uploader-side-panel-add .lia-button-wrapper {
+    float: inherit;
+}
+.lia-media-image-upload-contents span.lia-button-wrapper.lia-button-wrapper-secondary.lia-button-wrapper-lg {
+    float: inherit !important;
+}
+&.ForumPage{
+.message-subject .lia-link-navigation{
+color:$board-list-color;
+}
+
+.custom-widget-boards-browser-list .DateTime span{
+font-size:14px;
+}
+li.lia-paging-page-ellipsis .lia-link-disabled {
+    border: 0px !important;
+}
+}
+&.ForumTopicPage{
+.DateTime{
+font-size:14px;
+}
+.label-link{
+font-size:13px;
+}
+.lia-menu-bar-bottom.bottom-block .lia-paging-page-arrow{
+display:inline;
+.lia-link-navigation:hover{
+    text-decoration: none !important;
+}
+.lia-paging-page-link:hover{
+text-decoration: underline;
+}
+}
+}
+.lia-quilt-column-alley-right .lia-panel .label .label-count, .lia-quilt-column-alley-right .lia-panel .label .label-count, .lia-quilt-column-alley-right .lia-link-navigation.user-tag-count-link{
+font-size:15px;
+}
+.lia-quilt-column-alley-left .FilteredByLabelName {   
+    display: inline-block;
+    width: 100%;
+}
+.lia-panel .message-subject .lia-link-navigation {
+    font-size: 15px;
+    font-family: 'SegoeUI-Semibold';
+}
+/* This code is written by iTalent as part of iTrack BIZCM-862 */ 
+/* .lia-panel .message-subject .lia-message-read .lia-link-navigation {
+    font-family: 'SegoeUI';
+} */
+/* css code end as part of iTarck BIZCM-862 */
+&.IdeaExchangePage{
+.MenuBarIdeas{
+float:right;
+margin-bottom: 7px !important;
+}
+.custom-idea-list{
+display: inline-block;
+}
+.FilteredByMessageStatus{
+display: inline-block;
+width:100%;
+}
+}
+
+&.IdeaPage{
+.lia-menu-bar.top-block{
+margin-top:0px;
+margin-bottom: 5px;
+.lia-decoration-border-menu-bar-content{
+float:right;
+}
+}
+} 
+
+.lia-token-input-token p{
+margin-top:0;
+}
+.lia-quilt-spam-search-page{
+.lia-spam-message-row-main h2{
+font-size:15px;
+margin-bottom:5px;
+}
+select{
+border-radius: 0;
+}
+.lia-spam-view-message{
+margin-bottom:10px;
+}
+}
+&.EditPage{
+.lia-message-kudo-reply-metoo{
+.lia-button-image-kudos .kudos-link:before {
+    color: #fff;
+    font-weight: normal;
+}
+span.lia-button-image-kudos-label.lia-component-kudos-widget-kudos-count-label {
+    display: none !important;
+}
+.lia-button-image-kudos .kudos-count-link{
+ color: #fff;
+}
+}
+}
+&.BlogArticlePage{
+.lia-button{
+margin-left:5px;
+}
+.lia-menu-bar.top-block{
+.lia-decoration-border-menu-bar{
+float: right;
+}
+}
+.lia-menu-bar {
+    margin-bottom: 5px;
+}
+.lia-component-article, .lia-component-articles {
+    margin-top: 10px;
+}
+}
+&.TagViewPage{
+.lia-menu-bar.top-block.lia-component-menu-bar{
+.lia-menu-bar-buttons{
+float:right;
+}
+}
+}
+.lia-top-quilt > .lia-quilt-row-main > .lia-quilt-column-single > .lia-quilt-column-alley {
+    padding-top: 0;
+}
+.lia-menu-dropdown-items > li > a:hover{
+background-color: $user-drop-down-hover;
+}
+&.RecentPostsPage{
+.lia-menu-bar-top .lia-paging-full-wrapper{
+display:none;
+}
+.lia-menu-bar {
+    margin-bottom: 5px;
+}
+.lia-menu-bar-buttons{
+float:right;
+}
+}
+&.TkbPage .lia-quilt-column-alley-right .lia-component-tkb-widget-top-contributors-taplet .lia-panel-content{
+padding:16px 0px 16px 16px;
+}
+&.KudosLeaderboardPage, &.KudosMessagePage {
+.lia-tabs-sort .lia-link-disabled, 
+.lia-tabs-sort .lia-link-disabled:hover, .lia-tabs-sort:not(.lia-tabs-vertical) > li > a:hover {
+  background-color: $btn-hover;
+		border-color: $btn-hover;
+		color: $li-text-color-inverse;
+		font-weight: normal;
+    border-radius: 0;
+}
+.lia-tabs-sort li {
+    margin-bottom: 0 !important;
+}
+}
+.DateTime {
+    font-size: 14px;
+}
+&.TkbPage .lia-paging-page-previous.lia-component-previous .lia-link-navigation {   
+padding:3px 5px;
+}
+&.TkbPage .lia-paging-page-next.lia-component-next .lia-link-navigation{
+padding-top: 5px;
+padding:6px 5px;
+}
+&.ForumsFilteredByLabelPage{
+.lia-paging-full-wrapper.lia-paging-pager{
+margin-top:10px;
+}
+.lia-menu-bar-top .lia-paging-full-wrapper.lia-paging-pager{
+display:none;
+}
+
+.lia-menu-bar {
+    margin-bottom: 0;
+}
+.lia-menu-bar-buttons{
+float:right;
+}
+}
+}
+#lia-body.lia-user-status-anonymous {
+	.custom-branding-line-right {
+		.custom-user-menu,
+		.custom-goto-menu .default-menu-option {
+			font-size: 13px !important;
+		}
+		.custom-goto-menu .default-menu-option {
+			padding-top: 0;
+			position: relative;
+			top: 7px;		
+		}
+	}
+}
+
+/* pagination css Start*/
+#lia-body{
+
+.lia-tabs-active{
+.lia-link-navigation.tab-link.lia-custom-event{
+background-color: $brand-primary !important;
+		border-color:$brand-primary;
+		color: $li-text-color-inverse;
+		font-weight: normal !important;
+}
+}
+&.TagDetailPage .lia-page-header {
+    width: 1170px;
+    margin: 0 auto;
+   @include desktop  {
+		   width: 100%;
+		   padding: 0 50px;		  
+		 }
+		  @include mobile  {       
+		   padding: 0 20px;      
+		 }
+}
+&.PostPage .lia-remove-new-attachment, &.ReplyPage .lia-remove-new-attachment, &.EditPage .lia-remove-new-attachment, &.CrmSupportCasePage .lia-remove-new-attachment{
+display: inline;
+}
+.lia-quilt-column-feedback .lia-component-common-widget-page-information{
+margin-top:5px;
+margin-bottom:5px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #666;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #666;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #666;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #666;
+}
+.pug-announcement-panel-header .lia-menu-bar-buttons .lia-menu-navigation-wrapper .lia-js-menu-opener.default-menu-option {
+    margin-bottom: 5px;
+}
+.lia-button-wrapper .lia-button.lia-button-primary.remove-role-link {
+    background: transparent;
+}
+li.lia-paging-page-next.lia-component-next .lia-paging-page-arrow:before {
+    content: "\E76C";
+    font-family: "segoeMDL2Assests";
+    font-size: 13px;   
+    vertical-align: inherit;
+    position: relative;
+    line-height: 20px;
+}
+li.lia-paging-page-next.lia-component-next .lia-paging-page-arrow {
+    font-size: 0px;
+}
+li.lia-paging-page-next.lia-component-next span.lia-link-navigation.lia-link-disabled {
+    border: 0px;
+}
+li.lia-paging-page-previous.lia-component-previous span.lia-link-navigation.lia-link-disabled {
+    border: 0px;
+}
+li.lia-paging-page-previous.lia-component-previous .lia-paging-page-arrow:before{
+ content: "\E76B";
+    font-family: "segoeMDL2Assests";
+    font-size: 13px;   
+    vertical-align: inherit;
+    position: relative;
+    line-height: 20px;
+}
+li.lia-paging-page-previous.lia-component-previous .lia-paging-page-arrow {
+    font-size: 0px;
+}
+.lia-button-wrapper .lia-button.lia-button-primary.remove-role-link:hover {
+    background: transparent;
+    color:#000;
+}
+.lia-message-view-forum-message.lia-message-view-display .lia-quilt-row-footer{
+background-color: transparent;
+}
+
+.lia-list-wide tbody > tr > td {
+    border-top: 1px solid $divider-border;
+    vertical-align: middle;
+}
+.lia-menu-bar.lia-menu-bar-bottom.lia-component-paging{
+margin-top:20px;
+}
+.lia-paging-full-pages .lia-link-navigation {   
+    padding-left: 16px;    
+    padding-right: 16px;
+}
+.lia-paging-full-wrapper .lia-paging-full {
+.lia-link-navigation{
+font-size:13px;
+}
+}
+.lia-paging-full-wrapper.lia-paging-pager{
+li .lia-link-navigation.lia-link-disabled {
+    border: 1px solid $brand-primary;
+}
+.lia-component-previous a {
+    padding-right: 0;
+}
+.lia-component-next a {
+    padding-left: 0;
+padding-right: 0;
+}
+.lia-paging-full-pages > .lia-paging-page-last > .lia-link-navigation {
+    border-radius: 0;
+    margin-right: 0;
+}
+.lia-paging-full-pages > .lia-paging-page-first > .lia-link-navigation {
+    border-radius: 0;
+    margin-left: 0;
+}
+li.lia-paging-page-next span.lia-paging-page-link {
+    display: none ;
+}
+.lia-paging-page-previous span.lia-paging-page-link {
+    display: none;
+}
+li.lia-paging-page-previous span.lia-link-navigation.lia-link-disabled {
+    border: 0px;
+    span{
+    display:none;
+    }
+
+}
+.lia-link-navigation{
+    font-weight:normal;
+    padding-left: 16px;    
+    padding-right: 16px;
+font-size: 18px;
+color: #2b2b2b;
+line-height: inherit;
+}
+}
+
+}
+
+
+ 
+/* pagination css End*/
+.user-navigation-settings-drop-down-inner > .lia-list-standard > li > a:hover, .user-navigation-settings-drop-down-inner > .lia-list-standard > li > a:focus{
+background-color: $user-drop-down-hover;
+}
+.lia-form-vertical .lia-button-group .lia-button-wrapper {
+    float: left;
+}
+#lia-body{
+
+ &.ViewProfilePage legend.lia-fieldset-title{
+display:none;
+  }
+.lia-button-image-kudos .kudos-link.lia-link-disabled:before {
+    color: #767676 !important;
+}
+.lia-button-image-kudos .kudos-link.lia-link-disabled {    
+    opacity: 0.6;
+    filter: alpha(opacity=30);
+    .kudos-link:before {
+    color: #000 !important;
+    }   
+}
+.lia-count-pager-page-next > .lia-link-navigation:after, .lia-paging-page-next > .lia-link-navigation:after, .lia-count-pager-page-previous > .lia-link-navigation:before, .lia-paging-page-previous > .lia-link-navigation:before{
+display:none;
+}
+.lia-message-view-forum-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-group-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-group-topic-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-blog-topic-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-blog-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-blog-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-idea-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-contest-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-tkb-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-media-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-reviews-message.lia-message-view-display .lia-quilt-row-footer{
+background-color: transparent;
+}
+}
+
+#lia-body .lia-content a.lia-link-navigation:hover {
+  text-decoration: underline;
+}
+#lia-body .lia-content input[type="button"], 
+#lia-body .lia-content input[type="submit"], 
+#lia-body .lia-content .lia-button.lia-button.lia-button, 
+#lia-body .lia-content .lia-button.lia-button.lia-button.lia-link-disabled:hover, 
+#lia-body .lia-content .lia-form-vertical .lia-form-search-query-entry .lia-button.lia-button {
+  color:$li-text-color-inverse;
+  background-color: $brand-primary;
+  border-radius:0;
+}
+#lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button-image-kudos-horizontal.lia-button-image-kudos-enabled .lia-button-image-kudos-give a:hover,
+#lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button-image-kudos-horizontal .lia-button-image-kudos-give .kudos-link {
+  background: $brand-primary url("/html/assets/button_kudos_v2_h_hover.svg") no-repeat 15px center;
+  background-size: 16px 16px;
+  border-radius:0;
+}
+#lia-body .lia-content .lia-button.lia-button.lia-button:active {
+  color: $li-text-color-inverse;
+  background-color:$btn-hover;
+  border-radius:0;
+}
+
+#lia-body .lia-content .lia-message-actions .lia-button.lia-button:hover,
+#lia-body .lia-content .lia-message-actions .lia-button.lia-button:focus,  
+#lia-body .lia-content .lia-message-actions-secondary .lia-button.lia-button:hover {
+  background-color:$brand-primary;
+  color: $li-text-color-inverse;
+
+}
+#lia-body .lia-content .lia-message-actions .lia-button.lia-button:hover,
+#lia-body .lia-content .lia-message-actions .lia-button.lia-button:focus, 
+#lia-body .lia-content .lia-message-actions-secondary .lia-button.lia-button:active {
+  background-color:$btn-hover;
+  color: $li-text-color-inverse;
+  
+}
+#lia-body .lia-content .button-featured:hover {
+    background-color: $btn-hover;
+}
+#lia-body .lia-content .lia-button.lia-button.lia-button:hover, #lia-body .lia-content .lia-button.lia-button.lia-button:focus { 
+  background-color: $btn-hover;
+
+}
+#lia-body .lia-content .lia-message-actions .lia-button.lia-button, 
+#lia-body .lia-content .lia-message-actions-secondary .lia-button.lia-button {
+  background-color:$btn-hover;  
+}
+#lia-body .lia-content .button-featured:hover,  {
+    background-color: $btn-hover;
+    
+}
+ #customLabelSel.custom-idea-labels.active:hover {
+           background:$btn-hover;
+        }
+
+
+
+
+#lia-body{
+.lia-button-Cancel-action.lia-button-Cancel-action{
+
+font-size:13px;
+}
+}
+/* placeholders */
+
+input[type="text"]:focus, select:focus, textarea:focus {
+    border-color: $brand-primary;
+ 
+}
+#lia-body.ForumTopicPage .lia-message-kudo-reply-metoo .lia-button-image-kudos-horizontal .kudos-link{
+font-size:0px;
+}
+#lia-body.ForumTopicPage .lia-button-image-kudos .kudos-link:before{
+font-size:24px;
+vertical-align: middle;
+padding: 4.8px 0;
+}
+#lia-body {
+.lia-button-image-kudos .kudos-count-link{
+padding:12.5px 16px;
+line-height: 16px;
+font-size: 15px;
+}
+.lia-message-quick-reply .lia-button-Cancel-action{
+font-weight: normal;
+padding:12.5px 12px;
+line-height: 15px;
+    font-size: 13px;
+}
+.lia-message-view-forum-message .lia-menu-navigation-wrapper{
+    right: -8px;
+    top: -35px;
+
+}
+.lia-panel-message .lia-quilt-column-footer-right .lia-button, .lia-message-view-forum-message .lia-quilt-column-footer-right .lia-button{
+float:left;
+}
+.lia-button-image-kudos.lia-button-image-kudos-horizontal.lia-button-image-kudos-disabled.lia-button-image-kudos-not-kudoed.lia-button
+{
+background-color: #c2c2c2;
+}
+
+.lia-quilt-column.lia-quilt-column-10.lia-quilt-column-right.lia-quilt-column-footer-right {
+
+.lia-button-image-kudos-horizontal > .lia-button-image-kudos-give{
+float: left;
+}
+}
+}
+
+#lia-body .lia-content .lia-quilt-row-footer .lia-button.lia-button.lia-button{
+margin-bottom:5px;
+}
+#lia-body .lia-content .lia-message-kudo-reply-metoo {
+.lia-button-image-kudos-horizontal .kudos-link{
+ background-color: $brand-primary;
+    border-color: $brand-primary;
+ color: $li-text-color-inverse;
+    font-weight: normal;
+}
+.lia-button-image-kudos .kudos-link:after, .lia-button-image-kudos .kudos-link:before {
+   color: $li-text-color-inverse;
+    font-weight: normal;
+}
+.lia-button-image-kudos .kudos-count-link {
+    color: $li-text-color-inverse;
+    font-weight: normal;
+}
+}
+#lia-body .lia-content .lia-button-image-kudos-wrapper .lia-button.lia-button.lia-button{
+.lia-button-image-kudos .kudos-count-link{
+color:#fff;
+
+}
+
+}
+.lia-body{
+ .lia-form-vertical .lia-button-group .lia-button-wrapper, .TkbArticlePage .lia-quilt-tkb-message .lia-quilt-column-footer-left .lia-button-wrapper, .TkbArticlePage .lia-quilt-tkb-message .lia-quilt-column-footer-right .lia-button-wrapper {   
+    padding-left: 5px;
+    
+}
+.lia-button-image-kudos.lia-button{
+background:#333333 !important;
+}
+.lia-panel-message .lia-button-secondary {
+    color: $li-text-color-inverse;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+}
+.lia-button-image-kudos .kudos-link{
+border-radius:0px;
+padding: 3px 12px;
+line-height:inherit;
+}
+
+
+.lia-button-image-kudos-horizontal .kudos-link{
+color: $brand-primary;
+}
+  .lia-button{
+   border-radius: 0px;
+   font-weight: normal;
+   }
+  .lia-button-wrapper .lia-button, .lia-button-wrapper .mce-foot button, .lia-button-wrapper 
+  .ui-dialog button {
+    min-width: 88px;
+}
+.lia-button {
+padding: 12.5px 25px;
+line-height: 15px;
+font-size: 13px;
+font-family: 'SegoeUI-Semibold';
+@include mobile {       
+padding: 12.5px 16px;    
+}
+}
+}
+%lia-button {
+    border-radius: 0px;
+    border: 0;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;   
+    padding: 3px 25px;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:hover,
+    &:active:focus,
+    &.active {
+        text-decoration: none;
+    }
+}
+
+%primary-button {
+    background-color: $btn-primary-bg;
+    border: 1px solid $btn-primary-border;
+    color: $li-text-color-inverse;
+}
+
+%secondary-button {
+    background-color: $btn-secondary-bg;
+    border: 1px solid $btn-secondary-border;
+    color: $li-text-color-inverse;
+	&:focus {
+        background-color: $btn-secondary-bg;
+    }
+	&:hover,&:active {
+        background-color: $btn-inverse-secondary-bg;
+        border: 1px solid $btn-inverse-secondary-border;
+        color: $btn-inverse-secondary-color;
+        text-decoration: none;
+        
+     }
+    
+	&:before {
+		color: inherit;
+	}
+    
+	&.lia-button-searchForm-action,
+	&.lia-button-SearchPageForm-action {
+		background-color: transparent;
+		border: 0;
+		border-color: transparent;
+	}
+}
+
+input[type=checkbox] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin: 0;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+
+input[type=checkbox]:after {
+    content: "";
+    color: #fff;
+    display: block;
+    visibility: visible;
+    border-radius: 2px;
+    height: 16px;
+    width: 16px;
+}
+
+input[type=checkbox]:checked:after {
+    content: "\2713";
+    background-color: $brand-primary;
+    height: 16px;
+    width: 14px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+#custom-subscribe-button {
+    &:before {
+        background-image: url('/html/assets/icon_follow.png');
+        background-position: center;
+        background-size: 16px;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        content:'';
+        padding: 8px;
+    }
+    &:hover{
+        &:before{
+            background-image: url('/html/assets/icon_follow_white.png');
+            background-position: center;
+            background-size: 16px;
+            background-repeat: no-repeat;
+            margin-right: 5px;
+            content:'';
+            padding: 8px;
+        }
+    }
+}
+
+#lia-body.IdeaPage, #lia-body.IdeaExchangePage{
+.lia-button-image-kudos .kudos-count-link {
+    padding: 8px 16px;
+    line-height: 16px;
+    font-size: 15px;
+}
+.lia-button-image-kudos.lia-button {
+    background: #fff !important;
+}
+.lia-button-image-kudos .kudos-link {
+    border-radius: 0px;
+    padding: 10px 12px;
+    line-height: inherit;
+}
+}
+#lia-body{
+.lia-button-wrapper .lia-button.lia-button-primary.remove-role-link {
+    background: transparent;
+}
+.lia-button-wrapper .lia-button.lia-button-primary.remove-role-link:hover {
+    background: transparent;
+    color:#000;
+}
+.lia-button-primary.lia-button-primary.remove-role-link:hover:before {
+    color: #000;
+}
+}
+#lia-body {
+ 
+ .lia-button-wrapper-Cancel-action {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+   #lia-body.ForumTopicPage .lia-message-quick-reply {    
+    width: 320px !important;
+}
+ #lia-body .lia-top-quilt > .lia-quilt-row-header .lia-quilt-row-top-header .lia-search-form-wrapper
+{
+float:right;
+}
+}
+@media only screen and (max-width: 800px) {
+#lia-body{
+.lia-message-view-idea-message.lia-message-view-idea-message .lia-button-image-kudos-wrapper, .lia-idea.EditPage .lia-component-ideas-widget-idea-message-view .lia-button-image-kudos-wrapper {
+    margin-left: 0;
+ 
+}
+}
+}
+@media only screen and (max-width: 640px) {
+#lia-body.EditPage .lia-quilt-column.lia-quilt-column-06.lia-quilt-column-right.lia-quilt-column-right-content{
+display: inline-block;
+margin-top: 10px;
+}
+#lia-body.EditPage .lia-button-group.lia-component-comment-button{
+    margin-top: 5px;
+}
+#lia-body .lia-panel .lia-panel-heading-bar-title{
+word-wrap: inherit;
+word-break: initial;
+}
+#lia-body.TkbDashboardPage .lia-quilt.lia-quilt-tkb-message-main.lia-quilt-layout-two-column-18-6.lia-component-quilt-tkb-message-main .lia-quilt-column.lia-quilt-column-06.lia-quilt-column-right.lia-quilt-column-right-content{
+display: inline-block;
+    margin-top: 10px;
+}
+#lia-body.EditPage .lia-content .lia-quilt-blog-topic-message > .lia-quilt-row-header > .lia-quilt-column-header-left{
+width: calc(100% - (38px + 10px)) !important;
+}
+#lia-body.ForumTopicPage .lia-quilt-row-footer .lia-quilt-column-footer-right .lia-quilt-column-alley-right {
+    display: block;
+    float: right;   
+}
+#lia-body .lia-menu-bar.top-block {
+    margin-top: 0 !important;
+   
+}
+.lia-top-quilt > .lia-quilt-row-main .panel-main-title{
+display: inline-block;
+    width: 100%;
+}
+#lia-body.IdeaExchangePage .lia-tabs-standard-wrapper, #lia-body.IdeaPage .lia-tabs-standard-wrapper{
+#customLabelSel, #customStatusSel {
+    margin-top:0px !important;
+    float: left;
+    position: relative;
+    right:0px;
+    margin-bottom:10px;
+}
+.lia-tabs .lia-menu-dropdown-items .lia-custom-event {
+    width: 100%;   
+}
+.lia-tabs .lia-menu-dropdown-items{
+padding:0px;
+}
+.lia-tabs.lia-tabs-inactive.lia-tab-overflow{
+float: left;
+width: 60%;
+}
+#lia-body .lia-tabs-standard > .lia-tabs {   
+    float: left;
+}
+#customLabelSel {    
+    width: 140px;    
+}
+.lia-tabs-standard {
+    display: block;
+}
+}
+}
+@include mobile {       
+#lia-body .lia-button-image-kudos .kudos-link {  
+    padding: 3px 9px;
+    
+}
+#lia-body.IdeaExchangePage .lia-tabs-standard-wrapper, #lia-body.IdeaPage .lia-tabs-standard-wrapper{
+.lia-tabs.lia-tabs-inactive.lia-tab-overflow{
+float: left;
+width: 50%;
+}
+}		       
+}

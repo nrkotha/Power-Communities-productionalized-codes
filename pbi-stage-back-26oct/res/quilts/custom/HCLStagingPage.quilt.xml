@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="SampleLayout_HCL_Test" nestable="true">
+  <add to="col_4">
+    <component id="subscriptions.widget.featured-threads"/>
+    <component id="uservoice_ideas"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="community.widget.admin-links"/>
+  </add>
+  <add to="col_3">
+    <component id="forums.widget.users-online"/>
+    <component id="forums.widget.recent-threads"/>
+    <component id="tags.widget.tag-cloud"/>
+  </add>
+  <add to="Header">
+    <component id="quilt:Header"/>
+    <component id="common.widget.welcome"/>
+    <component id="common.widget.search-bar"/>
+  </add>
+  <add to="col_2">
+    <component id="forums.widget.recent-messages"/>
+  </add>
+  <add to="col_1_1">
+    <component id="PBI_Community"/>
+  </add>
+  <add to="col_1">
+    <component id="forums.widget.board-browser-list"/>
+    <component id="labels.widget.labels-list"/>
+  </add>
+  <add to="col_2_1">
+    <component id="PBI_Events"/>
+  </add>
+  <add to="col_1_2">
+    <component id="PBI_Forums"/>
+  </add>
+  <add to="col_3_1">
+    <component id="PBI_Contests"/>
+  </add>
+  <add to="col_2_2">
+    <component id="PBI_UserGroups"/>
+  </add>
+  <add to="col_1_3">
+    <component id="PBI_CommunityBlog"/>
+  </add>
+  <add to="col_3_2">
+    <component id="PBI_Private_Staging"/>
+  </add>
+  <add to="col_2_3">
+    <component id="PBI_Specialty"/>
+  </add>
+  <add to="col_1_4">
+    <component id="PBI_LatestTopics"/>
+  </add>
+  <add to="Footer">
+    <component id="HCL_CSS_File"/>
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="col_3_3">
+    <component id="PBI_Private_Exec_Connect"/>
+  </add>
+  <add to="col_2_4">
+    <component id="PBI_TopIdeas"/>
+  </add>
+  <add to="col_3_4">
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="PBI_TopKudoedAuthors"/>
+    <component id="community.widget.admin-links"/>
+    <component id="forums.widget.recent-threads"/>
+    <component id="forums.widget.recent-messages"/>
+  </add>
+  <remove from="breadcrumb" for="Header">
+    <component id="common.widget.breadcrumb"/>
+  </remove>
+</quilt>

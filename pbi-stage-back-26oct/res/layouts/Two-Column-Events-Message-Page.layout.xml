@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="event-header">
+    <column id="event-common-header" width="24"/>
+  </row>
+  <row id="event-main-header">
+    <column id="event-custom-left" width="18"/>
+    <column id="event-custom-right" width="6"/>
+  </row>
+  <row id="event-banner">
+    <column id="event-banner" width="24"/>
+  </row>
+  <row id="main-content">
+    <column id="event-main-content" width="24"/>
+  </row>
+  <row id="main">
+    <column id="event-left-content" width="17"/>
+    <column id="event-side-content" width="7"/>
+  </row>
+  <row id="event-footer">
+    <column id="event-common-footer" width="24"/>
+  </row>
+</layout>

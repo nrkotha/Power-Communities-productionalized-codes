@@ -1,0 +1,65 @@
+// Contents copied from: theme_base/sass/common/_labels.scss
+
+#lia-body {
+.lia-user-badge-list .lia-badge-list .lia-user-badge-display img {   
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+&.EditPage .lia-message-view-display:last-child {
+    border-bottom: 0;
+}
+&.TkbArticlePage .lia-quilt-tkb-article-page .custom-message-view-header{
+float:right;
+display: inline-block;
+}
+  .label {
+     padding: 7px 0;
+     margin: 0;
+  }
+  .LabelsTaplet .lia-panel-content{
+  padding:16px; 
+  .label-link{
+   padding-bottom: 0px;
+    padding-left: 0;    
+    padding-top: 0;
+   }  
+   }
+  .label-link {
+     background-color: transparent;
+     color: $brand-primary;
+     font-size: $font-size-normal; 
+     font-weight: normal;
+     &:hover {
+      text-decoration: underline;
+     }
+   }
+}
+#lia-body {
+.lia-message-view-display .lia-component-labels{
+margin-top: 0;
+.article-labels-title {
+    display: block;
+    float: left;
+}
+
+.label {
+    padding: 0px 5px;
+    margin: 0;
+ 
+}
+}
+.lia-quilt-row-footer 
+{
+.MessageTags.lia-component-tags-with-title-link{
+label{
+float:left;
+}
+}
+.LabelsForArticle .label-link {   
+    padding: 0px 0px 0 0;
+margin-right:0px;
+}
+}
+}

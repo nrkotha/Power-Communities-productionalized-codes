@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="2017_siteredesignnewstyles" feature="custom.microsoft.microsoftbi">
+  <model/>
+  <view type="freemarker" contenttype="text/css" macro="false"/>
+  <controller id="basic" path="/2017_siteredesignnewstyles"/>
+</endpoint>

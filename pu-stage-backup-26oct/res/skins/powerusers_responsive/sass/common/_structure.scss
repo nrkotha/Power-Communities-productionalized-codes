@@ -1,0 +1,104 @@
+// Contents copied from: base_theme/sass/common/_structure.scss
+/* common: structure */
+body {
+    -webkit-font-smoothing: antialiased;
+    background: inherit !important; //Sorry, but to fix the issue from the external css for footer casing this issue
+    font-weight: $theme-type-weight-base;
+}
+
+.lia-page {
+    overflow-x: hidden;
+}
+
+.lia-content {
+    & > .lia-top-quilt {
+        & > .lia-quilt-row:not(.lia-quilt-row-header):not(.lia-quilt-row-stories) {
+            @extend %responsive-fixed-width;
+            padding-left: $theme-grid-gutter-side/2;
+            padding-right: $theme-grid-gutter-side/2;
+            @media (min-width: $screen-sm-min) {
+                padding-left: $theme-grid-gutter-side;
+                padding-right: $theme-grid-gutter-side;
+            }
+
+            & > .lia-quilt-column {
+				//code here
+            }
+        }
+
+        .lia-quilt-row-engagement-row {
+            & > .lia-quilt-column {
+                @extend %responsive-fixed-width;
+                padding: 0 $theme-grid-gutter-side/2;
+				@media (min-width: $screen-sm-min) {
+					padding: 0 $theme-grid-gutter-side;
+		      	}
+
+                > .lia-quilt-column-alley-single {
+                    margin: 0;
+                    width: 100%;
+                }
+            }
+        }
+
+        .lia-quilt-row-header {
+            .lia-quilt-column-common-header > .lia-quilt-column-alley-single > .lia-page-header {
+                @extend %responsive-fixed-width;
+                padding: 0 $theme-grid-gutter-side/2;
+                @media (min-width: $screen-sm-min) {
+                    padding: 0 $theme-grid-gutter-side;
+                }
+            }
+
+            .lia-quilt-header  {
+                & > .lia-quilt-row.lia-quilt-row-main-header {
+                	@include media(phone) {
+                        @include align-items(center);
+                        @include flexbox;
+                        padding: 0;
+                    }
+
+                    & > .lia-quilt-column {
+                        //code here
+                    }
+                }
+            }
+        }
+
+        .category-browser-container {
+            @extend %responsive-fixed-width;
+            padding: 0 $theme-grid-gutter-side/2;
+            @media (min-width: $screen-sm-min) {
+                padding: 0 $theme-grid-gutter-side;
+            }
+        }
+
+        & > .lia-quilt-row-stories {
+            background-color: $theme-color-background-secondary;
+
+            & > .lia-quilt-column {
+                @extend %responsive-fixed-width;
+                padding: 0 $theme-grid-gutter-side/2;
+                @media (min-width: $screen-sm-min) {
+                    padding: 0 $theme-grid-gutter-side;
+                }
+            }
+        }
+
+        & > .lia-quilt-row.lia-quilt-row-main {
+			> .lia-quilt-column,
+			> .lia-quilt-column-single {
+				&:first-child {
+					padding-left: 0;
+				}
+				&:last-child {
+					padding-right: 0;
+				}
+			}
+		}
+    }
+    //Specific to home page
+    & > .lia-quilt-community-page > .lia-quilt-row-header { 
+        margin-bottom: 50px;
+    }
+}

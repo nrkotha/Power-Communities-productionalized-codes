@@ -1,0 +1,28 @@
+// Contents copied from: theme_base/sass/component/_search.scss
+.SearchPage {
+    .lia-message-view-display .lia-message-item-metadata-side .lia-message-post-date {
+        &:before {
+            font-family: fontawesome;
+            content: "\f133";
+            color: $text-color;
+            margin-right: 5px;
+        }
+        &:after {
+            content: "";
+            width: 0;
+        }
+    }
+    .lia-component-search-results {
+        margin-bottom: 20px;
+        @include box-shadow(0 -1px 1px 0 rgba(0,0,0,0.02), 0 1px 2px 0 rgba(0,0,0,0.16));
+        .lia-message-view-wrapper {
+            border-bottom: 1px solid $theme-color-grey-border;;
+        }
+    }
+}
+
+/* search autosuggest */
+.lia-component-search-action-autocomplete-post-message {
+    margin: ($theme-space-small + $theme-space-xsmall) 0;
+    white-space: normal;
+}

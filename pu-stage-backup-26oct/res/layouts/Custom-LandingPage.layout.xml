@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="header">
+    <column id="common-header" width="24"/>
+  </row>
+  <row id="top">
+    <column id="content-top" width="24"/>
+  </row>
+  <row id="middle">
+    <column id="content-middle" width="24"/>
+  </row>
+  <row id="bottom">
+    <column id="content-bottom" width="24"/>
+  </row>
+  <row id="lounge-header">
+    <column id="lounge-hero" width="24"/>
+  </row>
+  <row id="lounge">
+    <column id="lounge-one" width="12"/>
+    <column id="lounge-two" width="12"/>
+  </row>
+  <row id="footer">
+    <column id="common-footer" width="24"/>
+  </row>
+</layout>

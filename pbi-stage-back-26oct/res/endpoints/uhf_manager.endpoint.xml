@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="uhf_manager" feature="custom.microsoft.microsoftbi">
+  <model/>
+  <view type="freemarker" contenttype="text/xml" macro="false"/>
+  <controller id="basic" path="/uhf_manager"/>
+</endpoint>

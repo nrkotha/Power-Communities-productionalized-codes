@@ -1,0 +1,1 @@
+${settings.name.get("layout.microsoftbi_header")}<@liaBody />${settings.name.get("layout.microsoftbi_footer")}

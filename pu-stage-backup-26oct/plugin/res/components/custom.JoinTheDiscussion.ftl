@@ -1,0 +1,1 @@
+<h2 class="panel-main-title">${text.format("custom.JoinTheDiscussion")}</h2>

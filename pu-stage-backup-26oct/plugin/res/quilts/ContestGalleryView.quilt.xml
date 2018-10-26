@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="contest-message" nestable="false" disableTopCssClass="false">
+  <add to="footer">
+    <component id="rating"/>
+    <component id="kudos"/>
+  </add>
+  <add to="main">
+    <component id="batch-processing"/>
+    <component id="media"/>
+    <component id="moderation"/>
+    <component id="content"/>
+  </add>
+</quilt>

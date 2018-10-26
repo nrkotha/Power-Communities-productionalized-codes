@@ -1,0 +1,63 @@
+// Contents copied from: theme_base/sass/page/_blog.scss
+//Blog Article Page
+.BlogArticlePage {
+	.lia-component-common-widget-page-title .lia-link-navigation {
+		color: $text-color;
+		font-size: $theme-type-size-xxxlarge + 6;
+		font-weight: 300;
+		line-height: $line-height-heading-medium;
+	}
+	.lia-component-comment-list .lia-panel-message {
+		&:last-child {
+			border: 0;
+		}
+	}
+	.lia-content .custom-related-blogs {
+		.lia-panel-content {
+			padding-bottom: $theme-space-small + $theme-space-xsmall;
+		}
+		.blogs-article-list {
+			padding: 0;
+		}
+		.custom-blog-message {
+			margin: 0;
+			padding: $theme-space-small + $theme-space-xsmall 0;
+			border-bottom: 1px solid $tp-gray-300;
+			.blog-image,
+			.story-stats {
+				display: none;
+			}
+			&:last-child {
+				border: 0;
+			}
+		}
+	}
+	.lia-discussion-page-sub-section-header {
+		padding: $theme-space-small + $theme-space-xsmall 0;
+	}
+}
+//Blog Page
+.BlogPage {
+	.lia-component-articles {
+		.lia-panel-message {
+			margin-bottom: 40px;
+		}
+	}
+	.lia-component-messages-widget-featured-threads{
+		margin-bottom: 50px;
+		.lia-featured-threads-header{
+			padding-top:0;
+			padding-bottom: 15px;
+		}
+	}
+	.lia-panel-message .MessageSubject .message-subject .page-link {
+		color: $theme-color-foreground;
+		font-weight: normal;
+	}
+	.lia-message-body-content img, 
+	.lia-message-body img {
+	    @media (min-width: $screen-sm-min) {
+	    	height: 333px;
+	    }
+	}
+}

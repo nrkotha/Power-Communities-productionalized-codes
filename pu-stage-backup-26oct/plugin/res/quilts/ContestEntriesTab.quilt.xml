@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="contest-entries" nestable="false" disableTopCssClass="false">
+  <add to="secondary-left-content">
+    <component id="custom.JoinTheDiscussion"/>
+    <component id="menu-bar-sort-pager"/>
+    <component id="menu-bar-post-pager" wrapper="lia-menu-bar"/>
+    <component id="community.widget.page-options" wrapper="lia-menu-bar"/>
+    <component id="menu-bar"/>
+    <component id="paging"/>
+    <component id="status" layout="horizontal"/>
+    <component id="label"/>
+    <component id="submissions"/>
+    <component id="paging"/>
+  </add>
+  <add to="secondary-right-content">
+    <component id="custom.HelpfulResources"/>
+    <component id="blogs.widget.latest-comments"/>
+    <component id="contests.widget.management"/>
+    <component id="blogs.widget.latest-articles"/>
+    <component id="contests.widget.labels"/>
+    <component id="contests.widget.statuses"/>
+    <component id="tags.widget.tag-cloud"/>
+    <component id="forums.widget.polls"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="kudos.widget.givers-leaderboard"/>
+  </add>
+</quilt>

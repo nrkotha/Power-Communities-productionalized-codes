@@ -1,0 +1,118 @@
+//Forum Topic Page
+#lia-body.ForumTopicPage .lia-content, 
+#lia-body.GroupMessagePage .lia-content {
+	.lia-panel-message {
+		margin-bottom: $theme-space-large + $theme-space-xsmall;
+
+		.lia-message-view-display {
+			border-bottom: 1px solid $theme-color-grey-border;
+			border-radius: 0;
+			margin-bottom: 0;
+			padding-bottom: $theme-space-large + $theme-space-xsmall;
+
+			&.lia-accepted-solution {
+				border-top: 2px solid $theme-color-solution-border;
+			    border-bottom: 2px solid $theme-color-solution-border;
+			    border-left: 0;
+			    border-radius: 0;
+			    border-right: 0;
+			    @include media(phone) {
+			    	padding: 20px 5px 30px;
+			    }
+			}
+			.lia-message-subject {
+				margin-bottom: $theme-space-small + 2;
+			}
+			span.lia-button-wrapper {
+				@include media(phone) {
+					display: inherit;
+					margin: 0;
+				}
+			}
+		}
+	}
+
+	.lia-component-thread-pager {
+		margin-bottom: 0;
+	}
+}
+#lia-body.ForumTopicPage .lia-content {
+	.lia-discussion-page-sub-section-header {
+		color: $text-color;
+		font-weight: $theme-type-weight-bold;
+	    margin: 0 0 $theme-space-large + $theme-space-xsmall;
+
+		&.lia-component-solution-count-conditional {
+			color: $theme-color-solution;
+
+			&:after {
+				content: "";
+			}
+			//@include li-icon-svg($tp-solution-check, $size: 30px, $color: $theme-color-solution);
+			&:before{
+				margin-right: $theme-space-xsmall;
+				vertical-align: middle;
+				width: auto;
+			}
+		}
+	}
+
+	.lia-thread-topic .lia-component-solution-link {
+		color: $lithium-blue;
+		font-weight: $theme-type-weight-bold;
+		margin-left: 0;
+	    clear: both;
+		//@include li-icon-svg($tp-solution-check, $size: 26px, $color: $theme-color-solution);
+		&:before{
+			margin-right: $theme-space-xsmall;
+			vertical-align: middle;
+			width: auto;
+		}
+	}
+
+	.lia-component-messages-widget-reply-inline-button {
+		//hide default button (needs to be more specific)
+		.lia-message-actions .lia-button-group .lia-button-wrapper-primary {
+			display: none;
+		}
+		//hide loading and style (needs to be more generic)
+		.lia-button-group{
+			.lia-loader {
+				display: none;
+				text-align: center;
+				margin-top: 15px;
+				color: white;
+				background: $lithium-blue;
+				padding: 10px 0;
+				border-radius: $border-radius-base;
+			}
+		}
+		//placeholder that appears on root message
+		.lia-placeholder-wrapper {
+			display: none !important;
+			//display: flex;
+			margin-top: 20px;
+			.lia-message-author-avatar {
+
+			}
+			.lia-inline-message-reply-prompt-wrapper{
+				margin-left: 20px;
+				width: 100%;
+			}
+		}
+	}
+}
+
+//Forum Page
+#lia-body.ForumPage {
+	.lia-content .page-controls {
+		float: none;
+	}
+	.lia-component-message-view-widget-tags {
+		clear: both;
+	}
+	.lia-component-forums-widget-message-list {
+		clear: both;
+	    padding-top: $theme-space-base;
+	}
+}

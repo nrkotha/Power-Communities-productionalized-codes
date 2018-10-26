@@ -1,0 +1,41 @@
+// Contents copied from: theme_base/sass/common/_dropdowns.scss
+
+#lia-body {
+        .lia-menu-bar-buttons .lia-menu-navigation-wrapper .lia-js-menu-opener.default-menu-option
+	{
+    padding:8.2px 22px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: normal;
+    border:0px;
+    border-radius: 0;
+    color: #000000;
+    font-family: $font-stack;
+         }
+.default-menu-option{
+ border-radius: 0;
+}
+.lia-menu-dropdown-items li {
+margin-bottom: 0;
+}
+}
+.lia-advanced-search-link {
+ padding: 3px 12px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*#lia-body {
+	.default-menu-option,
+	.default-menu-option:hover,
+	.default-menu-option:active,
+	.default-menu-option:focus {
+		@include li-icon-svg($li-svg-ellipsis-v, $color: $lithium-blue, $size: 25px, $hide-text: true);
+		//@include li-icon-svg($li-svg-ellipsis-v, $size: $font-size-h4, $line-height: $line-height-computed, $hide-text: true);
+		&:before {
+			width: 0;
+			background-size: 30px 30px;
+		}
+	}
+}
+*/

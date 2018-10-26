@@ -1,0 +1,48 @@
+// Contents copied from: theme_base/sass/custom/_top-users.scss
+.CommunityPage,
+.CategoryPage {
+	.lia-component-kudos-widget-authors-leaderboard {
+		padding-top: 40px;
+		background-color: $theme-color-solution-background;
+		.lia-decoration-border-content {
+			@extend %responsive-fixed-width;
+		}
+		.lia-panel-heading-bar-wrapper .lia-panel-heading-bar {
+			text-align: center;
+			background-color: transparent;
+			.lia-panel-heading-bar-title {
+				font-weight: 300;
+				font-size: 36px;
+				p.subtitle{
+					display: none;
+				}
+			}
+		}
+		.lia-panel-content {
+			padding-bottom: 40px;
+			.UserList .lia-list-row {
+				display: inline-block;
+				width: 25%;
+				border-top: none;
+				.lia-user-item .lia-user-attributes {
+					position: relative;
+					top: -14px;
+				}
+				.kudosCountColumn {
+					display: block;
+					position: relative;
+					left: 60px;
+					top: -50px;
+					color:#424242;
+					font-weight: 300;
+					&:before {
+						color:#b8b8b8;
+					}
+				}
+			}
+			.lia-view-all {
+				margin-top: 0;
+			}
+		}
+	}
+}

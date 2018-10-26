@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="header">
+    <column id="common-header" width="24"/>
+  </row>
+  <row id="2017sr_banner1">
+    <column id="2017sr_banner1" width="24"/>
+  </row>
+  <row id="2017sr_middle">
+    <column id="2017sr_middle_content" width="24"/>
+  </row>
+  <row id="2017sr_banner2">
+    <column id="2017sr_banner2" width="24"/>
+  </row>
+  <row id="main">
+    <column id="2017sr_main-content" width="24"/>
+  </row>
+  <row id="footer">
+    <column id="common-footer" width="24"/>
+  </row>
+</layout>

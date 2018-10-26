@@ -1,0 +1,193 @@
+// Contents copied from: theme_base/sass/page/_idea.scss
+//Idea Exchange Page
+//Temporary CSS written untill custom filter applied
+.IdeaExchangePage#lia-body .lia-content {
+    .lia-node-header-title {
+        color: $text-color;
+        font-size: $theme-type-size-xxxlarge + 6;
+        font-weight: 300;
+        line-height: 42px;
+    }
+    .lia-node-header-description {
+        color: $text-color;
+        font-size: $theme-type-size-large;
+        font-weight: $theme-type-weight-base;
+        line-height: 27px;
+    }
+    .lia-quilt-idea-message-item .lia-quilt-column-main-content {
+        padding-left: $theme-space-xlarge + $theme-space-small;
+        @include media(tablet-and-up) {
+            padding-right: $theme-space-xxlarge + $theme-space-medium + $theme-space-xsmall;
+        }
+    }
+    .lia-message-view-idea-message-item {
+        .lia-button-image-kudos-wrapper {
+            left: auto;
+            right: 0;
+            top: 30px;
+
+            @include media(phone) {
+                position: unset;
+            }
+        }
+        .message-subject {
+            .lia-link-navigation {
+                color: $text-color;
+                font-size: $theme-type-size-large;
+                line-height: 27px;
+                word-break: break-word;
+            }
+        }
+        .lia-byline-wrapper .lia-message-byline-author-date {
+            color: $lithium-light-gray;
+            font-size: $theme-type-size-small;
+            line-height: 21px;
+        }
+        .lia-message-author-avatar {
+            position: absolute;
+            left: 0;
+            top: 40px;
+        }
+        .lia-component-message-view-widget-tags {
+            margin-bottom: 0;
+
+            .lia-list-standard-inline > li {
+                &:first-child {
+                    display: none;
+                }
+            }
+            .lia-message-tags {
+                display: none;
+            }
+        }
+    }
+    .lia-button-image-kudos {
+        border: 0;
+        height: auto;
+        position: unset;
+        width: auto;
+
+        > div.lia-button-image-kudos-count {
+            position: unset;
+            border: 0;
+
+            .kudos-count-link {
+                color: $lithium-blue;
+                font-size: $theme-type-size-base;
+                font-weight: bold;
+                line-height: $theme-line-height-base;
+                padding: $theme-space-small + $theme-space-xsmall $theme-space-base + $theme-space-xsmall;
+            }
+            .lia-button-image-kudos-label {
+                font-size: 0;
+            }
+        }
+        > div.lia-button-image-kudos-give {
+            position: unset;
+            border: 0;
+
+            .kudos-link {
+                background-color: $lithium-blue;
+                border-radius: 4px;
+                border: 1px solid $lithium-blue;
+                height: 51.24px;
+                line-height: 22px;
+                padding: $theme-space-small + $theme-space-xsmall;
+                position: unset;
+                width: 59.91px;
+
+                &:before {
+                    color: $tp-white;
+                    font-size: $theme-type-size-xlarge;
+                }
+
+                &:hover:before {
+                    color: $lithium-blue
+                }
+
+                &:hover,
+                &:focus {
+                    background-color: $tp-white;
+                    border: 1px solid $lithium-blue;
+                }
+            }
+        }
+    }
+    .MenuBarIdeas {
+        margin-top: $theme-space-base;
+
+        .lia-component-primary-post-button,
+        .lia-component-menu-bar {
+            float: left;
+        }
+
+        .custom-subscribe-button {
+            float: right;
+        }
+    }
+    .lia-component-ideas-widget-completed-ideas .lia-message-content {
+        margin: 0;
+
+        .lia-link-navigation {
+            color: $lithium-dark-gray;
+        }
+    }
+}
+
+//Idea Status component
+#lia-body .lia-content .lia-component-ideas-widget-statuses .lia-status {
+    border-bottom: 1px solid $theme-color-grey-border;
+    margin-bottom: 0;
+    padding: $theme-space-small + 4 0;
+
+    &:first-child {
+        padding-top: 0;
+    }
+
+    .message-status-link {
+        border: 0;
+        color: $lithium-blue;
+        flex: inherit;
+        font-size: $theme-type-size-base;
+        line-height: 22px;
+        padding-left: 0;
+    }
+    .count {
+        border: 0;
+        color: $lithium-blue;
+        flex: inherit;
+        font-size: $theme-type-size-base;
+        line-height: 22px;
+    }
+}
+
+//Idea Page
+.IdeaPage {
+    .lia-component-ideas-widget-completed-ideas .lia-message-content {
+        margin: 0;
+
+        .lia-link-navigation {
+            color: $lithium-dark-gray;
+        }
+    }
+    .lia-message-view-idea-message.lia-message-view-idea-message .article-labels-title {
+        margin: $theme-space-xsmall + $theme-space-xxsmall 0;
+    }
+}
+
+//Completed Ideas
+.lia-component-ideas-widget-completed-ideas .MessageListTaplet .lia-panel-content .lia-list-standard {
+    margin: 0;
+
+    > li {
+        border-bottom: 1px solid $theme-color-grey-border;
+
+        &:first-child .lia-list-slim {
+            padding-top: 0;
+        }
+
+        .lia-list-slim {
+            padding-top: $theme-space-base;
+        }
+    }
+}

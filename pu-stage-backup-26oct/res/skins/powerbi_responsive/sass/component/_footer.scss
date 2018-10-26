@@ -1,0 +1,154 @@
+.custom-footer {
+	padding: 0;
+	border: none;
+	margin-top: 30px;
+}
+footer.lia-custom-footer {
+	padding: 30px 10px;
+	margin: 0;
+	background-color: $footer-bg;
+	width: 100%;
+
+	.lia-footer-top,
+	.lia-footer-bottom {
+		&:before,
+		&:after {
+			display: table;
+			content: "";
+		}
+		&:after {
+			clear: both;
+		}
+	}
+	.lia-footer-social {
+		float: right;
+		margin-right: 15px;
+
+		> a {
+			display: block;
+			float: left;
+			width: 40px;
+			height: 40px;
+			margin-left: 15px;
+			text-align: center;
+			background-color: $footer-text-color;
+			border-radius: 50%;
+			transform-origin: center center;
+			transition: transform 200ms;
+
+			> svg {
+				display: inline-block;
+				margin-top: 8px;
+				width: 24px;
+				height: 24px;
+				fill: $footer-bg;
+			}
+			&:first-child {
+				margin-left: 0;
+			}
+			&:hover,
+			&:focus {
+				transform: scale(1.2,1.2); 
+			}
+		}
+		@include media(phone) {
+			float: left;
+			width: calc(100% - 30px);
+			margin: 0 15px 20px;
+			display: flex;
+			justify-content: space-between;
+
+			> a {
+				float: none;
+				margin: 0;
+			}
+		}
+	}
+	.lia-footer-top > ul {
+		display: block;
+		float: left;
+		list-style: none;
+		padding: 0;
+		margin: 0 15px;
+		text-align: left;
+		min-width: 230px;
+
+		> li > a {
+			display: block;
+			padding: 10px 0;
+			font-size: 16px;
+			line-height: 20px;
+			color: $footer-text-color;
+    		font-weight: 400;
+		}
+		@media screen and (max-width: 1120px) {
+			min-width: 190px;
+		}
+		@include media(phone) {
+			min-width: calc(100% - 30px);
+		}
+	}
+	.lia-footer-legal {
+		width: 100%;
+		margin: 30px 0 0;
+		padding: 30px 0 0;
+		font-size: 14px;
+		border-top: 1px solid $footer-border;
+		
+		ul {
+			display: block;
+			float: left;
+			list-style: none;
+			padding: 0;
+			margin: 0 0 0 15px;
+
+			> li {
+				display: block;
+				float: left;
+			
+				> a,
+				> span {
+					display: block;
+					line-height: 25px;
+					margin: 0 10px;
+				}
+				> span {
+					color: $footer-text-color;
+				}
+				> a {
+					color: $footer-text-color;
+				}
+				&:first-child > a {
+					margin-left: 0;
+				}
+			}
+		}
+		.li-foot-logo {
+			display: block;
+			width: 105px;
+			height: 25px;
+			fill: $footer-text-color;
+		}
+		@include media(phone) {
+			ul {
+				margin: 0;
+
+				> li {
+					margin: 10px 0;
+
+					&:first-child > a {
+						margin-left: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+/*
+\==============_=_/ ____.---'---`---.____
+            \_ \    \----._________.----/
+              \ \   /  /    `-_-'
+          __,--`.`-'..'-_
+         /____          ||
+				  `--.____,-'
+*/

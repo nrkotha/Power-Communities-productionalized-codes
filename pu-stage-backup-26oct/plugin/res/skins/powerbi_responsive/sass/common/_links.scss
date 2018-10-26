@@ -1,0 +1,17 @@
+// Contents copied from: theme_base/sass/common/_links.scss
+.lia-body{
+.lia-paging-full .lia-link-navigation {
+    font-size: 14px;
+    color: $brand-primary;
+}
+
+.lia-autocomplete > li > a, .lia-autocomplete-container > li > a, .lia-menu-dropdown-items > li > a, .user-navigation-settings-drop-down-inner > .lia-list-standard > li > a, .lia-common-dropdown-menu > li > a, .ui-datepicker > li > a, .lia-token-input-dropdown > li > a, .lia-metadata-application-tool-panel > li > a, .lia-search-typeahead .dropdown-menu > li > a, .mce-tinymce-inline.mce-container > li > a{
+ color: $brand-primary;
+}
+.lia-nav-list li > a.lia-link-navigation {
+    color: $brand-primary;
+}
+.lia-message-view-display .lia-message-subject .lia-link-navigation {
+    color: $brand-primary;
+}
+}

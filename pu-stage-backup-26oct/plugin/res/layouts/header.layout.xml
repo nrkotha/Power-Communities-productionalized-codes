@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="top-header">
+    <column id="top-header" width="24"/>
+  </row>
+  <row id="main-header">
+    <column id="header-left" width="16"/>
+    <column id="header-right" width="8"/>
+  </row>
+  <row id="sub-header">
+    <column id="sub-header-main" width="24"/>
+  </row>
+  <row id="feedback">
+    <column id="feedback" width="24"/>
+  </row>
+</layout>

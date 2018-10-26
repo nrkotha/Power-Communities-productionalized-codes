@@ -1,0 +1,371 @@
+// Contents copied from: theme_base/sass/component/_header.scss
+#lia-body .custom-header {
+	position: sticky;
+	top: 0;
+	padding: 0;
+	z-index: 300;
+
+	.lia-slide-out-nav-menu-wrapper {
+		@include li-icon-svg($li-svg-community-nav-trigger, $size: 25px, $color: $lithium-blue);
+		&:before {
+			background-image: url(/html/assets/Icon.png);
+		}
+	}
+	.main-header {
+		height: 74px;
+	   	display: block;
+	   	padding: 0;
+    	background-color: $theme-color-background;
+    	box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.02), 0 1px 2px 0 rgba(0,0,0,0.16);
+		 
+    	@media screen and (max-width: 1120px) {
+			height: 123px;
+		}
+		@include media(phone) {
+			height: 117px;
+		}
+		//Header Title 
+    	h1.header-title {
+			font-size: 24px;
+			float: left;
+			padding: 0;
+			margin: 0;
+			
+    		> a {
+				display: block;
+				padding: 17px 0;
+				margin: 5px 0;
+				font-family: $font-family-sans-serif;
+				 
+				&:before,
+				&:after {
+					display: table;
+					content: "";
+				}
+				&:after {
+					clear: both;
+				}
+				> img {
+					float: left;
+					max-height: 30px;
+				}
+				> span {
+					display: block;
+					float: left;
+					margin-left: 12px;
+					line-height: 30px;
+					font-size: 20px;
+					font-weight: 300;
+					vertical-align: text-bottom;
+				}
+				@media screen and (max-width: 1120px) {
+					padding: 12px 0;
+				}
+			}
+			@include media (phone) {
+				> a {
+					padding: 10px 0;
+
+					> span {
+						//What is this? For screen read display only
+						position: absolute;
+						width: 1px;
+						height: 1px;
+						padding: 0;
+						margin: -1px;
+						overflow: hidden;
+						clip: rect(0,0,0,0);
+						border: 0;
+					}
+				}
+			}
+    	}
+    	img.lithium {
+		    height: 64px;
+    	}
+    	
+    	.lia-autocomplete-content {
+    		li {
+    			padding-left: 10px;
+    			padding-right: 10px;
+    		}
+    		.lia-user-avatar-message {
+		    	width: 16px;
+		    	height: 16px;
+		    }
+		    .lia-user-rank-icon {
+		    	height: auto;
+		    	width: auto;
+		    }
+		    .lia-user-name-link {
+		    	display: inline-block;
+		    	font-size: $theme-type-size-small;
+		    }
+		    .lia-user-rank {
+	    		display: block;
+	    		font-size: $theme-type-size-xsmall;
+	    	}
+	    	.lithium-user-online {
+	    		display: none;
+	    	}
+    	}
+	}
+	.header-nav {
+		display: block;
+		padding: 20px 20px 28px;
+		float: left;
+		line-height: 0; //Firefox
+		a {
+			vertical-align: middle;
+			color: $text-color;
+		}
+		.lia-slide-out-nav-menu-wrapper {
+			padding: 0;
+
+			&:before {
+				background-size: 26px 20px;
+				position: relative;
+				top: 1px;
+			}
+		}
+		.lia-slide-out-nav-menu {
+			 vertical-align: baseline;
+			 line-height: 0;
+		}
+		.community {
+			padding-left: 10px;
+		   font-size: $theme-type-size-base;
+	      vertical-align: super;
+		}
+		@media screen and (max-width: 1120px) {
+			padding: 15px 20px 23px;
+		}
+		@include media(phone) {
+			padding: 13px 20px 21px;
+		}
+	}
+	.dashboard {
+		display: inline-block;
+		padding: 25px 0 25px 30px;
+		float: right;
+		border-left: 1px solid $tp-gray-300;
+
+		.lia-button {
+			padding: 5px 10px;
+			font-size: $theme-type-size-xsmall;
+			font-weight: $theme-type-weight-semibold;
+			&.lia-button-secondary{
+				margin-right: 10px;
+			}
+		}
+		@include media(phone) {
+			display: none;
+		}
+	}
+	section.header-controls {
+		float: right;
+
+		&:before,
+		&:after {
+			display: table;
+			content: "";
+		}
+		&:after {
+			clear: both;
+		}
+		@media screen and (max-width: 1120px) {
+			float: none;
+			margin: 12px 20px;
+			clear: both;
+		}
+		@include media(phone) {	
+			margin: 10px 20px;
+		}
+	}
+	.user-login {
+		display: block;
+		float: right;
+		padding: 14px 10px 18px;
+		right: 0;
+
+		img {
+			height: 30px;
+			width: 30px;
+		    margin-top: 10px;
+		}
+		> a.lia-link-navigation {
+			padding: 0 9px;
+			line-height: 38px;
+
+			&.login-link {
+				padding-right: 58px;
+			}
+			@include media(phone) {	
+				&.lithium-home-link {
+					display: none;
+				}
+			}
+		}
+        span.lithium-user-online {
+			right: 0;
+    		bottom: 0;
+		}
+		.lia-component-users-action-view-user-profile {
+			display: none;
+		}
+		.lia-header-nav-component-widget {
+			padding: 0;
+
+			.private-notes-link {
+				&:before {
+					font-size: $theme-icon-size-large;
+					color: $lithium-blue;
+				}
+				&:hover:before {
+	                color: $lithium-blue-hover;
+	            }
+			}
+			.lia-notification-feed-page-link {
+				&:before {
+					font-size: $theme-icon-size-large;
+					color: $lithium-blue;
+				}
+				&:hover:before {
+	                color: $lithium-blue-hover;
+	            }
+			}
+		}
+		.lia-component-users-widget-menu {
+			padding: 0 15px 0 5px;
+			
+		   @include media(phone) {
+		   	padding: 0 0 0 5px;
+			}
+			.UserNavigation.lia-list-standard-inline {
+				line-height: 0;
+			}
+		}
+		&.lia-header-actions > .login-link:before {
+			background-image: url('/html/assets/user-placeholder.png');
+		}
+		@media screen and (max-width: 1120px) {
+			padding: 5px 0 4px;
+		}
+		@include media(phone) {
+			position: absolute;
+			top: 5px;
+			right: 20px;
+		}
+	}
+	.header-search {
+		float: right;
+		max-width: 385px;
+		@include media(tablet-and-up) {
+			margin-right: 20px;
+		}
+		margin-right: 20px;
+    	.lia-button-wrapper-searchForm-action {
+    		float: left;
+    	}
+    	.SearchForm.lia-form-inline .lia-button-searchForm-action {
+			background-image: svg-url($li-svg-icon-search, $tp-black-300);
+			width: 40px;
+			&:hover {
+				background-color: transparent;
+				border: 0;
+			}
+		}
+    	> .lia-component-common-widget-search-form {
+			padding: 14px 0 13px;
+			 
+			@media screen and (max-width: 1120px) {
+				padding: 0;
+			}
+			.lia-search-input-wrapper .search-input {
+				border: 1px solid $tp-gray-400;
+				font-size: $theme-type-size-small;
+				padding-left: 40px;
+				@include box-shadow(none);
+				@include placeholder($tp-black-300);
+				@include media(phone) {
+					border-radius: 3px;
+				}
+			}
+			.lia-search-granularity-wrapper {
+				border: 1px solid $tp-gray-400;
+				@include li-icon(icon-toggle-open);
+
+				.lia-search-form-granularity {
+					padding: 0 25px 0 15px;
+					@include box-shadow(none);
+					color: $tp-black-400;
+				}
+				&:before {
+					color: $tp-black-400;
+				}
+			}
+    	}
+    	.lia-autocomplete-content ul {
+    		padding-left: 0;
+		}
+		@media screen and (max-width: 1120px) {
+			float: left;
+		}
+		@include media (tablet) {}
+    	@include media (phone) {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+	.lia-header-nav-component-widget .lia-notification-feed-page-link{
+		margin: 0;
+		//@include li-icon-svg($tp-header-notification, $size: 16px, $color: $tp-black-300);
+	}
+	.lia-header-nav-component-widget .private-notes-link {
+		margin: 0;
+		//@include li-icon-svg($tp-header-notes, $size: 16px, $color: $tp-black-300);
+	}
+	.lia-header-nav-component-widget .lia-header-nav-component-unread-count {
+	    font-size: $theme-type-size-xsmall;
+	    padding: 2px 5px;
+	    right: calc(50% - 16px);
+        border-radius: 12px;
+	}
+}
+
+#lia-body.CommunityPage .custom-header .main-header {
+	@include media(tablet-only) {
+		height: 70px;
+
+		.user-login {
+		    position: absolute;
+		    top: 10px;
+		    right: 20px;
+		}
+	}
+	@include media(phone) {
+		height: 60px;
+	}
+}
+.lia-top-quilt > .lia-quilt-row-header .lia-quilt-row-sub-header {
+	background-color: $tp-gray-200;
+	padding: 0;
+
+	.PageTitle {
+		padding: 25px 0;
+	}
+}
+.global-alert-container {
+	background: $theme-color-warning;
+	color: #fff;
+	font-size: 14px;
+	line-height: 21px;
+	div[class^="alert-"] {
+		padding: 15px 0;
+		text-align: center;
+		@extend %responsive-fixed-width;
+	}
+	a {
+		color:#fff;
+	}
+}

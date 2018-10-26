@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer"/>
+  <add to="side-content">
+    <component id="blogs.widget.management"/>
+    <component id="kudos.widget.messages-leaderboard"/>
+    <component id="blogs.widget.latest-articles"/>
+    <component id="blogs.widget.latest-comments"/>
+    <component id="blogs.widget.labels"/>
+    <component id="blogs.widget.archives"/>
+    <component id="forums.widget.polls"/>
+    <component id="blogs.widget.blogroll"/>
+    <component id="kudos.widget.givers-leaderboard"/>
+  </add>
+  <add to="main-content">
+    <component id="menu-bar"/>
+    <component id="article"/>
+    <component id="article-navigator"/>
+    <component id="comments"/>
+    <component id="comment-article-navigator"/>
+    <component id="comments-awaiting-moderation"/>
+    <component id="comment-editor"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:HeaderPage.2017SR"/>
+  </add>
+</quilt>

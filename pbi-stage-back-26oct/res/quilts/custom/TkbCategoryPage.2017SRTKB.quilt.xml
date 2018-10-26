@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="Two_Column_Main_Side_2017SR" nestable="false" disableTopCssClass="false">
+  <add to="2017sr_banner">
+    <component id="common.widget.custom-content" name="9" panel="false"/>
+  </add>
+  <add to="2017sr_common-header">
+    <component id="quilt:HeaderPage.2017SR"/>
+  </add>
+  <add to="2017sr_side-content">
+    <component id="custom.widget.tour-guide" iStyle="tkb" info="true"/>
+    <component id="custom.widget.announcement-carousal" type="halfBanner"/>
+    <component id="labels.widget.labels-list"/>
+    <component id="tkb.widget.top-contributors-taplet"/>
+    <component id="tags.widget.tag-cloud"/>
+    <component id="custom.widget.members-online"/>
+    <component id="tkb.widget.dashboard-taplet"/>
+  </add>
+  <add to="2017sr_main-content">
+    <component id="custom.widget.board-browser-list" iStyle="tkb"/>
+    <component id="custom.widget.recent-posts-list" iStyle="tkb"/>
+    <component id="custom.widget.top-kudos-posts" iStyle="tkb"/>
+  </add>
+  <add to="2017sr_custom_left">
+    <component id="common.widget.page-title"/>
+  </add>
+</quilt>

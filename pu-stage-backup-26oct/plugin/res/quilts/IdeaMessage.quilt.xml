@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="idea-message" nestable="false" disableTopCssClass="false">
+  <add to="main">
+    <component id="kudos-action"/>
+    <component id="author-avatar" wrapper="lia-byline-wrapper"/>
+    <component id="batch-processing-checkbox"/>
+    <component id="message-view.widget.subject" disableSubjectLink="true"/>
+    <component id="byline-author-date" wrapper="lia-byline-wrapper"/>
+    <component id="message-view.widget.body"/>
+    <component id="message-status"/>
+    <component id="message-status-comment"/>
+    <component id="labels"/>
+    <component id="tags"/>
+    <component id="add-tags"/>
+    <component id="comments.action.comments-link" wrapper="lia-message-comment-action"/>
+    <component id="external.widget.share-button" wrapper="lia-message-actions" textOnly="true" controlType="secondary"/>
+    <component id="modbar-toggle"/>
+    <component id="modbar"/>
+  </add>
+</quilt>

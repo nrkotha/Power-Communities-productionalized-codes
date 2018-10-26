@@ -1,0 +1,31 @@
+// Contents copied from: theme_base/sass/common/_alerts.scss
+
+.lia-panel-feedback-inline-alert, .lia-panel-feedback-inline-warning, .lia-panel-feedback-inline-note, .lia-panel-feedback-inline-safe {
+	.lia-text {
+		margin-bottom: 0;
+	}
+}
+
+/* Real-time notifications */
+.lia-toast-container .lia-toast-item td {
+	padding: $theme-space-small;
+	&.lia-toast-item-text p:last-child {
+		margin: 0;
+	}
+	&.lia-toast-item-close-wrapper {
+		padding-right: 20px;
+	}
+}
+
+
+.lia-panel-feedback-banner-safe,
+.lia-panel-feedback-banner-note,
+.lia-panel-feedback-banner-alert{
+	margin: 20px 0;
+	.lia-quilt-column-feedback &{
+		margin-top: 0;
+	}
+	.CommunityPage .lia-quilt-column-feedback & {
+		margin-top: 20px;
+	}
+}

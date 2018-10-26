@@ -1,0 +1,11 @@
+/* custom: user bio */
+.custom-user-bio {
+    figure,
+    p {
+        margin-bottom: $theme-space-base;
+    }
+
+    > figure > img {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="cookie_banner_css" feature="custom.microsoft.microsoftbi">
+  <model/>
+  <view type="freemarker" contenttype="text/css" macro="false"/>
+  <controller id="basic" path="/cookie_banner_css"/>
+</endpoint>

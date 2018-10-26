@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="https://avnertestsa.blob.core.windows.net/public/0.9.417/styles/portal.external.css">
+<link href="https://avnertestsa.blob.core.windows.net/public/0.9.417/styles/assets-common.css" rel="stylesheet"/>

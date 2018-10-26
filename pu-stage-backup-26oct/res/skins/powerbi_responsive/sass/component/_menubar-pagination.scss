@@ -1,0 +1,77 @@
+// Contents copied from: theme_base/sass/component/_menubar-pagination.scss
+.lia-paging-page-next > .lia-link-navigation, 
+.lia-paging-page-next > .lia-link-navigation.lia-link-disabled:hover, 
+.lia-paging-page-previous > .lia-link-navigation, 
+.lia-paging-page-previous > .lia-link-navigation.lia-link-disabled:hover {
+	border-color: $theme-color-grey-border;
+}
+.lia-paging-page-next > .lia-link-navigation {
+	border-left: 0;
+}
+.lia-paging-full-wrapper {
+	margin-bottom: 20px;
+}
+.lia-component-paging .lia-paging-full-wrapper .lia-link-navigation {
+	font-size: $theme-type-size-small;
+}
+
+/*pagination styling*/
+.lia-paging-full-pages {
+  	> li {
+	  	> a {
+	  		//css code here
+
+		  	&:hover, 
+		  	&:focus {
+		  		border-color: $theme-color-grey-border;
+		  	}
+	 	}
+
+	  	.lia-link-disabled {
+	  		border-color: $theme-color-grey-border;
+
+			&:hover {
+				border-color: $theme-color-grey-border;
+			}
+		}
+	}
+
+	.lia-link-navigation {
+		border-color: $theme-color-grey-border;
+		color: #858B8C;
+		font-size: $theme-type-size-small;
+		font-weight: 300;
+
+		&:hover, 	
+	  	&:focus {
+	  		text-decoration: none;
+	  		font-weight: bold;
+	  	}
+		
+	}
+
+	.lia-paging-page-ellipsis > .lia-link-disabled {
+		border-color: $theme-color-grey-border;
+
+		&:hover {
+			border-color: $theme-color-grey-border;
+		}
+	}
+}
+
+.lia-paging-full {
+	.lia-paging-page-previous,.lia-paging-page-next {
+		> a {
+			&:hover, 
+			&:focus {
+				border-color: $theme-color-grey-border;
+				font-weight: bold;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.lia-link-navigation {
+		font-size: $theme-type-size-small;
+	}
+}

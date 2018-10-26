@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.18-6" nestable="false" disableTopCssClass="false">
+  <add to="top-content">
+    <component id="edit-button" wrapper="custom-message-view-header"/>
+    <component id="message-view.widget.action-menu" wrapper="custom-message-view-header" renderOrder="message-action-menu"/>
+  </add>
+  <add to="right-content">
+    <component id="tkb.widget.article-revision-info-taplet"/>
+    <component id="tkb.widget.contributors-taplet"/>
+    <component id="message-view.widget.labels" useChrome="true" useHeading="true"/>
+    <component id="tkb.widget.related-messages-taplet" messageLinkDirection="destination"/>
+  </add>
+  <add to="left-content">
+    <component id="message-view.widget.subject" disableSubjectLink="true"/>
+    <component id="message-view.widget.body" showAttachments="true"/>
+    <component id="tags-with-title-link" wrapper="custon-message-view-tags" showTagLabelText="true"/>
+    <component id="add-tags" wrapper="custon-message-view-tags"/>
+    <component id="share-button" wrapper="custon-message-view-actions"/>
+    <component id="kudos-action" wrapper="custon-message-view-actions"/>
+    <component id="comment-button" wrapper="custon-message-view-actions"/>
+  </add>
+</quilt>

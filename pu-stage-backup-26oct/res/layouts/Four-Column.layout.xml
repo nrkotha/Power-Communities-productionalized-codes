@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="row_1">
+    <column id="left-content" width="8"/>
+    <column id="mid-content1" width="8"/>
+    <column id="mid-content2" width="8"/>
+  </row>
+</layout>

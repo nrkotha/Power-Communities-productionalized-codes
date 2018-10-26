@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/* -------------------------------- 
+ Font family SegeoUI Start
+--------------------------------  */
+html,
+body {
+ font-family: $font-stack;
+
+}
+h1,h2,h3,h4,h5{
+font-family: $font-stack;
+}
+
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('/html/assets/fonts/SegoeUI.woff') format('woff'),
+       url('/html/assets/fonts/SegoeUI.ttf') format('truetype'),
+       url('/html/assets/fonts/SegoeUI.svg#SegoeUI') format('svg');
+  src: url('/html/assets/fonts/segoeui.eot');
+  src: url('/html/assets/fonts/segoeui.woff2') format('woff2'),
+       url('/html/assets/fonts/segoeui.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SegoeUI Light */
+
+@font-face {
+   font-family: 'SegoeUI-Light';
+  src: url('/html/assets/fonts/SegoeUI-Light.woff') format('woff'),
+       url('/html/assets/fonts/SegoeUI-Light.ttf') format('truetype'),
+       url('/html/assets/fonts/SegoeUI-Light.svg#SegoeUI-Light') format('svg');
+  src: url('/html/assets/fonts/segoeuil.eot');
+  src: url('/html/assets/fonts/segoeuil.woff2') format('woff2'),
+       url('/html/assets/fonts/segoeuil.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* SegoeUI Bold */
+
+@font-face {
+  font-family: 'SegoeUI-Bold';
+  src: url('/html/assets/fonts/SegoeUI-Bold.woff') format('woff'),
+       url('/html/assets/fonts/SegoeUI-Bold.ttf') format('truetype'),
+       url('/html/assets/fonts/SegoeUI-Bold.svg#SegoeUI-Bold') format('svg');
+  src: url('/html/assets/fonts/segoeuib.eot');
+  src: url('/html/assets/fonts/segoeuib.woff2') format('woff2'),
+       url('/html/assets/fonts/segoeuib.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SegoeUI Semibold */
+
+@font-face {
+  font-family: 'SegoeUI-Semibold';
+  src: url('/html/assets/fonts/SegoeUI-Semibold.woff') format('woff'),
+       url('/html/assets/fonts/SegoeUI-Semibold.ttf') format('truetype'),
+       url('/html/assets/fonts/SegoeUI-Semibold.svg#SegoeUI-Semibold') format('svg');
+  src: url('/html/assets/fonts/seguisb.eot');
+  src: url('/html/assets/fonts/seguisb.woff2') format('woff2'),
+       url('/html/assets/fonts/seguisb.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Segoe-UI-Semi-Light';
+  src: url('/html/assets/Segoe-UI-Semi-Light.eot');
+  src: url('/html/assets/Segoe-UI-Semi-Light.woff2') format('woff2'),
+       url('/html/assets/Segoe-UI-Semi-Light.eot?#iefix') format('embedded-opentype');
+	    src: url('/html/assets/SegoeUI-Semilight.woff') format('woff'),
+       url('/html/assets/SegoeUI-Semilight.ttf') format('truetype'),
+       url('/html/assets/SegoeUI-Semilight.svg#SegoeUI-Semilight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* -------------------------------- 
+Font family SegeoUI End
+-------------------------------- */
+
+
+/* -------------------------------- 
+MDL2Assets Start
+-------------------------------- */
+@font-face {
+    font-family:segoeMDL2Assests ;   
+    src: url('/html/assets/fonts/SegoeMDL2Assets.woff') format('woff'),
+       url('/html/assets/fonts/SegoeMDL2Assets.ttf') format('truetype'),
+       url('/html/assets/fonts/SegoeMDL2Assets.svg#SegoeMDL2Assets') format('svg');
+  src: url('/html/assets/fonts/segmdl2.eot');
+  src: url('/html/assets/fonts/segmdl2.woff2') format('woff2'),
+       url('/html/assets/fonts/segmdl2.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* -------------------------------- 
+MDL2Assets End
+-------------------------------- */

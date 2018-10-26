@@ -1,0 +1,116 @@
+// Contents copied from: theme_base/sass/common/_tags-labels.scss
+/* tags */
+%lia-button--tag {
+    @extend %lia-button--gray-outline;
+    @extend %lia-button;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 13px;
+    margin: $theme-space-xsmall + $theme-space-xxsmall 0;
+    padding: $theme-space-xsmall $theme-space-base;
+    text-transform: none;
+}
+
+%lia-button--label {
+    @extend %lia-button--gray-outline;
+    @extend %lia-button;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 13px;
+    margin: $theme-space-xsmall + $theme-space-xxsmall 0;
+    padding: $theme-space-xsmall $theme-space-base;
+    text-transform: none;
+}
+
+// LIA TAGS
+.lia-tag,
+.lia-user-top-ranked-topics .lia-profile-topic,
+.custom-message-states .state a {
+    @extend %lia-button--tag;
+    
+    &:hover, &:focus {
+        @extend %lia-button--gray;
+    }
+
+    mark,
+    .lia-search-match-lithium {
+        background: transparent;
+    }
+}
+
+
+// List styling used to showcase & tags
+.lia-component-message-view-widget-tags .lia-panel-content {
+    padding: 0;
+}
+
+.lia-message-tags {
+    float: left;
+    clear: both;
+}
+
+@include media(phone) { //enabled add tag in the mobile view
+    .lia-content .add-tag-link {
+        font: inherit;
+    }
+}
+
+// List styling used to showcase tags
+.lia-tags-area,
+.lia-component-tags,
+.lia-component-message-view-widget-tags,
+.lia-component-tags-widget-my-tags,
+.lia-component-labels {
+    .lia-list-standard-inline > li {
+        font-weight: $theme-type-weight-bold;
+        line-height: 26px;
+        margin: 0;
+        &:first-child a {
+            margin-left: 0;
+        }
+    }
+}
+/* Labels */
+#lia-body .lia-content .label-link,
+#lia-body .lia-content .LabelsForArticle .label-link,
+#lia-body .lia-content .LabelsForMessage.lia-component-message-view-widget-labels .label-link,
+#lia-body .lia-content .LabelsTaplet .label-link {
+    @extend %lia-button--label;
+    font-weight: normal;
+    text-transform: none;
+    &:hover, &:focus {
+        @extend %lia-button--gray;
+    }
+}
+
+#lia-body .lia-content .LabelsTaplet .label-link {
+    line-height: 24px;
+}
+
+#lia-body .lia-content .LabelsTaplet .lia-list-standard .label {
+	display: block;
+
+	.label-count {
+		display: none;
+	}
+}
+
+.article-labels-title {
+	display: inline-block;
+}
+
+#lia-body .lia-content .LabelsForMessage.lia-component-message-view-widget-labels {
+	margin-bottom: 0;
+
+	.lia-panel-heading-bar {
+		display: none;
+	}
+}
+
+//Tag Cloud component
+.TagCloudTaplet .lia-tag {
+    font-size: $theme-type-size-base;
+    line-height: 24px;
+}

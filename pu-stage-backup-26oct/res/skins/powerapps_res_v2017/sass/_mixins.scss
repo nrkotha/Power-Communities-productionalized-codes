@@ -1,0 +1,106 @@
+/* Community Blog css */
+.lia-panel-content{
+h1{
+font-weight: 300 !important;
+    color: #2b2b2b;
+}
+
+}
+.custom-recent-posts {
+        #communityBlog {
+            .layer-img {
+                padding: 15px 0 15px 20px;
+            }
+        }
+    }
+
+.custom-recent-posts {
+        #communityBlog {
+            .layer-img figure {
+                float: left;
+                margin-right: 21px;
+            }
+        }
+    }
+.custom-recent-posts {
+    #communityBlog .bitmap {
+        width: 36px;
+        height: 36px;
+        border-radius: 50px;
+        margin-right: 12px;
+    }
+}
+.lia-component-kudos-widget-authors-leaderboard {    
+        .t-data-grid {
+            margin-bottom: -20px;
+            margin-left: 0 ;
+            margin-right: 0;
+            margin-top: -11px;
+        } 
+}
+#lia-body {
+    .lia-content {
+        .lia-quilt-layout-community-home-2017sr {
+            .lia-panel-content {
+                .lia-view-all {
+                    .view-all-link {
+                        font-size: 18px;
+                    }
+                    &:before {
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+}
+
+.custom-navbar {
+    .lia-header-nav-component-widget {
+        float: initial;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+    }
+    & .lia-list-standard-inline{
+    margin-left: 0;
+}
+ & .lia-user-avatar-message{
+margin-top: 5px;
+}
+    .navbar-right {
+        li {
+            a {
+                padding: 0 13px;
+            }
+            li {
+                border: 0px !important;
+                a {
+                    padding: 0;
+                }
+            }
+        }
+        & #navSearchDiv {
+            padding-top: 15px;
+        }
+    }
+    & li {
+        margin-bottom: 0px;
+    }
+    & .user-navigation-user-profile {
+        display: block;
+    }
+}
+
+.user-navigation-settings-drop-down {
+    position: absolute;
+    li {
+        a {
+            padding: 5px 13px !important;
+        }
+    }
+.lia-header-nav-component-widget{
+float:right !important;
+}
+}
+

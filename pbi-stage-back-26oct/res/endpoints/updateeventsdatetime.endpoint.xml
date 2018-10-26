@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="updateeventsdatetime" feature="custom.microsoft.microsoftbi">
+  <model/>
+  <view type="freemarker" contenttype="text/plain" macro="false"/>
+  <controller id="basic" path="/updateeventsdatetime"/>
+</endpoint>

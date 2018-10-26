@@ -1,0 +1,107 @@
+/*Page aligments Starts*/
+.lia-panel-content-wrapper{
+  #columns{
+    display:none;
+  }
+}
+#lia-body{
+  .lia-panel{
+    border-radius:0
+  }
+}
+#lia-body.lia-body .lia-content .lia-panel-message{
+   padding:0
+}
+.lia-panel-message{
+  border:none
+}
+.lia-page {
+    .lia-content {
+            .lia-panel-content-wrapper {
+                .lia-panel-content {
+                    padding: 0;
+                }
+            }
+    }
+}
+.lia-top-quilt {
+    .lia-quilt-row-main {
+        .lia-quilt-column {
+            &:last-child {
+                padding-right: 0;
+            }
+            &:first-child {
+                padding-left: 0;
+            }
+        }
+    }
+}
+#customSearchBar {
+    .lia-button-wrapper-searchForm-action {
+        .lia-button-searchForm-action {
+            background-image: none;
+            text-indent: 0;
+            width:auto;
+        }
+    }
+}
+#searchbar {
+    .lia-search-input-wrapper {
+        display: inline-block;
+        width: auto;
+        margin-right: 2px;
+    }
+    .lia-button-searchForm-action {
+        background-image: none;
+        text-indent: 0;
+        width: auto;
+  font-weight: normal;
+    }
+}
+.custom-additional-support {
+    #additionalSupp {
+        .text-Analytics-in-Po {
+            text-transform: inherit;
+        }
+    }
+}
+.lia-component-community-widget-admin-links {
+    .lia-nav-list {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+#bg-widgets{
+ .inner-widget{
+  .lia-panel.UsersOnlineAvatarsTaplet.lia-component-users-widget-users-avatars-online{
+      margin:0
+  }
+ }
+}
+#ask-community{
+ #customSearchBar{
+  .lia-search-input-wrapper{
+     width: auto;
+     float: left;
+  }
+ }
+}
+.guide-posts {
+  strong{
+    font-weight:normal
+  }
+}
+
+#lia-body{
+  .lia-quilt-community-page-2017sr{
+   .lia-view-all{ 
+     .view-all-link{
+      top:15px !important;
+    }
+  }
+ }
+}
+/*Page aligments Ends*/
+
+
+

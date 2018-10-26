@@ -1,0 +1,43 @@
+.custom-new-to-smm{
+	//styles copied from _featured-messages ... should probably make generic
+	.custom-messages-list{
+		width: 100%;
+		display: block;
+		  padding: 0;
+		  text-align: left;
+		@include media(phone) {
+			padding: 0 $theme-grid-gutter-side/2;
+		}
+		.message-item {
+			border-bottom: 1px solid $tp-gray-300;
+			margin: 0 0 15px 0;
+			width: 100%;
+
+			&:last-child {
+				border-bottom: none;
+			}
+
+			@include media(phone-only) {
+				margin: 12px 0; 
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+			.custom-message-subject {
+				padding: 0;
+				margin: 0 0 8px;
+				color: $text-color;
+				font-size: $theme-type-size-large;
+				line-height: 27px;
+				font-weight: 500;
+				@include multiline-truncate($max-lines: 4, $line-height: 25px);
+			}
+			.message-byline {
+				padding: 0;
+				margin-bottom: 20px;
+				color: $lithium-light-gray;
+				font-size: 14px;
+			}
+		}
+	}
+}

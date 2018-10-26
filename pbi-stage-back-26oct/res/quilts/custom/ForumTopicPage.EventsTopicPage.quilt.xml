@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="Two-Column-Events-Message-Page" nestable="false" disableTopCssClass="false">
+  <add to="event-custom-left">
+    <component id="common.widget.breadcrumb"/>
+  </add>
+  <add to="event-left-content">
+    <component id="topic-message"/>
+    <component id="thread-pager"/>
+    <component id="reply-list"/>
+  </add>
+  <add to="event-banner">
+    <component id="gz.event-message-banner-title"/>
+  </add>
+  <add to="event-custom-right">
+    <component id="custom-widget-create-post"/>
+    <component id="thread-options"/>
+  </add>
+  <add to="event-side-content">
+    <component id="gz.events-right-col"/>
+  </add>
+  <add to="event-common-header">
+    <component id="quilt:HeaderPage.2017SR"/>
+    <component id="gz.event-message-page-css"/>
+  </add>
+  <remove from="main-content" for="HeaderPage.2017SR">
+    <component id="common.widget.breadcrumb"/>
+  </remove>
+</quilt>

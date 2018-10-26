@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="Site_maintenance_page"/>
+  </add>
+  <add to="common-header"/>
+</quilt>

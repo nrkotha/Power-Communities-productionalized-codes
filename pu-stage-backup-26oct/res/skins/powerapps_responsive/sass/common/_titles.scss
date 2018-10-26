@@ -1,0 +1,77 @@
+// Contents copied from: theme_base/sass/common/_titles.scss
+
+#lia-body{
+&.BlogPage{
+    /*The font-family is changed from semi-light to semibold by iTalent as part of iTarck BIZCM-862 */
+.custom-widget-boards-browser-list .message-subject .lia-link-navigation {
+   font-family: 'SegoeUI-Semibold';
+    font-size: 21px;
+    color:$message-subject;
+}
+.custom-widget-boards-browser-list .lia-message-author-rank{
+font-size:15px;
+color:$text-description;
+}
+.custom-widget-boards-browser-list .lia-quilt-row.lia-quilt-row-main{
+padding-top:0px;
+}
+.custom-widget-boards-browser-list .lia-quilt-row.lia-quilt-row-header{
+padding-bottom:0px;
+}
+}
+.lia-message-stats-count{
+color:$font-black-color;
+}
+.lia-message-post-date {    
+    font-size: 14px;
+}
+.FeaturedThreadsTaplet .lia-featured-threads-title{
+color:#4f4f4f;
+font-family: 'SegoeUI-Bold', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.lia-message-view-forum-message.lia-message-view-display .lia-message-subject, .lia-message-view-group-reply-message.lia-message-view-display .lia-message-subject, .lia-message-view-group-topic-message.lia-message-view-display .lia-message-subject, .lia-message-view-blog-topic-message.lia-message-view-display .lia-message-subject, .lia-message-view-blog-reply-message.lia-message-view-display .lia-message-subject, .lia-message-view-blog-message.lia-message-view-display .lia-message-subject, .lia-message-view-idea-reply-message.lia-message-view-display .lia-message-subject, .lia-message-view-contest-reply-message.lia-message-view-display .lia-message-subject, .lia-message-view-tkb-reply-message.lia-message-view-display .lia-message-subject, .lia-message-view-media-message.lia-message-view-display .lia-message-subject, .lia-message-view-reviews-message.lia-message-view-display .lia-message-subject{
+font-size: 18px;
+}
+
+.lia-component-common-widget-page-title > .lia-link-navigation {
+    font-size: 28px;
+}
+.custom-widget-boards-browser-list{
+.message-subject .lia-link-navigation{
+font-family: 'SegoeUI-Semibold';
+font-size:15px;
+}
+/* This code is written by iTalent as part of iTrack BIZCM-862*/
+.message-subject .lia-message-read .lia-link-navigation {
+    font-family: 'Segoe-UI-Semi-Light';
+    }
+ /* css code end as part of iTrack BIZCM-862*/
+.lia-info-area{
+font-size:14px;
+span{
+font-size:14px;
+}
+}
+}
+.lia-link-navigation kudos-count-link.lia-link-disabled{
+.lia-button-image-kudos .kudos-count-link {
+    padding: 12px 14px;
+  
+}
+}
+&.ForumTopicPage{
+.message-subject h5{
+font-size:15px;
+font-family: 'SegoeUI-Semibold';
+}
+.lia-button-image-kudos .kudos-link {    
+    padding: 3px 10px;   
+}
+.lia-message-stats-count{
+color:$font-black-color;
+}
+}
+&.ForumPage{
+
+}
+}

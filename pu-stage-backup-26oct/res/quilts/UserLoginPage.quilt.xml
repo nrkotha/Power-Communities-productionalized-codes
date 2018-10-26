@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.left-right" nestable="false" disableTopCssClass="false">
+  <add to="right-content">
+    <component id="side-form"/>
+  </add>
+  <add to="left-content">
+    <component id="main-form"/>
+  </add>
+  <remove from="site-navigation" for="Header">
+    <component id="common.widget.search-form"/>
+    <component id="common.widget.site-navigation"/>
+    <component id="common.widget.search-form"/>
+    <component id="common.widget.search-form-message"/>
+  </remove>
+</quilt>

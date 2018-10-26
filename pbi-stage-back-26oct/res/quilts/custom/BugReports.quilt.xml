@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="single-row-full" nestable="false">
+  <add to="main-content">
+    <component id="quilt:Header"/>
+    <component id="custom.bug-reports"/>
+  </add>
+</quilt>

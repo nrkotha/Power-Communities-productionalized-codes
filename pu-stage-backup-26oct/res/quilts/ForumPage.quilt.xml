@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="custom.HelpfulResources"/>
+    <component id="common.widget.custom-content" name="2" panel="false"/>
+    <component id="labels.widget.labels-list"/>
+    <component id="kudos.widget.messages-leaderboard"/>
+    <component id="tags.widget.tag-cloud"/>
+    <component id="tags.widget.tagger"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="solutions.widget.recently-solved-threads"/>
+    <component id="forums.widget.polls"/>
+  </add>
+  <add to="main-content">
+    <component id="custom.JoinTheDiscussion"/>
+    <component id="menu-bar"/>
+    <component id="reply-filter" wrapper="custom-menu-actions"/>
+    <component id="message-list"/>
+    <component id="paging"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+  </add>
+  <remove from="breadcrumb" for="Header">
+    <component id="common.widget.breadcrumb"/>
+  </remove>
+</quilt>

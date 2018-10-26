@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="row">
+    <column id="top-content" width="24"/>
+  </row>
+  <row id="row_1">
+    <column id="left-content" width="18"/>
+    <column id="right-content" width="6"/>
+  </row>
+</layout>

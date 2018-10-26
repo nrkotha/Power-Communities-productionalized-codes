@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="One_Column_2017SR" nestable="false" disableTopCssClass="false">
+  <add to="2017sr_banner">
+    <component id="custom.widget.gallery-featured-slider" scope="kudos" limit="10" label="Featured"/>
+  </add>
+  <add to="2017sr_common-header">
+    <component id="quilt:HeaderPage.2017SR"/>
+  </add>
+  <add to="2017sr_main-content">
+    <component id="menu-bar"/>
+    <component id="custom.widget.cards.message-list" filter="yes" featured="Featured" preFilterBy="Featured"/>
+    <component id="reply-filter"/>
+  </add>
+  <add to="2017sr_custom_right">
+    <component id="custom-widget-create-post"/>
+  </add>
+  <add to="2017sr_custom_left">
+    <component id="common.widget.breadcrumb"/>
+  </add>
+  <remove from="main-content" for="HeaderPage.2017SR">
+    <component id="common.widget.breadcrumb"/>
+  </remove>
+</quilt>

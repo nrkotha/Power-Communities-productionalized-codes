@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="custom-idea-page-enhancedata" feature="custom.microsoft.microsoftazure">
+  <model/>
+  <view type="freemarker" contenttype="text/xml" macro="false"/>
+  <controller id="basic" path="/custom-idea-page-enhancedata"/>
+</endpoint>

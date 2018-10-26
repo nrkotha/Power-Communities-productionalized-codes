@@ -1,0 +1,271 @@
+/* component: message list */
+#lia-body .lia-content .MessageList {
+	.lia-list-wide tbody > tr {
+		> td {
+			padding: $theme-space-base $theme-space-xsmall + $theme-space-xxsmall;
+
+			&.lia-data-cell-icon:first-child {
+				padding-top: $theme-space-base;
+			}
+			.message-subject {
+				.lia-link-navigation {
+					color: $text-color;
+					font-size: $theme-type-size-large;
+					line-height: 27px;
+					word-break: break-word;
+				}
+			}
+			.message-body {
+				color: $lithium-light-gray;
+				font-size: $theme-type-size-small;
+				line-height: 21px;
+			}
+			.lia-info-area {
+				color: $lithium-light-gray;
+				font-size: $theme-type-size-small;
+				line-height: 21px;
+			}
+			.lia-dot-separator:before {
+				line-height: 21px;
+			}
+			.lia-message-stats-count{
+				color:$lithium-light-gray;
+			}
+			.lia-fa{
+				color:$lithium-light-gray;
+			}
+			.lia-message-post-date {
+				font-size: $theme-type-size-small;
+			}
+		}
+
+		> td.cRepliesCountColumn, 
+		> td.cViewsCountColumn,
+		> td.cKudosCountColumn {
+			vertical-align: top;
+		}
+	}
+
+	.lia-message-unread.lia-message-unread > .lia-link-navigation {
+		font-weight: 500;
+	}
+}
+
+//Specific component old styling
+.message-list-heading-wrapper-2 {
+	border-bottom: 1px solid $tp-gray-300;
+	display: inline-block;
+    width: 100%;
+
+	h3 {
+		color: $text-color;
+		font-size: $theme-type-size-xxxlarge + 6;
+		font-weight: 300;
+		line-height: 42px;
+		@include media(phone) {
+            font-size: $theme-type-size-xxlarge;    
+            line-height: 30px;
+        }
+	}
+	.desc {
+		color: $text-color;
+		font-size: $theme-type-size-large;
+		font-weight: $theme-type-weight-base;
+		line-height: 27px;
+	}
+	.lia-quilt-column {
+		padding-right: 0;
+	    padding-left: 0;
+	}
+	.button {
+		width: 100%;
+
+		@include media(tablet-and-up) {
+			padding: $theme-space-medium 0 $theme-space-large;
+			width: 50%;
+	    	float: left;
+		}
+	}
+	.lia-button {
+		@include media(phone) {
+			margin: $theme-space-small 0;
+			width: 100%;
+		}
+	}
+	.lia-button-secondary {
+		font-size: $theme-type-size-base;
+		padding: $theme-space-small + $theme-space-xsmall $theme-space-base;
+		
+		@include media(tablet-and-up) {
+			float: right;
+			margin-left: $theme-space-base;
+			padding: $theme-space-small + $theme-space-xsmall $theme-space-medium + $theme-space-xsmall;
+		}
+	}
+	#forum-filters {
+		//@include li-icon-svg($tp-prefrences, $size: 16px, $color: $lithium-blue);
+		&:before {
+		    background-image: url('/html/assets/preferences--medium.png');
+		    background-position: center;
+		    background-size: 16px 16px;
+		    content: '';
+		    margin-right: $theme-space-xsmall;
+		    padding: ceil(16px / 2);
+	        background-repeat: no-repeat;
+		}
+		&:hover{
+			&:before {
+				background: url('/html/assets/icon_filter_white.png');
+				background-size: 16px 16px;
+				background-repeat: no-repeat;
+				background-position: center;
+			    content: '';
+			    height: 100%;
+			    padding: ceil(16px / 2);
+			}
+		}
+	}
+	.primary-action.message-post .lia-button-primary {
+		font-size: $theme-type-size-base;
+		padding: $theme-space-small + $theme-space-xsmall $theme-space-base + $theme-space-xsmall;
+	}
+}
+#filter-content {
+	border-radius: $border-radius-large;
+	box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.02), 0 1px 2px 0 rgba(0,0,0,0.16);
+	padding: 30px 40px 40px 40px;
+	margin: $theme-space-small + $theme-space-xsmall 0;
+	
+	.lia-panel {
+		margin-bottom: 0;
+	}
+
+    h5 {
+		font-weight: 400;
+		font-size: 16px;
+		width: calc(100% - 16px);
+    	float: left;
+	}
+	.filter-help-text {
+		color:$lithium-light-gray;
+		font-size: 14px;
+		margin-left: 5px;
+		margin-top: .5em;
+	}
+    .close {
+    	float: left;
+    	cursor: pointer;
+		@include li-icon-svg($svg-icon-cross, $size: 16px, $color: $text-color);
+	}
+	.filter-form {
+		clear: both;
+		padding: $theme-space-small + $theme-space-xsmall 0;
+	}
+	.filter-sort {
+		border: 1px solid $lithium-blue;
+		color: $lithium-blue;
+		min-width: 125px;
+	    width: auto;
+	}
+	.labels {
+		padding: 15px 0 60px 0;
+		width: 100%;
+		display: inline-block;
+		margin-left: 5px;
+		.custom-label-link {
+			margin-right: 1em;
+		}
+		.lia-quilt-column-08 {
+			padding: $theme-space-xsmall 0;
+
+			@include media(tablet) {
+				float: left;
+				width: 33.3%;
+			}
+			@include media(phone) {
+				float: none;
+				width: 100%;
+			}
+			input {
+			    margin-right: 5px;
+			}
+		}
+		label {
+		    color: $tp-black-300;
+		    cursor: pointer;
+		    font-weight: 300;
+		    width: calc(100% - 25px);
+	        user-select: none;
+		}
+	}
+	.buttons .apply {
+		padding: 0;
+
+		.lia-button{
+			float: right;
+			min-width: 140px;
+
+			@include media(phone) {
+				width: 100%;
+			}
+		}
+	}
+	.buttons .select {
+		padding: 0;
+
+		select {
+			float: left;
+			min-width: 140px;
+			text-align-last: center;
+			text-align: center;
+
+			@include media(phone) {
+				width: 100%;
+				margin-bottom: $theme-space-small + $theme-space-xsmall;
+			}
+		}
+	}
+}
+.filtered-results {
+	background-color: $lithium-blue;
+	border-radius: $border-radius-large;
+	box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.02), 0 1px 2px 0 rgba(0,0,0,0.16);
+	color: $theme-color-background;
+	margin: $theme-space-small + $theme-space-xsmall 0;
+	padding: 30px 40px 40px 40px;
+
+	.lia-panel {
+		background: transparent;
+		margin-bottom: 0;
+	}
+	h5 {
+		color: $theme-color-background;
+		float: left;
+		font-size: 18px;
+		font-weight: 400;
+		margin-bottom: $theme-space-small + $theme-space-xsmall;
+		width: calc(100% - 50px);
+	}
+	.edit {
+		float: left;
+    	cursor: pointer;
+    	margin-right: $theme-space-small;
+		@include li-icon-svg($svg-icon-edit, $size: 16px, $color: #fff);
+	}
+	.close {
+    	cursor: pointer;
+    	float: left;
+		@include li-icon-svg($svg-icon-cross, $size: 16px, $color: #fff);
+	}
+	.places {
+		clear: both;
+		word-break: break-word;
+		font-size: 14px;
+	}
+	.sort {
+		font-size: 14px;
+		span{
+			text-transform: capitalize;
+		}
+	}
+}

@@ -1,0 +1,101 @@
+.custom-category-browser {
+	border-radius: 0;
+
+	//use this to undo global panel styles being applied to this component
+	&.lia-panel {
+		.lia-panel-content {
+			padding: 0;
+		}
+	}
+
+	.category-browser-container {
+		@include flexbox;
+		@include flex-wrap(wrap);
+		@include flex-direction;
+		@include justify-content(left);
+		text-align: left;
+		@include media(tablet) {
+			@include justify-content(center);
+		}
+	}
+	.category-browser {
+		background-color: $theme-color-background;
+		border-radius: 4px;
+		box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.02), 0 1px 2px 0 rgba(0,0,0,0.16);
+		margin: $theme-space-base 0;
+		padding: 35px 20px;
+		width: calc(25% - 30px);
+		@include justify-content(flex-start);
+		@include flexbox;
+		@include flex-direction(column);
+		@include media(tablet-and-up) {
+			&:nth-child(2n + 2){
+				margin-right:0;
+			}
+			&:nth-child(2n + 1){
+				margin-left:0;
+			}
+		}
+		@include media(desktop-and-up) {
+			/*&:first-child{
+				padding-left: 0;
+			}
+			&:last-child{
+				padding-right: 0;
+			}*/
+		}
+		@include media(phone-only) {
+			width: 100%;
+			margin: $theme-space-small + 2 0; 
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		@include media(tablet-only) {
+			width: 314px;
+		}
+		.icon i {
+			background-repeat: no-repeat;
+			background-size: contain;
+			display: inline-block;
+			height: 38px;
+			margin-right: $theme-space-small + $theme-space-xsmall;
+			width: 38px;
+		}
+		.icon {
+			margin-right: $theme-space-small + $theme-space-xsmall;
+			img {
+				max-width: 38px;
+			}
+		}
+		.category-desc {
+			font-size: $theme-type-size-small;
+			line-height: 17px;
+		}
+		.category-title {
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+			margin-bottom: 15px;
+			.img-wrapper {
+				margin-right: 15px;
+				img {
+					max-width: 38px;
+				}
+			}
+			a {
+				font-size: 21px;
+				font-weight: $theme-type-weight-bold;
+				line-height: 30px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+		.category-posts {
+			padding-top: 10px;
+			margin-top: auto;
+			font-size: $theme-type-size-small;
+			color: $lithium-light-gray;
+		}
+	}
+}

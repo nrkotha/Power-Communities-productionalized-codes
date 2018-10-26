@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="Community_Home_2017SR" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="SkinSwitcher"/>
+  </add>
+  <add to="2017sr_main-content">
+    <component id="custom.widget.additional-support"/>
+    <component id="community.widget.admin-links" panel="false"/>
+  </add>
+  <add to="2017sr_banner2">
+    <component id="custom.widget.find-userGroup"/>
+    <component id="common.widget.custom-content" name="6" panel="false"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:HeaderPage.2017SR"/>
+    <component id="custom.widget.announcement-carousal" type="fullBanner"/>
+  </add>
+  <add to="2017sr_middle_content">
+    <component id="custom.widget.boards-cards-list" filter="posts" limit="4" category="RD_Forums"/>
+    <component id="custom.widget.recent-posts-card" scope="recent" actID="RD_Blogs" limit="3" type="category"/>
+    <component id="custom.widget.event-boards-list" category="RD_Events"/>
+    <component id="custom.widget.gallery-showcase" scope="recent" actID="RD_Galleries" limit="4" type="category" labels=""/>
+    <component id="custom.widget.uservoice-topideas-card-list" limit="6"/>
+    <component id="custom.widget.board-browser-list" limit="10" category="RedesignReviewFeedback"/>
+  </add>
+  <add to="2017sr_banner1">
+    <component id="custom.widget.community-help"/>
+  </add>
+  <remove from="main-content" for="HeaderPage.2017SR">
+    <component id="common.widget.breadcrumb"/>
+  </remove>
+</quilt>

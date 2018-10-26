@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="row_1">
+    <column id="Header" width="24"/>
+  </row>
+  <row id="row_2">
+    <column id="col_1_1" width="6"/>
+    <column id="col_1_2" width="6"/>
+    <column id="col_1_3" width="6"/>
+    <column id="col_1_4" width="6"/>
+  </row>
+  <row id="row_3">
+    <column id="col_2_1" width="6"/>
+    <column id="col_2_2" width="6"/>
+    <column id="col_2_3" width="6"/>
+    <column id="col_2_4" width="6"/>
+  </row>
+  <row id="row_4">
+    <column id="col_3_1" width="6"/>
+    <column id="col_3_2" width="6"/>
+    <column id="col_3_3" width="6"/>
+    <column id="col_3_4" width="6"/>
+  </row>
+  <row id="row_5">
+    <column id="Footer" width="24"/>
+  </row>
+</layout>

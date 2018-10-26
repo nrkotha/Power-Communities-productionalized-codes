@@ -1,0 +1,65 @@
+// Contents copied from: theme_base/sass/page/_post.scss
+.PostPage,
+.ReplyPage {
+
+	.lia-top-quilt > .lia-quilt-row-header .lia-quilt-row-sub-header {
+		display: none;
+	}
+	.lia-page-header {
+		padding: 0 $theme-grid-gutter-side;
+		margin-bottom: 40px;
+		.lia-component-common-widget-page-title {
+			display: block;
+		}
+	}
+	.lia-form-attachments-fieldset-toggle{
+		float: none;
+	}
+	.lia-form-fieldset-wrapper {
+		margin-bottom: 40px;
+
+		&.lia-form-post-fieldset-toggle {
+			.lia-form-row {
+				margin-bottom: 40px;
+			}
+		}
+		
+		&.lia-form-kudos-fieldset-toggle{
+			margin-bottom: 0;
+		}
+		&.lia-form-subscriptions-fieldset-toggle{
+			margin-bottom: 0px;
+		}
+	}
+	.MessageEditorForm {
+		.lia-form-buttons-empty-left-column {
+			float: none;
+			width: 100%;
+			.lia-quilt-column-left {
+				display: none;
+			}
+			.lia-quilt-column-right{
+				width: 100%;
+			}
+		}
+	}
+}
+
+.required {
+	font-size: 14px;
+	color: lighten($text-color, 25%);
+}
+
+.lia-form-label-wrapper label {
+	color: $text-color;
+	font-weight: bold;
+}
+
+.lia-form-validation-help-text{
+	font-size: $theme-type-size-small;
+}
+@include media(phone) {
+	.lia-form-type-file {
+		width: 260px;
+	}
+}

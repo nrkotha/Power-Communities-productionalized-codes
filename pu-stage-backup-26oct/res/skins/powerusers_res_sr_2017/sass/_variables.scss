@@ -1,0 +1,989 @@
+/* Community main color codes
+------------------------------------- */
+$primary-text-color:    #333333;  
+$nav-hover-bg:#f2f2f2;
+$secondary-text-color: #666666;
+$occasional-text-color: #202020;
+$navbar-text-color: #fff;
+$primary-color: #666666; 
+$tags-color: #666666;
+$primary-hover-color: #808285; 
+$primary-link-color:#666666; 
+$primary-link-hover-color:#808285;
+$secondary-link-color:#666666;
+$link-hover-color:  #000000;
+$error-message-bg:#CFEFC8;
+
+$btn-text-color: #fff;  
+$btn-bg-color: #A6A6A6; 
+$btn-hover-text-color: #fff;  
+$btn-hover-bg-color: #666666;
+$btn-hover-bg-user-text-color: #fff;
+$btn-hover-bg-user-color: $primary-hover-color;  
+
+/* top user nav */
+$navSearchDiv-icon: url(/html/assets/search_white.png) no-repeat 15px;
+$messenger-icon: url(/html/assets/messages_white.png) no-repeat 13px 25px;
+$notes-icon: url(/html/assets/e-91-c-copy-white.png) no-repeat 12px 22px;
+
+$navSearchDiv-icon-hover: url(/html/assets/search.png) no-repeat 15px;
+$messenger-icon-hover: url(/html/assets/messages.png) no-repeat 13px 25px;
+$notes-icon-hover: url(/html/assets/e-91-c-copy.png) no-repeat 12px 22px;
+
+$lia-link-navigation-menuicon:url(/html/assets/hamburg-black.png);
+
+/*end top user nav */
+
+$color-lithium-blue1:       #007894; // Meridian blue/links
+$color-lithium-blue2:       #096582; //blue buttons/tabs/active state
+$color-lithium-blue3:       #0691c1; //form buttons
+$color-lithium-blue4:       #42B4D6; 
+
+$color-lithium-sky:         #42b4d6; // Sky blue
+
+$color-lithium-red:         #d0021b; // notification bubble
+$color-lithium-green-light: #49a757; // selected solution bar
+$color-lithium-green-med:   #008000; // solution exists arrow
+$color-lithium-yellow:      #fff9c0; // a random color found in the code
+$color-lithium-yellow1:     #f4b93b;
+$color-lithium-purple:      #6b3f7d;
+$color-lithium-purple1:     #432557;
+$color-lithium-purple2:     #E8466D;
+$color-lithium-maroon:      #aa4275;
+$color-lithium-teal1:       #0a6582;
+$color-lithium-teal2:       #064356;
+
+
+$color-blue-transparent: rgba(9, 101, 130, 0.1);
+$color-purple-transparent:  rgba(67, 38, 87, 0.22);
+
+// Grayscale
+$color-lithium-black:       #262626; // home hero background
+$color-lithium-black1:      #192022;
+
+$color-gray-midnight1:      #252525; // -- text main col
+$color-gray-midnight2:      #4a4a4a; // -- text main col
+$color-gray-midnight3:      #525657; // -- text main col
+
+$color-gray-light0:         #e3e3e3;
+$color-gray-light1:         #f4f4f4;
+$color-gray-light2:         #e4e8ea;
+$color-gray-light3:         #e8e8e8;
+$color-gray-light4:         #cfcfcf;
+$color-gray-light5:         #c6c6c6;
+$color-gray-light6:         #f6f6f6;
+
+$color-lithium-gray1:       #929799;
+$color-lithium-gray2:       #686868;
+$color-lithium-gray4:       #848484;
+$color-lithium-gray5:       #65696b;
+$color-lithium-gray6:       #393939; // -- text sidebar
+$color-lithium-gray7:       #aaaaaa;
+$color-lithium-gray8:       #909090;
+$color-lithium-gray9:       #555555;
+$color-lithium-gray10:      #808587;
+$color-lithium-gray11:      #717171;
+
+$color-aruba-white:         #fdfdfd; // lithium's off white
+
+
+
+/* Fonts/Typography
+------------------------------------- */
+$font-stack: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-base:          $font-stack;
+$font-size-xsmall:          11px;
+$font-size-small:           12px;
+$font-size-base:            14px;
+$font-size-large:           16px;
+$font-size-h1:              28px;
+$font-size-h2:              24px;
+$font-size-h3:              20px;
+$font-size-h4:              18px;
+$font-size-page-title:      32px;
+
+//Default size for message subjects
+$li-font-size-subject:      16px;
+
+//Font Awesome default font size
+$fa-font-size-base:         $font-size-base;
+
+//Font weight for most user generated long-form content
+$font-weight-content:       300;
+$headings-font-weight:      normal;
+
+//Generally used for column headings
+//$headings-small-color:      $text-muted;
+
+//Line heights
+$headings-line-height:      1.2;
+$line-height-base:          1.7142857143; // 24/14  24px line height with base 14px font
+$line-height-large:         1.3333333333; // extra decimals for Win 8.1 Chrome
+$line-height-medium:        1.4285714286; // 20/14  20px line height with base 14px font
+$line-height-small:         1.5;
+$line-height-medium-computed:   round($line-height-medium * $font-size-base); // 20px for 14px base
+
+/* Sizing
+------------------------------------- */
+$base-size: 20px;
+$base-size-sm: 4px;
+$base-size-margin: 10px;
+$base-size-padding: 26px;
+$base-size-padding1: 23px;
+$base-size-mobile-nav: 260px;
+$base-size-header-height: 90px;
+$base-size-header-height-sm: 64px;
+$base-size-input-height: 36px;
+$base-size-button-height: 46px;
+
+// screen-xxl-max = infinity, so it DNE
+$screen-xxl-max: 1600px;
+$screen-xl-max: 1400px;
+$screen-lg-max: 1201px;
+$screen-md-max: 1024px; // there is a 991px breakpoint, but it's so close that i didn't name it
+$screen-sm-max: 768px; // there is a 860px breakpoint, but it's pretty random
+$screen-xs-sm-max: 640px;
+$screen-xs-max: 480px; // there is a 640px breakpoint, but it's a less used mobile one.
+$screen-xxs-max: 320px;
+
+$screen-xxl-min: $screen-xl-max + 1px;
+$screen-xl-min: $screen-lg-max + 1px;
+$screen-lg-min: $screen-md-max + 1px;
+$screen-md-min: $screen-sm-max + 1px;
+$screen-sm-min: $screen-xs-max + 1px;
+$screen-xs-sm-min: $screen-xs-sm-max + 1px;
+$screen-xs-min: $screen-xxs-max + 1px;
+// * screen-xxs-min = 0, so it's implied
+
+
+/* Designs
+------------------------------------- */
+
+
+/* Media Queries
+------------------------------------- */
+// lighter colors on low res screens wash out. use this to darken a color only for those screens
+$query-low-res: "(-webkit-max-device-pixel-ratio: 1.25), screen and (max-resolution: 120dpi)";
+
+// constrain style for only a certain screen size
+$query-xxl-only: "(min-width: #{$screen-xxl-min})";
+$query-xl-only: "(min-width: #{$screen-xl-min}) and (max-width: #{$screen-xl-max})";
+$query-lg-only: "(min-width: #{$screen-lg-min}) and (max-width: #{$screen-lg-max})";
+$query-md-only: "(min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max})";
+$query-sm-only: "(min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max})";
+$query-xs-sm-only: "(min-width: #{$screen-xs-sm-min}) and (max-width: #{$screen-xs-sm-max})";
+$query-xs-only: "(min-width: #{$screen-xs-min}) and (max-width: #{$screen-xs-max})";
+$query-xxs-only: "(max-width: #{$screen-xxs-max})";
+
+// inherit media properties as screens get bigger
+// * xxl-and-up would be xsl-only
+$query-xl-and-up: "(min-width: #{$screen-xl-min})";
+$query-lg-and-up: "(min-width: #{$screen-lg-min})";
+$query-md-and-up: "(min-width: #{$screen-md-min})";
+$query-sm-and-up: "(min-width: #{$screen-sm-min})";
+$query-xs-sm-and-up: "(min-width: #{$screen-xs-sm-min})";
+$query-xs-and-up: "(min-width: #{$screen-xs-min})";
+// * xxs-and-up would be everything
+
+// inherit media properties as screens get smaller
+// * xxl-and-down would be everything
+$query-xl-and-down: "(max-width: #{$screen-xl-max})";
+$query-lg-and-down: "(max-width: #{$screen-lg-max})";
+$query-md-and-down: "(max-width: #{$screen-md-max})";
+$query-sm-and-down: "(max-width: #{$screen-sm-max})";
+$query-xs-sm-and-down: "(max-width: #{$screen-xs-sm-max})";
+$query-xs-and-down: "(max-width: #{$screen-xs-max})";
+// * xxs-and-down would be xxs-only
+
+// constrain style between screen sizes
+// * xxs-thru-whatever would be whatever-and-down
+$query-xs-thru-sm: "(min-width: #{$screen-xs-min}) and (max-width: #{$screen-sm-max})";
+$query-xs-thru-md: "(min-width: #{$screen-xs-min}) and (max-width: #{$screen-md-max})";
+$query-xs-thru-lg: "(min-width: #{$screen-xs-min}) and (max-width: #{$screen-lg-max})";
+$query-xs-thru-xl: "(min-width: #{$screen-xs-min}) and (max-width: #{$screen-xl-max})";
+$query-sm-thru-md: "(min-width: #{$screen-sm-min}) and (max-width: #{$screen-md-max})";
+$query-sm-thru-lg: "(min-width: #{$screen-sm-min}) and (max-width: #{$screen-lg-max})";
+$query-sm-thru-xl: "(min-width: #{$screen-sm-min}) and (max-width: #{$screen-xl-max})";
+$query-md-thru-lg: "(min-width: #{$screen-md-min}) and (max-width: #{$screen-lg-max})";
+$query-md-thru-xl: "(min-width: #{$screen-md-min}) and (max-width: #{$screen-xl-max})";
+$query-lg-thru-xl: "(min-width: #{$screen-lg-min}) and (max-width: #{$screen-xl-max})";
+$query-lg-thru-xxl: "(min-width: #{$screen-lg-min}) and (max-width: #{$screen-xxl-max})";
+// * whatever-thru-xxl would be whatever-and-up
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    END * 0.1 Variables
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------
+
+    * 0.2 Mixins
+
+--------------------------------------------------------------------------------- */
+// form inputs
+@mixin input-basic() {
+    @include vertical-align-text($base-size-input-height);
+    //width: 100%;
+    color: $color-lithium-blue2;
+    padding: 0 $base-size-sm*3 0;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    border-radius: $base-size-sm;
+    display: inline-block;
+}
+
+// search input
+@mixin search-input-basic() {
+    @include input-basic();
+    width: 0;
+    margin: 0;
+    padding-right: $base-size-sm;
+    padding-left: $base-size-sm;
+    font-size: 11px;
+    line-height: 14px;
+    @include opacity(0);
+    @include vendor-prefix(appearance, button);
+    @include vendor-prefix(transition, all 0.2s ease-in-out);
+
+    &.active {
+        width: 265px; // same as main site
+        @include opacity(1);
+    }
+}
+
+// Linear Gradient
+@mixin linearGradient($top, $bottom, $top-pos: 0%, $bottom-pos: 100%){
+    background: $top; /* Old browsers */
+    background: -moz-linear-gradient(top, $top $top-pos, $bottom $bottom-pos); // FF3.6+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop($top-pos, $top), color-stop($bottom-pos, $bottom)); // Chrome, Safari4+
+    background: -webkit-linear-gradient(top, $top $top-pos, $bottom $bottom-pos); // Chrome10+, Safari5.1+
+    background: -o-linear-gradient(top, $top $top-pos, $bottom $bottom-pos); // Opera 11.10+
+    background: -ms-linear-gradient(top, $top $top-pos, $bottom $bottom-pos); // IE10+
+    background: linear-gradient(to bottom, $top $top-pos, $bottom $bottom-pos); // W3C
+}
+
+// Vendor Prefix
+// not all vendors have all the prefixes, but this seems just fine for now
+// @from: https://css-tricks.com/snippets/sass/mixin-prefix-properties/
+// to use a specific set of prefixes, do, for example: @include vendor-prefix(border-radius, 3px 3px 0 0, (webkit, moz));
+@mixin vendor-prefix($property, $value, $prefixes: webkit moz ms o) {
+    @each $prefix in $prefixes {
+        #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+}
+
+// Opacity
+@mixin opacity($value, $is-important: false) {
+    $calc-value: floor($value * 100);
+    @if $is-important == true or $is-important == "!important"  {
+        opacity: $value !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$calc-value})" !important;
+        filter: alpha(opacity=$calc-value) !important;
+    }
+    @else {
+        opacity: $value;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$calc-value})";
+        filter: alpha(opacity=$calc-value);
+    }
+}
+
+// Colspans
+// used in .colspan-# classes
+@mixin colspan($col-span, $col-margin: $base-size-margin, $max-cols: 12) {
+    $context-calc: $col-span * $screen-lg-max/$max-cols;
+    $context-calc-margin: 2 * $col-margin;
+    display: inline;
+    float: left;
+    margin: 0 $col-margin;
+    max-width: calc(#{$context-calc} - #{$context-calc-margin});
+    width: calc(#{$col-span/$max-cols*100%} - #{$context-calc-margin});
+}
+
+// Common Anchor Colors
+@mixin anchor-color($color: $color-lithium-blue1, $hover: $color-lithium-blue2) {
+    color: $color;
+    @include vendor-prefix(transition, all 0.15s linear);
+    &:hover, &:focus, &:active {
+        color: $hover;
+        text-decoration: none;
+    }
+}
+@mixin anchor-color-bg($bg: transparent, $hover: $color-lithium-blue2) {
+    background-color: $bg;
+    &:hover, &:focus, &:active, &:active:hover, &:active:focus {
+        background-color: $hover;
+    }
+}
+
+@mixin media($breakpoint, $output: screen, $direction: max) {
+    $type: type-of($breakpoint);
+    $query: "#{$output}" !default;
+
+    @if $type == string {
+        $query: "#{$output} and #{$breakpoint}";
+    }
+
+    @else if $type == number {
+        $query: "#{$output} and (#{$direction}-width: #{$breakpoint})";
+    }
+
+    @media #{$query} {
+        @content;
+    }
+}
+
+@mixin list-flyout() {
+    > ul {
+        display: none;
+        @include vendor-prefix(transition, all 0.20s linear);
+    }
+    &:hover, &:focus, &:active {
+        > ul {
+            display: block;
+            position: absolute;
+            z-index: 100;
+        }
+    }
+}
+
+// used to set the layout width of the site. 
+
+@mixin full-width-container() {
+    max-width: $screen-xxl-max;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 $base-size-padding;
+    float: none;
+}
+
+// absolutely center a box to middle vertically and horizontally
+@mixin absolute-centering-box() {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    // as of summer 2016, prevents chrome from adding an inline transform matrix that messes with the styles
+    -webkit-transform: translateZ(0) !important;
+    @include vendor-prefix(transform, translate(-50%,-50%) !important);
+}
+
+// turn a content box white
+@mixin white-box() {
+    background-color: white;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 1px $color-gray-light5;
+    -moz-box-shadow: 0 0 1px $color-gray-light5;
+    box-shadow: 0 0 1px $color-gray-light5; 
+    border-bottom: 2px solid $color-gray-light2;
+}
+
+// common inherits for fonts
+@mixin font-inherits() {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+}
+
+// fontAwesome basic structure
+@mixin fontAwesome-basic() {
+    display: inline-block;
+    font: normal normal normal 16px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+// forcce no borders
+@mixin no-borders() {
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+// forcce no borders
+@mixin vertical-align-text($height) {
+    height: $height;
+    line-height: $height;
+}
+
+
+@mixin labels-rounded() {
+    .LabelsList {
+        .lia-list-standard,
+        .lia-list-standard-inline {
+            > .label {
+                width: auto;
+                display: inline-block;
+                margin-right: $base-size-margin;
+                .label-link {
+                    @include vendor-prefix(border-radius, 50vh, (webkit, moz));
+                    font-weight: 600;
+                    font-size: 12px;
+                    background-color: $gray-light;
+                    color: #fff;
+                    padding: 5px 10px;
+                    line-height: 1.5;
+                }
+                .label-count {
+                    display:  none;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    END * 0.2 Mixins
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    * 0.3 Original default, uncomment as needed
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+// Contents copied from: lithium_responsive_sdk/sass/_variables.scss
+// Contents copied from: responsive_peak/sass/_variables.scss
+//
+// scss-lint:disable ColorVariable
+//
+// Variables
+// --------------------------------------------------
+//$gray-base:             #000;
+//$gray-darker:           #333;    // lighten($gray-base, 20%)
+//$gray-dark:             #3e3e3e; // lighten($gray-base, 24.5%)
+$gray:                  #5d5d5d; // lighten($gray-base, 36.5%)
+$gray-light:            #747474; // lighten($gray-base, 45.5%)
+//$gray-lighter:          #e8e8e8; // lighten($gray-base, 91%)
+//$gray-lightest:         #f4f4f4; // lighten($gray-base, 95.7%)
+
+
+//== Colors
+//
+//$brand-primary:     #146cac;
+//$brand-danger:      #cf000f;
+//$brand-info:        #007fab;
+//$brand-success:     #448602;
+//$brand-warning:     #fecc5c;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+// Background color for `<body>`.
+$body-bg:#FFFFFF;
+// The default background for panels and areas with content
+//$li-bg-secondary:           #fff;
+
+// Background for the section under header background and between consecutive elements for mobile
+//$li-sub-header-bg:          #fbfbfb;
+
+// Global text color on `<body>`.
+//$text-color:                $gray-dark;
+//$text-muted:                $gray-light;
+// Text color on dark backgrounds
+//$li-text-color-inverse:     #fff;
+
+
+// Global textual link color.
+//$link-color:                $brand-primary;
+// Link hover color set via `darken()` function.
+//$link-hover-color:          darken($link-color, 15%);
+// Link hover decoration.
+//$link-hover-decoration:     underline;
+
+// Opacity for disabled links and buttons
+//$li-disabled-opacity:       .3;
+
+// Background for terms highlighted by search
+//$li-text-highlight-bg:      #ffffb5;
+// Links in the message body color
+//$li-message-link-color:     $brand-primary;
+// Navigation or signpost links such as "Go to Solution" or "Forgot password"
+//$li-navigation-link-color:  $brand-primary;
+// Color of the dot that separates items horizontally like author and date for a message
+//$li-separator-color:        $gray-light;
+
+// uppercase to uppercase all rank names, or none
+//$li-rank-text-transform:    none;
+
+// Default border color
+$li-border-color:           #eaeaea;
+// Border for dividing consecutive items in a panel such as a list of messages or users
+//$li-border-row:             $gray-lighter;
+// Border for panel headings, outlining panels and primary separators between panel sections
+//$li-border-panel:           #d1d1d1;
+// Border between major sections of a page such as below the header or above the footer
+// and other borders which span the width of the page
+//$li-border-divider:         #c4c4c4;
+// Stroke around kudos counts and secondary inversed buttons
+//$li-border-dark:            #a1a1a1;
+//$li-slide-menu-bg:          $gray-darker;
+
+// Hover background for dropdown links.
+//$dropdown-link-hover-bg:    #e9faff;
+
+
+//== Container
+//
+//$li-container-fluid:        true;
+
+
+//== Responsive Breakpoints
+//
+//$screen-xs:                  480px;
+//$screen-sm:                  768px;
+//$screen-md:                  992px;
+//$screen-lg:                  1200px;
+
+
+
+
+
+//== Buttons
+//
+//$btn-font-weight:                bold;
+//$btn-primary-color:              $li-text-color-inverse;
+//$btn-primary-bg:                 $brand-primary;
+//$btn-primary-border:             $brand-primary;
+//$btn-inverse-primary-color:      $brand-primary;
+//$btn-inverse-primary-bg:         transparent;
+//$btn-inverse-primary-border:     $brand-primary;
+//$btn-default-color:              $gray-dark;
+//$btn-default-bg:                 $gray-lighter;
+//$btn-default-border:             $gray-lighter;
+//$btn-secondary-color:            $li-text-color-inverse;
+//$btn-secondary-bg:               $gray-light;
+//$btn-secondary-border:           $gray-light;
+//$btn-inverse-secondary-color:    $gray-dark;
+//$btn-inverse-secondary-bg:       transparent;
+//$btn-inverse-secondary-border:   $li-border-dark;
+//$btn-link-disabled-color:        $gray-lighter;
+
+
+//== Community interaction style icon backgrounds
+//
+//$li-icon-blog-bg:         #58a386;
+//$li-icon-category-bg:     #869499;
+//$li-icon-community-bg:    $gray-light;
+//$li-icon-contest-bg:      #cf6f6f;
+//$li-icon-forum-bg:        #3296b5;
+//$li-icon-group-bg:        #d78021;
+//$li-icon-idea-bg:         #809f52;
+//$li-icon-qanda-bg:        #6a80bc;
+//$li-icon-tkb-bg:          #8477a3;
+
+
+//== Triangle top
+//
+//$li-triangletop-thumb-tack-bg:  #007fab;
+//$li-triangletop-check-bg:       #008000;
+//$li-triangletop-lock-bg:        #007fab;
+//$li-triangletop-bullhorn-bg:    #cf000f;
+
+//== Hero
+//
+//$li-hero-board-bg:              $gray;
+//$li-hero-category-bg:           $gray;
+//$li-hero-profile-bg:            #40494c;
+//$li-hero-color:                 #fff;
+//$li-hero-community-bg:          #3f3143;
+//$li-hero-icon-color:            #d1d1d1;
+
+//== Message editor buttons
+//
+// visibility for message editor toolbar buttons for different sizes
+// desktop buttons are determined by the tinyMceOptions...json files
+// if the button is not available for desktop it is not available for any size
+//
+// to change the defaults, uncomment the entire sass map (everything from
+// the `$li-editor-toolbar-show-mobile: (` to the closing `);` lines later
+// and set the control's value to false
+
+// Mobile controls
+//
+//$li-editor-toolbar-show-mobile: (
+//bold:            true,
+//bullist:         false, // Bullet list
+//code:            false, // Insert code (previous version)
+//embedvideo:      false,
+//emoticons:       true,
+//findcontent:     false, // TKB Find Content
+//fontselect:      false, // Select font family
+//fontsizeselect:  false,
+//forecolor:       false,
+//formatselect:    false, // Select heading sizes
+//image:           true,
+//insertcode:      false,
+//italic:          true,
+//link:            false,
+//macros:          true,
+//numlist:         false, // Numbered list
+//quote:           true,
+//spellchecker:    false,
+//spoiler:         false,
+//strikethrough:   false,
+//table:           false,
+//toc:             false, // TKB table of contents
+//underline:       true
+//);
+
+// Tablet controls
+//
+// Note: if a control is hidden for tablet it is also hidden for mobile
+//       even if the mobile control is set to true
+//$li-editor-toolbar-show-tablet: (
+//bold:            true,
+//bullist:         true, // Bullet list
+//code:            true, // Insert code (previous version)
+//embedvideo:      true,
+//emoticons:       true,
+//findcontent:     true, // TKB Find Content
+//fontselect:      true, // Select font family
+//fontsizeselect:  true,
+//forecolor:       true,
+//formatselect:    true, // Select heading sizes
+//image:           true,
+//insertcode:      true,
+//italic:          true,
+//link:            true,
+//macros:          true,
+//numlist:         true, // Numbered list
+//quote:           true,
+//spellchecker:    true,
+//spoiler:         true,
+//strikethrough:   true,
+//table:           true,
+//toc:             true, // TKB table of contents
+//underline:       true
+//);
+
+
+//=============================================================================
+// NOTE: Below this point all colors are derived from colors above
+//
+
+
+
+//== Border radii
+//
+//$border-radius-base:        4px;
+//$border-radius-large:       6px;
+//$border-radius-small:       2px;
+// used to create rounded sides
+//$border-radius-round:       200px;
+
+
+//== Icons
+//
+//$li-avatar-size-small:      25px;
+//$li-avatar-size-medium:     30px;
+//$li-avatar-size-large:      40px;
+//$li-avatar-size-message:    64px;
+//$li-icon-size:              38px;
+//$li-icon-size-lg:           50px;
+//$li-icon-size-sm:           32px;
+//$li-icon-size-xs:           9px;
+//$li-icon-color:             $gray-light;
+//$li-icon-inverse-color:     $li-text-color-inverse;
+//$li-icon-fixed-width:       18em/14;
+//== Panels
+//
+//$panel-bg:                    $li-bg-secondary;
+
+// Secondary panels
+//$li-panel-secondary-bg:       $li-bg-secondary;
+//$panel-heading-padding:       8.5px 15px;
+//$panel-body-padding:          20px;
+//$panel-border-radius:         $border-radius-base;
+
+// Border color for elements within panels
+//$panel-inner-border:          $li-border-color;
+//$panel-footer-bg:             $li-sub-header-bg;
+//$panel-default-text:          $text-color;
+//$panel-default-border:        $li-border-panel;
+//$panel-default-heading-bg:    $li-bg-secondary;
+
+
+//== Breadcrumbs
+//
+//##
+//$breadcrumb-padding-vertical:   15px;
+//$breadcrumb-padding-horizontal: 15px;
+
+// Breadcrumb background color
+//$breadcrumb-bg:                 transparent;
+// Breadcrumb text color
+//$breadcrumb-color:              $li-border-dark;
+// Text color of current page in the breadcrumb
+//$breadcrumb-active-color:       $text-color;
+// Textual separator for between breadcrumb elements
+$breadcrumb-separator:          '>';
+
+
+//== Forms
+//
+//$input-bg:                        $li-bg-secondary;
+
+// `<input disabled>` background color
+//$input-bg-disabled:               $gray-lighter;
+
+// Text color for `<input>`s
+//$input-color:                     $text-color;
+//$input-color-placeholder:         $text-muted;
+
+// `<input>` border color
+//$input-border:                    $li-border-color;
+//$input-border-radius:             $border-radius-small;
+// Border color for inputs on focus
+//$input-border-focus:              $brand-primary;
+//$legend-color:                    $text-color;
+//$legend-border-color:             $li-border-color;
+//$input-checkbox-width:            20px;
+//$form-padding:                    30px;
+
+// Used to create 40px tall buttons and inputs. 26px + ($padding-base-vertical(6) * 2) + (border(1) * 2) = 40px
+//$li-line-height-input:            26px;
+//$input-height-base:               40px; // 40px
+
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+// Dropdown menu `border-color`.
+//$dropdown-border:                   $li-border-panel;
+
+
+// Divider color for between dropdown items.
+//$dropdown-divider-bg:               $li-border-color;
+
+// Dropdown link text color.
+//$dropdown-link-color:               $text-color;
+//$dropdown-link-hover-color:         darken($dropdown-link-color, 5%);
+
+
+// Disabled dropdown menu item background color.
+//$dropdown-link-disabled-color:      lighten($dropdown-link-color, 40%);
+
+// Text color for headers within dropdown menus.
+//$dropdown-header-color:             $text-muted;
+
+// Deprecated `$dropdown-caret-color` as of v3.1.0
+//$dropdown-caret-color:              $gray-light;
+
+
+//== Navs
+//
+
+// Shared nav styles
+//$nav-link-hover-bg:                         $gray-lightest;
+//$nav-link-padding-xs:                       10px 17px;
+
+// Tabs
+//$nav-tabs-border-color:                     $li-border-color;
+//$nav-tabs-link-hover-border-color:          $li-border-color;
+//$nav-tabs-active-link-hover-color:          $text-color;
+//$nav-tabs-active-link-hover-border-color:   $li-border-color;
+
+
+// Alerts
+//
+//$alert-success-bg:            $brand-success;
+//$alert-success-text:          $li-text-color-inverse;
+//$alert-success-border:        $brand-success;
+//$alert-info-bg:               $brand-info;
+//$alert-info-text:             $li-text-color-inverse;
+//$alert-info-border:           $brand-info;
+//$alert-warning-bg:            $brand-warning;
+//$alert-warning-text:          $text-color;
+//$alert-warning-border:        $brand-warning;
+//$alert-danger-bg:             $brand-danger;
+//$alert-danger-text:           $li-text-color-inverse;
+//$alert-danger-border:         $brand-danger;
+
+
+//== Pagination
+//
+//##
+//$pagination-color:                     $text-color;
+//$pagination-bg:                        transparent;
+//$pagination-border:                    transparent;
+//$pagination-hover-color:               $text-color;
+//$pagination-hover-bg:                  transparent;
+//$pagination-hover-border:              transparent;
+//$pagination-active-color:              $text-color;
+//$pagination-active-bg:                 transparent;
+//$pagination-active-border:             transparent;
+//$pagination-disabled-color:            $text-color;
+//$pagination-disabled-bg:               transparent;
+//$pagination-disabled-border:           transparent;
+
+
+//== Thumbnails
+//
+
+// Thumbnail border color
+//$thumbnail-border:            $li-border-color;
+
+
+//== Wells
+//
+//##
+//$well-bg:                     $li-panel-secondary-bg;
+
+
+//== Badges (number of new notification over the avatar)
+//
+//##
+//$badge-bg:                    $brand-danger;
+// Badge background color in active nav link
+//$badge-active-bg:             $brand-danger;
+
+
+//== Ideas Statuses
+//
+//$li-idea-status-color:          $gray-light;
+
+
+//== Modals
+//
+//##
+// Modal content border color
+//$modal-content-border-color:  $li-border-panel;
+// Modal header border color
+//$modal-header-border-color:   $li-border-color;
+// Modal footer border color
+//$modal-footer-border-color:   $li-border-color;
+
+
+//== Spacing
+//
+//$padding-base-vertical:     6px;
+//$padding-base-horizontal:   12px;
+//$padding-xl-vertical:       20px;
+//$padding-xl-horizontal:     25px;
+//$padding-large-vertical:    10px;
+//$padding-large-horizontal:  16px;
+//$padding-small-vertical:    5px;
+//$padding-small-horizontal:  10px;
+//$padding-xs-vertical:       1px;
+//$padding-xs-horizontal:     5px;
+//$padding-medium:            15px;
+
+
+//== Grid system
+//
+//$grid-columns:              24; // DO NOT MODIFY
+// Padding between columns. Gets divided in half for the left and right.
+//$grid-gutter-width:         30px;
+
+
+//== List group
+//
+//##
+// `.list-group-item` border color
+//$list-group-border:             $li-border-row;
+// List group border radius
+//$list-group-border-radius:      $border-radius-base;
+// Background color of single list items on hover
+//$list-group-hover-bg:           $gray-lighter;
+
+
+//== Tables
+//
+//## Customizes the `.table` component with basic values, each used across all table variations.
+// Border color for table and cell borders.
+//$table-border-color:            $li-border-row;
+//$table-bg:                      transparent;
+//$table-cell-padding:            15px;
+
+
+//== Lithium component spacing and widths
+//
+//$li-triangletop-size:             40px;
+//$li-font-size-space:              .26em;
+//$li-video-gallery-height:         90px;
+//$li-video-gallery-width:          120px;
+//$li-kudos-alt-button-style-width: 180px;
+//$li-kudos-horizontal-md-width:    93px;
+//$li-ratings-alt-button-style-width: $li-kudos-alt-button-style-width;
+//$li-ratings-horizontal-md-width:    $li-kudos-horizontal-md-width;
+//$li-ratings-star-large:           20px;
+//$li-user-badges-badge-size:       72px; // Badge display size + image padding top and bottom -- 72px + (2 * 10px)
+//$li-album-thumbnail-dimensions:   110px;
+//$li-uploader-image-tile-caption-height:   35px;
+//$li-uploader-image-tile-height:   250px;
+//$li-uploader-image-tile-width:    250px;
+//$li-uploader-padding-vertical:    15px;
+//$li-hero-category-height:         225px;
+//$li-hero-input-height:            55px;
+//$li-unread-border-width:          6px;
+//$li-slide-menu-vertical-width:    400px;
+//$li-community-nav-item-padding:   15px;
+//$fa-font-path:                    '/html/assets/fonts';
+//$fa-css-prefix:                   lia-fa;
+//$li-lightbox-icon-size-large:     24px;
+//$li-uploader-2x-icon:             28px;
+//$li-dropdown-paging-min-width:    200px;
+//$li-search-input-height:          46px;
+
+// not all buttons have a min width, used for footer actions with 2 buttons
+//  320px (min container width)
+//  - 20px (10px * 2 grid gutters)
+//  - 40px (20px * 2 panel / view padding)
+//  - 20px (space between buttons)
+//  / 2 (per button) = 120
+//$li-btn-min-width:               120px;
+
+
+// scss-lint:disable ColorVariable
+//$li-group-icon-size:              75px;
+//$li-group-icon-size-large:        100px;
+//
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    * 0.3 Original, unused code
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

@@ -1,0 +1,1 @@
+<div class="pbi-box-title pbi-bg-black"><h3>Community Blog</h3></div>

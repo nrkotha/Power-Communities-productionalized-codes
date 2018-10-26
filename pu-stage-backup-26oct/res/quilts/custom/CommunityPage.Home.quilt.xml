@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="Four-Column" nestable="false" disableTopCssClass="false">
+  <add to="mid-content2">
+    <component id="card.flow"/>
+  </add>
+  <add to="mid-content1">
+    <component id="card.powerapps"/>
+  </add>
+  <add to="left-content">
+    <component id="card.powerbi"/>
+  </add>
+</quilt>

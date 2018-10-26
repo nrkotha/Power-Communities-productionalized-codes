@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="header-top">
+    <column id="header-top" width="24"/>
+  </row>
+  <row id="title">
+    <column id="page-title" width="10"/>
+    <column id="site-navigation" width="14"/>
+  </row>
+  <row id="user">
+    <column id="user-navigation" width="18"/>
+    <column id="private-notes" width="6"/>
+  </row>
+  <row id="crumb">
+    <column id="breadcrumb" width="24"/>
+  </row>
+  <row id="feedback">
+    <column id="feedback" width="24"/>
+  </row>
+  <row id="search">
+    <column id="search-bar" width="24"/>
+  </row>
+</layout>

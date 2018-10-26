@@ -1,0 +1,48 @@
+// Contents copied from: theme_base/sass/component/_message.scss
+.lia-component-message-view-widget-body,
+.lia-component-teaser,
+.lia-message-body {
+	.lia-message-body-content img{
+		border-radius: $border-radius-large;
+	}
+}
+
+.lia-component-body-signature-highlight-escalation {
+	.lia-panel-feedback-banner-safe {
+		display: none;
+	}
+}
+
+//Message view display
+#lia-body .lia-content .lia-panel-message {
+    border-bottom: 0;
+
+    .lia-message-view-display {
+        border-bottom: 1px solid $labels-border-color;
+
+        .lia-quilt-layout-one-column-message,
+        .lia-quilt-layout-blog-message-standard,
+        .lia-quilt-layout-forum-topic-message-support {
+            .lia-user-name-link {
+                font-weight: bold;
+            }
+            .lia-message-author-rank {
+                color: $tp-black-400;
+            }
+            .lia-message-post-date {
+                color: $message-body-color;
+            }
+            .lia-button {
+                @include media(phone) {
+                    margin-bottom: $theme-space-xsmall;
+                    &:not(.lia-button-image-kudos) {
+                        width: 100%;
+                    }
+                }
+            }
+            .lia-rating-metoo {
+                margin-bottom: $theme-space-base;
+            }
+        }
+    }
+}

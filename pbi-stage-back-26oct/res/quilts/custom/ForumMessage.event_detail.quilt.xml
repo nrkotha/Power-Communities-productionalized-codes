@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="Forum-Message-Custom" nestable="false" disableTopCssClass="false">
+  <add to="header">
+    <component id="gz.event-message-display"/>
+  </add>
+  <add to="main-content">
+    <component id="gz.event-custom-message-page"/>
+  </add>
+</quilt>

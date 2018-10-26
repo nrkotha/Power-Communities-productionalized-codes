@@ -1,0 +1,59 @@
+#lia-body{
+&.lia-user-status-anonymous.TkbPage #header-strip th:last-child {
+    display: block;
+}
+&.PostPage{
+a.lia-link-navigation:hover{
+font-family: 'SegoeUI-Semibold';
+}
+.lia-form-multiselect dt a {  
+    text-decoration: none !important;
+}
+}
+.lia-tabs-standard > .lia-tabs .tab-link:hover {
+    text-decoration: none !important;
+}
+&.RecentPostsPage .lia-menu-bar.lia-menu-bar-bottom.lia-component-post-list{
+margin-top:20px;
+ }
+.lia-component-labels-widget-labels-list .label-count {
+    position: relative ;
+}
+.lia-component-labels-widget-labels-list .label-link {
+    float: left;
+    margin-right: 0;
+    width: auto;
+    padding-right: 10px;
+}
+.lia-filter-select {
+    margin-bottom: 0;
+}
+.TagList li .lia-tag{
+    background: #F9F9F9;
+    border-radius: 24px;
+    border: 1px solid #E6E6E6;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 1px 10px;    
+}
+.TagList li[aria-hidden=true] {
+    display: inline-block;
+    color: #000000;
+    font-size:15px;
+    line-height:18px;
+    font-family: 'SegoeUI-Semibold';
+    margin-right:7px;
+}
+.TagList li{
+padding-left:0px;
+padding-right:0px;
+
+}
+.TagList li a{
+color: $brand-primary;
+}
+.lia-tag-list-item {   
+    margin-bottom: 8px;
+    margin-right: 4px;
+}
+}

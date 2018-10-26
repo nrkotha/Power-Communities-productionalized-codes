@@ -1,0 +1,13 @@
+/* -------------------------------- 
+ Font family SegeoUI Start
+--------------------------------  */
+html,
+body {
+  font-family: segoeui;
+}
+
+
+@font-face {
+    font-family:segoeui; //segoe UI
+    src: url(/html/assets/segoeui.ttf);
+}

@@ -1,0 +1,53 @@
+// Contents copied from: theme_base/sass/component/_kudo-authors-leaderboard.scss
+.lia-quilt-column-side-content .lia-component-kudos-widget-authors-leaderboard {
+	.lia-component-users-widget-user-list {
+		tr {
+			display: inline-block;
+			position: relative;
+			width: 100%;
+		}
+		td.userColumn {
+			display: inline-block;
+			.lia-user-attributes {
+				vertical-align: top;
+			}
+		}
+		td.kudosCountColumn {
+			position: absolute;
+			top: 25px;
+			left: 60px;
+			color: $lithium-light-gray;
+
+			&:before {
+				color: inherit;
+			}
+		}
+	}
+	
+}
+
+//To override the default support theme css
+#lia-body.CommunityPage .lia-component-kudos-widget-authors-leaderboard .lia-panel-content .UserList, 
+#lia-body.CategoryPage .lia-component-kudos-widget-authors-leaderboard .lia-panel-content .UserList {
+	@include media(tablet-only) {
+		margin: 0 100px;
+	}
+
+	.lia-list-row {
+		width: 100%;
+		@include media(tablet-and-up) {
+			width: 50%;
+		}
+		@include media(desktop-and-up) {
+			width: 25%;
+		}
+
+		td.userColumn {
+			padding: $theme-space-small + $theme-space-xsmall;
+		}
+
+		.kudosCountColumn {
+			left: 75px;
+		}
+	}
+}

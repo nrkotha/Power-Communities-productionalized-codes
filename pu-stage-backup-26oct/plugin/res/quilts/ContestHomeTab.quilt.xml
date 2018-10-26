@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="contest-hometab" nestable="false" disableTopCssClass="false">
+  <add to="main-right">
+    <component id="contest-rules"/>
+  </add>
+  <add to="main-left">
+    <component id="contest-example"/>
+  </add>
+</quilt>

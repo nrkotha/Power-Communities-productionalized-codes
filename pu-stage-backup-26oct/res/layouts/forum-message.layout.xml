@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="header">
+    <column id="header-left" width="12"/>
+    <column id="header-right" width="12"/>
+  </row>
+  <row id="main">
+    <column id="main-left" width="4"/>
+    <column id="main-right" width="20"/>
+  </row>
+  <row id="footer">
+    <column id="footer-left" width="4"/>
+    <column id="footer-center" width="10"/>
+    <column id="footer-right" width="10"/>
+  </row>
+  <row id="quickreply">
+    <column id="quickreply-left" width="14"/>
+    <column id="quickreply-right" width="10"/>
+  </row>
+  <row id="mod-controls">
+    <column id="mod-controls-main" width="24"/>
+  </row>
+</layout>

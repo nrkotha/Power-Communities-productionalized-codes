@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="true">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="main-content">
+    <component id="Showcase.Banner"/>
+    <component id="Custom.CardsMessageList"/>
+    <component id="Custom.CardsMessageListPaging"/>
+    <component id="quilt:Showcase.MenuBar"/>
+    <component id="reply-filter"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:HeaderPageNoTitleNoBreadcrumbs"/>
+  </add>
+</quilt>

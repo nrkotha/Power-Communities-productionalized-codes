@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="main_row">
+    <column id="main_content" width="24"/>
+  </row>
+</layout>

@@ -1,0 +1,142 @@
+//==============================//
+//=== custom variables Start ===//
+//==============================//
+//== Colors
+
+//
+$brand-primary:     #666666;
+$brand-danger:      #cf000f;
+$brand-info:        #666666;
+$brand-success:     #448602;
+$brand-warning:     #fecc5c;
+$white-bg:#fff;
+$li-text-color-inverse: #fff;
+$categogy-heading-color: #666666;
+$board-list-color: #666666;
+$input-white-bg:#fff;
+$placeholder-color:#828282;
+$text-description:#767676;
+$message-subject:#2B2B2B;
+$icon-color:#989898;
+$panel-main-title:17px;
+//Buttons
+$btn-primary-bg               :$brand-primary;
+$btn-primary-border           :$brand-primary;
+$btn-primary-color            :$li-text-color-inverse;
+$btn-secondary-bg             :$brand-primary;
+$btn-secondary-border         :$brand-primary;
+$btn-secondary-color          :$li-text-color-inverse;
+$btn-inverse-secondary-bg     :$brand-primary;
+$btn-inverse-secondary-border :$brand-primary;
+$btn-inverse-secondary-color  :$brand-primary;
+$btn-inverse-primary-color    :$brand-primary;
+$btn-hover:#666666;
+$background-color:#000;
+$btn-black-bg:#000;
+$navigation-link-hover:$brand-primary;
+$linear-gradient:#363636;
+$linear-gradient-top:#666666;
+$user-drop-down-hover:#e8e8e8;
+$user-count-color:#9f9f9f;
+$top-search-header-bg:#d9d9d9;
+$font-black-color:#000;
+$search-bar-bg:#949494;
+$placeholder-color:#666;
+$search-icon-path : "/html/assets/search_icon.svg";
+$search-icon-brand-path : "/html/assets/search_icon_brand.svg";
+
+
+/* Fonts/Typography
+------------------------------------- */
+$font-stack:'SegoeUI', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-base:          $font-stack;
+$font-size-xsmall:          11px;
+$font-size-small:           12px;
+$font-size-base:            14px;
+$font-size-normal:          14px;
+$font-size-large:           16px;
+$font-size-h1:              22px;
+$font-size-h2:              17px;
+$font-size-h3:              16px;
+$font-size-h4:              14px;
+$font-size-page-title:      15px;
+$panel-title:15px;
+
+//Default size for message subjects
+$li-font-size-subject:      15px;
+
+//Font Awesome default font size
+$fa-font-size-base:         $font-size-base;
+
+//Font weight for most user generated long-form content
+$font-weight-content:       300;
+$headings-font-weight:      normal;
+
+
+//Line heights
+$headings-line-height:      1.2;
+$line-height-base:          1.7142857143; // 24/14  24px line height with base 14px font
+$line-height-large:         1.3333333333; // extra decimals for Win 8.1 Chrome
+$line-height-medium:        1.4285714286; // 20/14  20px line height with base 14px font
+$line-height-small:         1.5;
+$panel-title-line-height:19px;
+
+//panels
+$panel-bg:#FFFFFF;
+$panel-border:#E0E0E0;
+$panel-radius:3px;
+$panel-title-color:#4F4F4F;
+$divider-border:#EAEAEA;
+
+
+// breakpoints
+
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+
+@mixin mobile {
+  @media (max-width: #{$screen-xs}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: #{$screen-sm}) {
+    @content;
+  }
+}
+@mixin tabletpro {
+  @media (max-width: #{$screen-md}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: #{$screen-lg}) {
+    @content;
+  }
+}
+
+//==============================//
+//=== custom variables End   ===//
+//==============================//
+$btn-default-color:#666666;
+$btn-danger-color:#FFFFFF;
+$btn-success-color:#FFFFFF;
+$btn-warning-color:#FFFFFF;
+$btn-info-color:#FFFFFF;
+$headings-color:#4F4F4F;
+$link-color:#666666;
+$body-bg:#f8f8f8;
+$text-color:#000000;
+$font-family-sans-serif:'SegoeUI', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+$font-family-serif:'SegoeUI', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+$font-size-base:13px;

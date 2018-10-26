@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="One-Column-Gallery" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="main-content">
+    <component id="editor"/>
+    <component id="VideoGallery.PostPage.Form"/>
+    <component id="custom.form-field.category" featuredCategory="Featured" moderatorRole="administrator"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+  </add>
+  <remove from="site-navigation" for="Header">
+    <component id="common.widget.site-navigation"/>
+  </remove>
+</quilt>

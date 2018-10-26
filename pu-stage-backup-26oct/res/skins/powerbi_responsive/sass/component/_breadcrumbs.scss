@@ -1,0 +1,98 @@
+// Contents copied from: theme_base/sass/component/_breadcrumbs.scss
+#lia-body.lia-body .lia-breadcrumb > .lia-list-standard-inline > .lia-breadcrumb-seperator {
+    display: none;
+}
+
+ #lia-body{
+.lia-breadcrumb > .lia-list-standard-inline > li {
+    padding-left: 0;
+    padding-right: 0;
+   padding-top:5px;
+padding-bottom:5px;
+    margin: 0;
+}
+.lia-breadcrumb > .lia-list-standard-inline {  
+padding:15px 0; 
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+.lia-breadcrumb .lia-link-navigation {
+    padding: 0;
+    font-weight: normal;
+    font-size:15px;
+    color:#000;
+}
+.lia-breadcrumb .final-crumb{
+font-family: 'SegoeUI-Semibold', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+}
+.lia-top-quilt { 
+> .lia-quilt-row-header .lia-quilt-row-breadcrumb {
+ width:1170px;
+ margin:0 auto;
+}
+.lia-breadcrumb {  
+    width: 1170px;   
+    margin: 0 auto;
+    @include desktop {
+      width: 100%;
+      padding: 0 0px;
+   }
+ }
+ }
+
+ #lia-body.PostPage .lia-breadcrumb, 
+#lia-body.ReplyPage .lia-breadcrumb, 
+#lia-body.EditPage .lia-breadcrumb, 
+#lia-body.CrmSupportCasePage .lia-breadcrumb {  
+    padding: 0 0px 0 0px;
+    width: 1170px;
+    margin: 0 auto;
+
+    @include desktop {
+       width: 100%;
+       padding: 0 50px;
+       box-sizing: border-box;
+       margin: 0 auto;
+  }
+
+}
+
+@include desktop {
+   .lia-top-quilt > .lia-quilt-row-main > .lia-quilt-column-single > .lia-quilt-column-alley {
+    padding:30px 0;
+}
+}
+@include tablet {
+.PostPage .lia-quilt-row-header .lia-component-quilt-header .lia-quilt-row, 
+.ReplyPage .lia-quilt-row-header .lia-component-quilt-header .lia-quilt-row, 
+.EditPage .lia-quilt-row-header .lia-component-quilt-header .lia-quilt-row {
+   display: block; 
+}
+}
+.lia-quilt-column-left .lia-breadcrumb {
+    width: 100%;  
+    padding: 0 0;
+}
+.lia-breadcrumb .lia-link-navigation {
+    padding: 0;
+}
+
+
+/*.lia-breadcrumb a {
+	color: $lithium-blue;
+}
+.lia-breadcrumb > .lia-list-standard-inline > li + li:before {
+	color: #333;
+}
+.lia-quilt-column-breadcrumb {
+	padding: 40px;
+	//border-bottom: 1px solid $labels-border-color;
+	@include media(phone) {
+		padding: 15px;
+	}
+}
+*/
+
+
+

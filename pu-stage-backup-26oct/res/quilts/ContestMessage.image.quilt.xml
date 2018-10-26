@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="contest-messagev2" nestable="false" disableTopCssClass="false">
+  <add to="main-side">
+    <component id="message-view.widget.subject" wrapper="lia-contest-content" disableSubjectLink="true" hideSubjectIcons="true"/>
+    <component id="message-view.widget.contest-media-description" wrapper="lia-contest-content"/>
+    <component id="byline-author-date" wrapper="lia-message-author-with-avatar"/>
+    <component id="ratings.widget.rating-display" wrapper="lia-contest-voting-actions" ratingSystemRef="conv:contest_ratings"/>
+    <component id="kudos-action" wrapper="lia-contest-voting-actions" displayStyle="reversed"/>
+    <component id="external.widget.share-button" wrapper="lia-message-actions" textOnly="false" controlType="inversed"/>
+    <component id="modbar-toggle"/>
+    <component id="modbar"/>
+  </add>
+  <add to="main-content">
+    <component id="message-view.widget.contest-media"/>
+  </add>
+</quilt>

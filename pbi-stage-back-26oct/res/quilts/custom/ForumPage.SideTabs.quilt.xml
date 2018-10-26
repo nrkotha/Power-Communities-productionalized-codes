@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="side-content">
+    <component id="tab-buttons"/>
+  </add>
+  <add to="main-content">
+    <component id="tab-content1"/>
+    <component id="tab-content2"/>
+    <component id="tab-content3"/>
+  </add>
+</quilt>

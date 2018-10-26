@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.21-3" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="kudos-action"/>
+    <component id="ratings.widget.rating-display" ratingSystemRef="conv:idea_ratings"/>
+    <component id="batch-processing-checkbox"/>
+    <component id="author-avatar" wrapper="lia-message-heading"/>
+    <component id="message-view.widget.subject" wrapper="lia-message-heading"/>
+    <component id="byline-date" wrapper="lia-byline-wrapper"/>
+    <component id="byline-author-date" wrapper="lia-byline-wrapper"/>
+    <component id="body-with-message-status" truncateWithMessageLink="true" useNbspForEmptyBody="false" stripMediaHtml="true"/>
+    <component id="labels" showTagLabelText="true"/>
+    <component id="tags"/>
+    <component id="comments.action.comments-link" wrapper="lia-message-comment-action"/>
+    <component id="external.widget.share-button" wrapper="lia-message-actions" textOnly="true" controlType="secondary"/>
+  </add>
+</quilt>

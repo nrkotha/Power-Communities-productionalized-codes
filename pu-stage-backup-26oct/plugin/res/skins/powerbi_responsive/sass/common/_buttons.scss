@@ -1,0 +1,353 @@
+//  Contents copied from: theme_base/sass/common/_buttons.scss
+
+/* Pagination CSS Start */
+.user-navigation-settings-drop-down-inner > .lia-list-standard > li > a:hover, .user-navigation-settings-drop-down-inner > .lia-list-standard > li > a:focus{
+background-color: #f8ecb0;
+}
+#lia-body{
+ &.ViewProfilePage legend.lia-fieldset-title{
+display:none;
+  }
+.lia-button-image-kudos .kudos-link.lia-link-disabled:before {
+    color: #767676 !important;
+}
+.lia-button-image-kudos .kudos-link.lia-link-disabled {    
+    opacity: 0.6;
+    filter: alpha(opacity=30);
+    .kudos-link:before {
+    color: #000 !important;
+    }   
+}
+.lia-count-pager-page-next > .lia-link-navigation:after, .lia-paging-page-next > .lia-link-navigation:after, .lia-count-pager-page-previous > .lia-link-navigation:before, .lia-paging-page-previous > .lia-link-navigation:before{
+display:none;
+}
+.lia-message-view-forum-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-group-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-group-topic-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-blog-topic-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-blog-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-blog-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-idea-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-contest-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-tkb-reply-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-media-message.lia-message-view-display .lia-quilt-row-footer, .lia-message-view-reviews-message.lia-message-view-display .lia-quilt-row-footer{
+background-color: transparent;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#lia-body .lia-content a.lia-link-navigation:hover {
+  color:$navigation-link-hover;
+  text-decoration: underline;
+}
+#lia-body .lia-content input[type="button"], 
+#lia-body .lia-content input[type="submit"], 
+#lia-body .lia-content .lia-button.lia-button.lia-button, 
+#lia-body .lia-content .lia-button.lia-button.lia-button.lia-link-disabled:hover, 
+#lia-body .lia-content .lia-form-vertical .lia-form-search-query-entry .lia-button.lia-button {
+  color:$text-color;
+  background-color:$btn-primary-bg ;
+  border-radius:0;
+}
+#lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button-image-kudos-horizontal.lia-button-image-kudos-enabled .lia-button-image-kudos-give a:hover,
+#lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button-image-kudos-horizontal .lia-button-image-kudos-give .kudos-link {
+  background: $brand-primary url("/html/assets/button_kudos_v2_h_hover.svg") no-repeat 15px center;
+  background-size: 16px 16px;
+  border-radius:0;
+}
+#lia-body .lia-content .lia-button.lia-button.lia-button:active {
+   color:$btn-primary-bg;
+  background-color:$btn-hover;
+  border-radius:0;
+}
+
+#lia-body .lia-content .lia-message-actions .lia-button.lia-button:hover, 
+#lia-body .lia-content .lia-message-actions-secondary .lia-button.lia-button:hover {
+  color:$btn-primary-bg;
+  background-color:$btn-hover;
+
+}
+#lia-body .lia-content .lia-message-actions .lia-button.lia-button:hover, 
+#lia-body .lia-content .lia-message-actions-secondary .lia-button.lia-button:active {
+  color:$btn-primary-bg;
+  background-color:$btn-hover;
+  
+}
+#lia-body .lia-content .button-featured:hover {
+    background-color: $btn-hover;
+}
+#lia-body .lia-content .lia-button.lia-button.lia-button:hover { 
+  background-color: $btn-hover;
+color:$btn-primary-bg;
+
+}
+#lia-body .lia-content .lia-message-actions .lia-button.lia-button, 
+#lia-body .lia-content .lia-message-actions-secondary .lia-button.lia-button {
+  color:$text-color;
+  background-color:$btn-primary-bg ;
+}
+#lia-body .lia-content .button-featured:hover {
+    background-color: $btn-hover;
+    
+}
+ #customLabelSel.custom-idea-labels.active:hover {
+           background:$btn-hover;
+        }
+
+
+
+
+#lia-body{
+.lia-button-Cancel-action.lia-button-Cancel-action{
+
+font-size:13px;
+}
+}
+/* placeholders */
+
+input[type="text"]:focus, select:focus, textarea:focus {
+    border-color: $brand-primary;
+ 
+}
+#lia-body.ForumTopicPage .lia-message-kudo-reply-metoo .lia-button-image-kudos-horizontal .kudos-link{
+font-size:0px;
+}
+#lia-body.ForumTopicPage .lia-button-image-kudos .kudos-link:before{
+font-size:24px;
+vertical-align: middle;
+padding: 4.8px 0;
+}
+#lia-body {
+.lia-button-image-kudos .kudos-count-link{
+padding:12.5px 16px;
+line-height: 16px;
+font-size: 15px;
+}
+.lia-message-quick-reply .lia-button-Cancel-action{
+font-weight: normal;
+padding:12.5px 12px;
+line-height: 15px;
+    font-size: 13px;
+}
+.lia-message-view-forum-message .lia-menu-navigation-wrapper{
+    right: -8px;
+    top: -35px;
+
+}
+.lia-panel-message .lia-quilt-column-footer-right .lia-button, .lia-message-view-forum-message .lia-quilt-column-footer-right .lia-button{
+float:left;
+}
+.lia-button-image-kudos.lia-button-image-kudos-horizontal.lia-button-image-kudos-disabled.lia-button-image-kudos-not-kudoed.lia-button
+{
+background-color: #c2c2c2;
+}
+
+.lia-quilt-column.lia-quilt-column-10.lia-quilt-column-right.lia-quilt-column-footer-right {
+
+.lia-button-image-kudos-horizontal > .lia-button-image-kudos-give{
+float: left;
+}
+}
+}
+
+#lia-body .lia-content .lia-quilt-row-footer .lia-button.lia-button.lia-button{
+margin-bottom:5px;
+}
+#lia-body .lia-content .lia-message-kudo-reply-metoo {
+.lia-button-image-kudos-horizontal .kudos-link{
+ background-color: $btn-primary-bg;
+    border-color: $btn-primary-bg;
+ color: $li-text-color-inverse;
+    font-weight: normal;
+}
+.lia-button-image-kudos .kudos-link:after, .lia-button-image-kudos .kudos-link:before {
+   color: $li-text-color-inverse;
+    font-weight: normal;
+}
+.lia-button-image-kudos .kudos-count-link {
+    color: $li-text-color-inverse;
+    font-weight: normal;
+}
+}
+#lia-body .lia-content .lia-button-image-kudos-wrapper .lia-button.lia-button.lia-button{
+.lia-button-image-kudos .kudos-count-link{
+color:#fff;
+
+}
+
+}
+.lia-body{
+ .lia-form-vertical .lia-button-group .lia-button-wrapper, .TkbArticlePage .lia-quilt-tkb-message .lia-quilt-column-footer-left .lia-button-wrapper, .TkbArticlePage .lia-quilt-tkb-message .lia-quilt-column-footer-right .lia-button-wrapper {   
+    padding-left: 5px;
+    
+}
+.lia-button-image-kudos.lia-button{
+background:#333333 !important;
+}
+.lia-panel-message .lia-button-secondary {
+    color: $li-text-color-inverse;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+}
+.lia-button-image-kudos .kudos-link{
+border-radius:0px;
+padding: 3px 12px;
+line-height:inherit;
+}
+
+
+.lia-button-image-kudos-horizontal .kudos-link{
+color: $brand-primary;
+}
+  .lia-button{
+   border-radius: 0px;
+   font-weight: normal;
+   }
+  .lia-button-wrapper .lia-button, .lia-button-wrapper .mce-foot button, .lia-button-wrapper 
+  .ui-dialog button {
+    min-width: 88px;
+}
+.lia-button {
+padding: 12.5px 25px;
+line-height: 15px;
+font-size: 13px;
+font-family: 'SegoeUI-Semibold';
+}
+}
+%lia-button {
+    border-radius: 0px;
+    border: 0;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;   
+    padding: 3px 25px;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:hover,
+    &:active:focus,
+    &.active {
+        text-decoration: none;
+    }
+}
+
+%primary-button {
+    background-color: $btn-primary-bg;
+    border: 1px solid $btn-primary-bg;
+    color: $text-color;
+
+}
+
+%secondary-button {
+    background-color: $btn-secondary-bg;
+    border: 1px solid $btn-secondary-border;
+    color: $li-text-color-inverse;
+	&:focus {
+        background-color: $btn-secondary-bg;
+    }
+	&:hover,&:active {
+        background-color: $btn-inverse-secondary-bg;
+        border: 1px solid $btn-inverse-secondary-border;
+        color: $btn-inverse-secondary-color;
+        text-decoration: none;
+        
+     }
+    
+	&:before {
+		color: inherit;
+	}
+    
+	&.lia-button-searchForm-action,
+	&.lia-button-SearchPageForm-action {
+		background-color: transparent;
+		border: 0;
+		border-color: transparent;
+	}
+}
+
+input[type=checkbox] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin: 0;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+
+input[type=checkbox]:after {
+    content: "";
+    color: #fff;
+    display: block;
+    visibility: visible;
+    border-radius: 2px;
+    height: 16px;
+    width: 16px;
+}
+
+input[type=checkbox]:checked:after {
+    content: "\2713";
+    background-color: $brand-primary;
+    height: 16px;
+    width: 14px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+#custom-subscribe-button {
+    &:before {
+        background-image: url('/html/assets/icon_follow.png');
+        background-position: center;
+        background-size: 16px;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        content:'';
+        padding: 8px;
+    }
+    &:hover{
+        &:before{
+            background-image: url('/html/assets/icon_follow_white.png');
+            background-position: center;
+            background-size: 16px;
+            background-repeat: no-repeat;
+            margin-right: 5px;
+            content:'';
+            padding: 8px;
+        }
+    }
+}
+
+#lia-body.IdeaPage, #lia-body.IdeaExchangePage{
+.lia-button-image-kudos .kudos-count-link {
+    padding: 8px 16px;
+    line-height: 16px;
+    font-size: 15px;
+}
+.lia-button-image-kudos.lia-button {
+    background: #fff !important;
+}
+.lia-button-image-kudos .kudos-link {
+    border-radius: 0px;
+    padding: 10px 12px;
+    line-height: inherit;
+}
+}
+#lia-body{
+.lia-button-wrapper .lia-button.lia-button-primary.remove-role-link {
+    background: transparent;
+}
+.lia-button-wrapper .lia-button.lia-button-primary.remove-role-link:hover {
+    background: transparent;
+    color:#000;
+}
+.lia-button-primary.lia-button-primary.remove-role-link:hover:before {
+    color: #000;
+}
+}

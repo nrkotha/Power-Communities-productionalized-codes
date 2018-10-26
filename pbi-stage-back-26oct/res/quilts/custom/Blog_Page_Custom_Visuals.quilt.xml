@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="blogs.widget.management"/>
+    <component id="Blog_Join_CustomVisualsCommunity"/>
+    <component id="blogs.widget.latest-comments"/>
+    <component id="blogs.widget.labels"/>
+    <component id="blogs.widget.archives"/>
+  </add>
+  <add to="main-content">
+    <component id="WelcomeBlogBanner"/>
+    <component id="menu-bar"/>
+    <component id="archive-info"/>
+    <component id="filtered-by"/>
+    <component id="articles"/>
+    <component id="paging"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+  </add>
+</quilt>

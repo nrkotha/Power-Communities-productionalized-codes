@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="Header_2017SR" nestable="false" disableTopCssClass="false">
+  <add to="feedback">
+    <component id="common.widget.page-information"/>
+    <component id="common.widget.page-feedback"/>
+  </add>
+  <add to="main-content">
+    <component id="common.widget.breadcrumb"/>
+  </add>
+  <add to="common-header">
+    <component id="custom.widget.navbar"/>
+  </add>
+</quilt>

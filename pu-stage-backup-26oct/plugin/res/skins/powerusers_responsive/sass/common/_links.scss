@@ -1,0 +1,135 @@
+// Contents copied from: theme_base/sass/common/_links.scss
+/* read and unread message code as part of iTrack BIZCM-862 */
+#lia-body .lia-content .message-subject .lia-message-read .lia-link-navigation {
+    font-family: 'Segoe-UI-Semi-Light';
+}
+    /* end of css as part of iTrack BIZCM-862 */
+#lia-body{
+.lia-quilt-column-alley-right .lia-paging-full-wrapper.lia-paging-pager li.lia-paging-page-next span.lia-paging-page-link {
+    display: inline !important;
+    font-size: 15px;
+}
+.lia-quilt-column-alley-right .lia-component-labels-widget-labels-list .lia-link-navigation:focus:hover{
+    background-color: transparent;
+}
+.lia-quilt-column-alley-right li.lia-paging-page-previous.lia-component-previous .lia-paging-page-arrow:before {    
+    font-size: 15px;
+   
+}
+.lia-quilt-column-alley-right .lia-paging-full-wrapper.lia-paging-pager .lia-component-next a {
+   padding-left: 16px;
+    padding-right: 16px;
+}
+.lia-quilt-column-alley-right #labelsTaplet .lia-paging-full-wrapper {
+    overflow: visible;
+}
+.lia-quilt-column-alley-right .lia-paging-full-wrapper.lia-paging-pager .lia-paging-page-previous span.lia-paging-page-link {
+    display: inline !important;
+    font-size: 15px;
+}
+.lia-quilt-column-alley-right li.lia-paging-page-next.lia-component-next .lia-paging-page-arrow:before {    
+    font-size: 15px;   
+}
+}
+.lia-body{
+
+.lia-autocomplete-content > ul > li.selected, .lia-autocomplete-content > ul > li:hover{
+background:$user-drop-down-hover;
+}
+@media (max-width: 800px){
+.lia-page {    
+    height: initial !important;   
+
+}
+}
+.xsmall-text.lia-link-navigation{
+color:$brand-primary;
+}
+.xsmall-text.lia-link-navigation:hover{
+font-family: 'SegoeUI-Semibold';
+}
+.lia-list-slim > thead > tr > th, .lia-list-wide > thead > tr > th{
+font-size:17px;
+font-family: 'SegoeUI', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color:#000;
+text-transform: capitalize;
+}
+
+	.lia-paging-full .lia-link-navigation {
+		font-size: 14px;
+		color: $brand-primary;
+	}
+	.lia-autocomplete > li > a, .lia-autocomplete-container > li > a, .lia-menu-dropdown-items > li > a, .user-navigation-settings-drop-down-inner > .lia-list-standard > li > a, .lia-common-dropdown-menu > li > a, .ui-datepicker > li > a, .lia-token-input-dropdown > li > a, .lia-metadata-application-tool-panel > li > a, .lia-search-typeahead .dropdown-menu > li > a, .mce-tinymce-inline.mce-container > li > a, .message-subject .lia-link-navigation{
+	 color: $brand-primary;
+	}
+	.lia-nav-list li > a.lia-link-navigation {
+		color: $brand-primary;
+	}
+	.lia-message-view-display .lia-message-subject .lia-link-navigation {
+		color: $brand-primary;
+	}
+	a:hover,
+    .lia-panel .lia-view-all .lia-link-navigation:hover:before	{
+		text-decoration: underline !important;
+	}
+	.default-menu-option {
+		font-size: 15px !important;
+	}
+}
+
+#lia-body{
+
+&.EditPage .lia-message-view-forum-message.lia-message-view-display .lia-message-subject{
+font-size: 15px !important;
+}
+&.ReplyPage .lia-message-view-display .lia-message-subject {
+    font-size: 15px !important;
+}
+.lia-panel .category-title:hover {
+    font-weight: bold;
+    font-family: 'SegoeUI-Bold', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+.MessageEditor ul.lia-tabs-standard a:hover {
+    text-decoration: none !important;
+}
+.lia-message-view-forum-message .lia-message-card-sub-component-header{
+font-size:13px;
+}
+&.ForumTopicPage, &.ReplyPage, &.EditPage{
+.lia-message-view-display .lia-component-labels .article-labels-title {   
+    font-size: 13px;
+line-height: 22px;
+}
+.MessageTags.lia-component-tags-with-title-link label{
+line-height:18px;
+}
+.lia-link-navigation.add-tag-link{
+font-size: 13px;
+}
+}
+}
+
+@include tablet{
+#lia-body{
+
+}
+}
+@include mobile {       
+  #lia-body .lia-quilt-category-page-home-landing-page .lia-component-forums-widget-board-browser-list .lia-browser-category-heading {
+    padding-left: 16px !important;
+}  
+.lia-list-wide .lia-list-row > td.newMessageIndicatorColumn + .boardIconColumn{
+left:14px !important
+} 
+#header-strip th:nth-child(2){
+float:right;
+white-space: nowrap;
+}
+#header-strip th:nth-child(3){
+float:right;
+white-space: nowrap;
+}
+#header-strip tr{
+display: inline;
+}
+}

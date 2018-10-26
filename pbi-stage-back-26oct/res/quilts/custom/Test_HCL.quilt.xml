@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="SampleLayout_HCL_Test" nestable="false">
+  <add to="col_4">
+    <component id="subscriptions.widget.featured-threads"/>
+    <component id="uservoice_ideas"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="community.widget.admin-links"/>
+  </add>
+  <add to="col_3">
+    <component id="forums.widget.users-online"/>
+    <component id="forums.widget.recent-threads"/>
+    <component id="tags.widget.tag-cloud"/>
+  </add>
+  <add to="col_2">
+    <component id="forums.widget.recent-messages"/>
+  </add>
+  <add to="Header">
+    <component id="common.widget.welcome"/>
+    <component id="common.widget.announcement"/>
+    <component id="common.widget.search-bar"/>
+  </add>
+  <add to="col_1">
+    <component id="forums.widget.board-browser-list"/>
+    <component id="labels.widget.labels-list"/>
+  </add>
+  <add to="Footer">
+    <component id="HCL_CSS_File"/>
+  </add>
+  <remove from="breadcrumb" for="Header">
+    <component id="common.widget.breadcrumb"/>
+  </remove>
+</quilt>

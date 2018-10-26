@@ -1,0 +1,41 @@
+.custom-message-states {
+	margin-bottom: 0;
+	background-color: transparent;
+    
+	.lia-panel-heading-bar-title {
+	    font-size: $theme-type-size-small;
+	    font-weight: $theme-type-weight-base;
+	    display: inline-block;
+	    margin-top: 5px;
+	    &:after {
+    	    content: ":";
+	    }
+	}
+	.lia-panel-heading-bar {
+		background-color: transparent;
+		padding: 0;
+		.lia-panel-heading-bar-title {
+			font-weight: $theme-type-weight-bold;
+		}
+	}
+	.lia-decoration-border-content > div {
+    	display: flex;
+    	@include media(phone) {
+    		display: block;
+    	}
+	}
+	.lia-panel-content {
+    	padding: 0;
+	}
+	.StateList {
+	    display: inline-block;
+    	margin-left: 7px;
+	}
+	.state {
+        padding: 0;
+        
+        h3 {
+    	    line-height: 1;
+        }
+	}
+}

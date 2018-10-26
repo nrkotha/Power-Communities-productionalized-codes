@@ -1,0 +1,116 @@
+// Contents copied from: theme_base/sass/custom/_lazy-load-messages.scss
+#lia-body.CommunityPage .lia-content,
+#lia-body.CategoryPage .lia-content{
+	.custom-messages-loader {
+		.cThreadInfoColumn {
+			.MessageSubjectCell {
+				.message-subject {
+					.lia-link-navigation {
+						color: $lithium-dark-gray;
+						font-size: 18px;
+						line-height: 27px;
+					}
+				}
+			}
+			.image-wrapper {
+				padding: 15px 0;
+				.image {
+					width: 100%;
+				}
+			}
+			.message-content-short {
+				color:$lithium-light-gray;
+				font-size: 14px;
+				line-height: 21px;
+			}
+			.lia-info-area-item {
+				font-size: 14px;
+				line-height: 21px;
+				color:$lithium-light-gray;
+				.lia-dot-separator:before {
+					color:$lithium-light-gray;
+				}
+				.lia-link-navigation {
+					color:$lithium-light-gray;
+				}
+			}
+		}
+		
+		#btn-load-more {
+		    height: auto;
+		    &:after {
+		    	content: "";
+		    }
+		    &.disabled {
+		    	border-color: $theme-color-disabled;
+		    	cursor: not-allowed;
+		    	&:hover, &:focus {
+		    		background-color: transparent;
+		    		border-color: $theme-color-disabled;
+		    		color: $theme-color-disabled;
+		    	}
+		    }
+		}
+		@media screen and (min-width: $screen-xs-min) {
+			.message-type-selector-wrapper {
+				position: static;
+				text-align: left;
+				padding-bottom: 35px;
+				#messages-loader-type{
+					float: none;
+					display: inline-block;
+					vertical-align: text-bottom;
+					font-size: $theme-type-size-base;
+					height: 47px;
+					border: 1px solid $lithium-blue;
+					color: $lithium-blue;
+					min-width: 190px;
+					text-align: center;
+					-moz-text-align-last: center;
+					text-align-last: center
+				}
+				.post-btn-wrapper {
+					float: none;
+					display: inline-block;
+					vertical-align: text-bottom;
+					font-size: $theme-type-size-base;
+					height: 47px;
+					min-width: 190px;
+				}
+				.lia-button {
+					font-size: $theme-type-size-base;
+					padding: 14px 30px;
+				}
+			}
+		}
+		@include media(phone) {
+			.message-type-selector-wrapper {
+				@include flexbox;
+    			@include flex-direction(column);
+    			select {
+    				@include order(2);
+    			}
+    			.post-btn-wrapper {
+    				@include order(1);
+    				margin-bottom: 16px;
+    				margin-left: 0;
+    			}
+			}
+		}
+		.lia-info-area {
+			margin: 10px 0;
+		}
+		/*.TagList {
+			clear: both;
+			.lia-list-standard-inline > li {
+			    border-radius: 11px;
+			    padding: 0px 10px;
+			    border: 1px solid $tp-gray-300;
+			    .lia-tag {
+		    	    color: $tp-black-300;
+				    font-size: 14px;
+			    }
+			}
+		}*/
+	}
+}

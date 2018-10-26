@@ -1,0 +1,504 @@
+/* 	Direct copy from old community. Modify as needed. Cleanup as budget allows */
+.lia-top-quilt>.lia-quilt-row-boilerplate {
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    padding: 0 26px;
+    padding: 26px;
+}
+
+.support-contact-2015 {
+	.inner {
+		font-size: 15px;
+		line-height: 1.4em;
+		color: #333;
+		@include media(tablet-and-down) {
+            > p, > ul {
+                 padding: 0 15px;
+            }
+        }
+	}
+	p {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: inherit;
+		line-height: inherit;
+		color: inherit;
+	}
+	ul {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: inherit;
+		line-height: inherit;
+		color: inherit;
+		&.group-3-col {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			border: 0;
+			background: none;
+			margin-top: 30px;
+			li.col {
+				list-style: none;
+				padding: 0;
+
+				img {
+					padding-right: 10px;
+					margin-bottom: -2px;
+				}
+			}
+		}
+		&.inresponse li {
+			line-height: 16px;
+			padding: 4px 0;
+			img {
+				margin-right: 6px;
+				vertical-align: bottom;
+			}
+		}
+	}
+	h3 {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: 24px;
+		line-height: 1.4em;
+		font-weight: normal;
+		color: #0d242b;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	h5 {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: inherit;
+		line-height: inherit;
+		color: inherit;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.col {
+		p {
+			font-size: 16px;
+			font-weight: 500;
+		}
+		a {
+			font-size: 16px;
+		}
+	}
+	.severity-blocks {
+		font-size: 14px;
+		line-height: 1.4em;
+		.col {
+			p {
+				font-size: 14px;
+				font-weight: 500;
+			}
+			a {
+				font-size: 14px;
+			}
+			.outage-small {
+				font-size: 12px;
+			}
+			h2 {
+				margin: 0 -15px 20px;
+				padding: 20px 15px 24px;
+				color: #fff;
+				font-size: 24px;
+				line-height: 1em;
+				background: #f17346;
+				font-weight: normal;
+				img {
+					max-height: 28px;
+					margin-bottom: -4px;
+					margin-right: 7px;
+				}
+				&:after {
+					content: "";
+					position: absolute;
+					top: 0;
+					right: 0;
+					height: 1000px;
+					border-right: 1px solid #dcdcdc;
+				}
+			}
+			&:first-of-type h2 {
+				background: #e84b5a;
+			}
+			&:last-of-type h2 {
+				background: #f4b839;
+				&:after {
+					border-right: 0;
+				}
+			}
+			ul.icon-group {
+				li {
+					padding-right: 10px;
+				}
+				img {
+					max-height: 15px;
+					max-width: 15px;
+				}
+				a:hover img {
+					opacity: 0.8;
+				}
+			}
+			h5:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+	small {
+		font-size: 12px;
+		line-height: 1.4em;
+	}
+	img {
+		height: auto;
+		width: auto;
+		max-height: 16px;
+		div {
+			display: inline !important;
+			border: 0 !important;
+			font-size: 14px !important;
+			padding: 0 !important;
+		}
+		img {
+			display: none !important;
+		}
+	}
+	.group-3-col {
+		margin-bottom: 30px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 0 3px 3px;
+		border-bottom: 1px solid #dcdcdc;
+		overflow: hidden;
+		&:after {
+			content: "";
+			display: table;
+			height: 0;
+			width: 100%;
+		}
+		.col {
+			width: 33.333333%;
+			padding: 0 15px 15px;
+			float: left;
+			position: relative;
+			@include media(tablet-and-down) {
+				width: 100%;
+			}
+		}
+	}
+	.highlighted-links-block {
+		background: none;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		border-bottom: 0;
+		.col {
+			width: 33%;
+			text-align: center;
+			padding: 15px 0;
+			border-bottom: 2px solid #dcdcdc;
+			margin-right: 0.25%;
+			margin-left: 0.25%;
+			&:first-of-type {
+				margin-left: 0;
+			}
+			&:last-of-type {
+				margin-right: 0;
+			}
+			@include media(tablet-and-down) {
+				width: 100%;
+				border-bottom: none;
+				text-align: left;
+				padding: 0 15px;
+			}
+		}
+		a {
+			display: inline-block;
+		}
+	}
+	.other-links-block li {
+		font-size: 14px;
+		line-height: 2em;
+	}
+}
+
+.support-contact-2017 {
+	.inner {
+		font-size: 15px;
+		line-height: 1.4em;
+		color: #333;
+        #support-btn-new-case {
+            float: right;
+            margin-left: 20px;
+        }
+		@include media(tablet-and-down) {
+            > p, > ul {
+                 padding: 0 15px;
+            }
+        }
+	}
+	p {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: inherit;
+		line-height: inherit;
+		color: inherit;
+	}
+	ul {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: inherit;
+		line-height: inherit;
+		color: inherit;
+		&.group-3-col {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			border: 0;
+			background: none;
+			margin-top: 30px;
+			li.col {
+				list-style: none;
+				padding: 0;
+
+				img {
+					padding-right: 10px;
+					margin-bottom: -2px;
+				}
+			}
+		}
+		&.inresponse li {
+			line-height: 16px;
+			padding: 4px 0;
+			img {
+				margin-right: 6px;
+				vertical-align: bottom;
+			}
+		}
+	}
+	h3 {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: 24px;
+		line-height: 1.4em;
+		font-weight: normal;
+		color: #0d242b;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	h5 {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: inherit;
+		line-height: inherit;
+		color: inherit;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.col {
+		p {
+			font-size: 16px;
+			font-weight: 500;
+		}
+		a {
+			font-size: 16px;
+		}
+	}
+	.severity-blocks {
+		font-size: 14px;
+		line-height: 1.4em;
+		.col {
+			p {
+				font-size: 14px;
+				font-weight: 500;
+			}
+			a {
+				font-size: 14px;
+			}
+			.outage-small {
+				font-size: 12px;
+			}
+			h2 {
+				margin: 0 -15px 20px;
+				padding: 20px 15px 24px;
+				color: #fff;
+				font-size: 24px;
+				line-height: 1em;
+				background: #F27346;
+				font-weight: normal;
+				img {
+					max-height: 28px;
+					margin-bottom: -4px;
+					margin-right: 7px;
+				}
+				&:after {
+					content: "";
+					position: absolute;
+					top: 0;
+					right: 0;
+					height: 1000px;
+					border-right: 1px solid #dcdcdc;
+				}
+			}
+			&:first-of-type h2 {
+				background: #E84C5A;
+			}
+			&:nth-child(3) h2 {
+				background: #F39640;
+			}
+			&:last-of-type h2 {
+				background: #F4B83A;
+				&:after {
+					border-right: 0;
+				}
+			}
+			ul.icon-group {
+				li {
+					padding-right: 10px;
+				}
+				img {
+					max-height: 15px;
+					max-width: 15px;
+				}
+				a:hover img {
+					opacity: 0.8;
+				}
+			}
+			h5:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+	small {
+		font-size: 12px;
+		line-height: 1.4em;
+	}
+	img {
+		height: auto;
+		width: auto;
+		max-height: 16px;
+		div {
+			display: inline !important;
+			border: 0 !important;
+			font-size: 14px !important;
+			padding: 0 !important;
+		}
+		img {
+			display: none !important;
+		}
+	}
+	.group-3-col {
+		margin-bottom: 30px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 0 3px 3px;
+		border-bottom: 1px solid #dcdcdc;
+		overflow: hidden;
+		&:after {
+			content: "";
+			display: table;
+			height: 0;
+			width: 100%;
+		}
+		.col {
+			width: 25%;
+			padding: 0 15px 15px;
+			float: left;
+			position: relative;
+			@include media(tablet-and-down) {
+				width: 100%;
+			}
+		}
+	}
+	.highlighted-links-block {
+		background: none;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		border-bottom: 0;
+		.col {
+			width: 33%;
+			text-align: center;
+			padding: 15px 0;
+			border-bottom: 2px solid #dcdcdc;
+			margin-right: 0.25%;
+			margin-left: 0.25%;
+			&:first-of-type {
+				margin-left: 0;
+			}
+			&:last-of-type {
+				margin-right: 0;
+			}
+			@include media(tablet-and-down) {
+				width: 100%;
+				border-bottom: none;
+				text-align: left;
+				padding: 0 15px;
+			}
+		}
+		a {
+			display: inline-block;
+		}
+	}
+	.other-links-block li {
+		font-size: 14px;
+		line-height: 2em;
+	}
+}
+
+.lia-component-custom-support-datasheet.lia-panel {
+	background: #42b4d6 !important;
+	.lia-panel-heading-bar {
+		background: transparent !important;
+		border-bottom: 2px solid $lithium-lighter-gray;
+        .lia-panel-heading-bar-title {
+            color: $lithium-lighter-gray;
+        }
+	}
+	.lia-panel-content {
+		text-align: center;
+		#datasheet-icon {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.support-contact-2017 .group-3-col .col {
+		width: 50%;
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.support-contact-2017 .group-3-col .col {
+		width: 100%;
+		height: 450px;
+	}
+}
+
+.support-contact-2017 .group-3-col {
+    border-left: 1px solid #dcdcdc;
+	border-right: 1px solid #dcdcdc;
+}
+
+@media screen and (max-width: 768px) {
+.support-contact-2017 .group-3-col {
+	border-right: none;
+}
+}
+
+.LithiumStatus {
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 599px) {
+.LithiumStatus, .lia-component-custom-support-datasheet, .lia-component-common-widget-custom-content {
+    margin:10px;
+}}
+
+@media screen and (max-width: 768px) {
+.LithiumStatus, .lia-component-custom-support-datasheet, .lia-component-common-widget-custom-content {
+    margin:20px;
+}}

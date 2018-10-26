@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="featured-message" nestable="false" disableTopCssClass="false">
+  <add to="side">
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="Carousel_Welcome"/>
+    <component id="kudos.widget.messages-leaderboard"/>
+    <component id="uservoice_ideas"/>
+  </add>
+  <add to="header">
+    <component id="common.widget.site-navigation"/>
+    <component id="Program_Welcome_Banner"/>
+  </add>
+  <add to="main">
+    <component id="Program_Welcome"/>
+  </add>
+</quilt>

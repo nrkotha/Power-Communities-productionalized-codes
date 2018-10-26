@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="PUG_BackToGroups"/>
+  </add>
+  <add to="main-content">
+    <component id="PUG_StartAGroupPage"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+  </add>
+</quilt>

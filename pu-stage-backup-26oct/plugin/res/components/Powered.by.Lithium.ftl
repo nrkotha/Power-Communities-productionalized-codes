@@ -1,0 +1,1 @@
+The Power platform Community is Powered by Lithium

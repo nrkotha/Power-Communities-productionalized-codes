@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="Community_Home_2017SR" nestable="false" disableTopCssClass="false">
+  <add to="2017sr_main-content">
+    <component id="custom.widget.search" showAdvance="false"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:HeaderPage"/>
+  </add>
+</quilt>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="main-content">
+    <component id="ShowcaseTopBanner_Themes"/>
+    <component id="menu-bar"/>
+    <component id="Custom.CardsMessageList" filter="yes" featured="Featured" preFilterBy="Featured"/>
+    <component id="reply-filter"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:HeaderPageNoTitleNoBreadcrumbs"/>
+  </add>
+</quilt>

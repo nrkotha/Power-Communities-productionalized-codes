@@ -1,0 +1,32 @@
+// Contents copied from: theme_base/sass/common/_forms.scss
+.CommentEditorForm {
+	background-color: $lithium-lighter-gray;
+	border: 0;
+	border-radius: 8px;
+	padding: 25px;
+	.mce-panel.mce-panel {
+		background-color: $lithium-lighter-gray;
+	}
+	.mce-edit-area.mce-panel {
+		border: 1px solid $lithium-lighter-gray;
+		border-radius: 10px;
+	}
+	.lia-tabs-standard {
+		    border-bottom: 1px solid $lithium-lighter-gray;
+	}
+	.lia-fieldset-title {
+	    font-size: $theme-type-size-xxlarge;
+	    line-height: $theme-line-height-xxlarge;
+	    font-weight: $theme-type-weight-bold;
+	    color: $text-color;
+	}
+}
+.MessageEditorForm {
+	.labels > div {
+	    padding: 5px 0px;
+	}
+}
+
+.lia-content input[type=text] {
+	border-radius: 5px;
+}

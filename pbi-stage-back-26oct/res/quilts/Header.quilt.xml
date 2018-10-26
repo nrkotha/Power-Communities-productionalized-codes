@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="header" nestable="false" disableTopCssClass="false">
+  <add to="feedback">
+    <component id="common.widget.page-information"/>
+    <component id="common.widget.page-feedback"/>
+  </add>
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="community.widget.admin-links"/>
+    <component id="uservoice_ideas"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="images.widget.moderation"/>
+    <component id="forums.widget.users-online"/>
+    <component id="tags.widget.tag-cloud"/>
+  </add>
+  <add to="page-title">
+    <component id="common.widget.user-navigation-combine"/>
+    <component id="common.widget.page-title"/>
+  </add>
+  <add to="user-navigation"/>
+  <add to="main-content">
+    <component id="forums.widget.board-browser-list"/>
+    <component id="kudos.widget.messages-leaderboard" mode="wide"/>
+    <component id="forums.widget.recent-threads"/>
+    <component id="forums.widget.recent-messages"/>
+  </add>
+  <add to="search-bar">
+    <component id="common.widget.breadcrumb"/>
+  </add>
+  <add to="site-navigation">
+    <component id="common.widget.site-navigation"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="common.widget.welcome"/>
+    <component id="qanda.widget.ask-an-expert"/>
+  </add>
+</quilt>

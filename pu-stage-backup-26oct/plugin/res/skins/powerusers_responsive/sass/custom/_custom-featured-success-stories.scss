@@ -1,0 +1,85 @@
+.custom-featured-success-stories {
+	border-radius: 0;
+	background-color: $tp-gray-300;
+	margin: 0 auto;
+  	padding: 20px 0;
+	margin-top: 10px;
+
+	.lia-panel-content-wrapper > .lia-panel-content {
+		text-align: center;
+	}
+	.lia-panel-heading-bar {
+		text-align: center;
+		background-color: $tp-gray-300;
+	    padding: 25px 0 15px 0;
+	}
+	.featured-messages-container {
+		text-align: left;
+		@include flexbox;
+		@include flex-wrap(wrap);
+		@include flex-direction;
+		@include justify-content(center);
+		.message-img {
+		    height: 150px;
+		    width: 100%;
+		    background-size: cover;
+		    background-repeat: no-repeat;
+	        background-position: center center;
+	        border-top-left-radius: 5px;
+    		border-top-right-radius: 5px;
+		}
+		.featured-message {
+			background: $theme-color-background;
+			box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.02), 0 1px 2px 0 rgba(0,0,0,0.16);
+			border-radius: 4px;
+			width: calc(25% - 30px);
+			margin: 15px;
+    		@include flexbox;
+    		@include flex-direction(column);
+
+			@include media(phone-only) {
+				width: 100%;
+				margin: 12px 0; 
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+			@include media(tablet-only) {
+				width: 314px;
+			}
+			@include media(desktop-and-up) {
+				&:first-child {
+					margin-left: 0;
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+			.featured-message-board {
+				padding: 20px 16px 0 16px;
+				font-size: $theme-type-size-small;
+				a {
+					color:$tp-black-300;
+				}
+			}
+			.featured-message-subject {
+				padding: 0 16px;
+				margin: 6px 0 30px;
+				color: $text-color;
+				font-size: $theme-type-size-large;
+				line-height: $theme-line-height-xlarge;
+				font-weight: $theme-type-weight-semibold;
+				@supports (-webkit-line-clamp: 2) {
+					display: -webkit-box;
+					-webkit-line-clamp: 2;
+					-webkit-box-orient: vertical;
+					overflow: hidden;
+				}
+			}
+		}
+	}
+	.featured-message-view-all {
+	    padding: 25px 0 10px 0;
+	    text-transform: capitalize;
+	}
+}

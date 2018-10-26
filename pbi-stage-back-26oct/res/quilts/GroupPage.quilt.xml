@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="PUG_JoinGroup"/>
+    <component id="PUG_ClaimBadge"/>
+    <component id="menu-bar"/>
+    <component id="groups.widget.group-members-view"/>
+    <component id="PUG_LeaderTools"/>
+  </add>
+  <add to="main-content">
+    <component id="PUG_GroupDescription"/>
+    <component id="PUG_UpcomingEvents"/>
+    <component id="PUG_AnnouncementPanelHeader"/>
+    <component id="message-list"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+  </add>
+</quilt>

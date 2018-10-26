@@ -1,0 +1,67 @@
+// Contents copied from: theme_base/sass/custom/_popular-blogs.scss
+//Related blogs custom component
+#lia-body .lia-content .custom-related-blogs {
+	.related-blog-link {
+		border-bottom: 1px solid $tp-gray-300;
+		padding: $theme-space-small + $theme-space-small 0;
+	    word-wrap: break-word;
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+}
+
+//Popular blogs custom component
+#lia-body .lia-content .custom-popular-blogs {
+	.custom-blog-message {
+		border-bottom: 1px solid $tp-gray-300;
+		padding: $theme-space-large 0 $theme-space-medium;
+		margin: 0;
+
+		&:last-child {
+	    	border-bottom: 0;
+	    	padding-bottom: 0;
+	    }
+
+	    &:first-child {
+	    	padding-top: 0;
+	    }
+
+	    h4 {
+	    	padding-bottom: $theme-space-small;
+
+	    	a {
+	    		color: $theme-color-foreground;
+	    		font-size: $theme-type-size-large;
+	    		line-height: 27px;
+	    	}
+	    }
+
+	    .story-stats {
+	    	display: inline-block;
+
+			> div:last-child {
+				display: none;
+			}
+			.lia-user-name-link {
+				font-size: $theme-type-size-base;
+				font-weight: bold;
+			}
+			.rank-name {
+				color: $tp-black-400;
+				font-size: $theme-type-size-base;
+				line-height: 22px;
+			}
+		}
+	}
+
+	.UserAvatar > img {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+#lia-body .lia-content .custom-popular-blogs .lia-panel-content, 
+.custom-related-blogs .lia-panel-content {
+	padding: 0 $theme-space-base $theme-space-medium;
+}

@@ -1,0 +1,4 @@
+/* MC:242 Hiding UHF actions (Sign-in and Search) */
+a#uhfsignupfreebutton, a#uhfSignInButtonCategoryMenu, a#mobile-uhfSignUpFreeButton, a#mobile-uhfSignInButtonCategoryMenu, .c-uhfh-actions{
+  display:none !important;
+}

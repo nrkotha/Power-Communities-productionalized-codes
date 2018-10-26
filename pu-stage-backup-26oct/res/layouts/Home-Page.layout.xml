@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="top">
+    <column id="common-header" width="24"/>
+  </row>
+  <row id="main">
+    <column id="main-content" width="16"/>
+    <column id="side-content" width="8"/>
+  </row>
+  <row id="bottom">
+    <column id="common-footer" width="24"/>
+  </row>
+</layout>
